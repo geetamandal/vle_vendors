@@ -19,11 +19,13 @@ return Application::configure(basePath: dirname(__DIR__))
         commands: __DIR__.'/../routes/console.php',
         health: '/up',
     )
-       ->withMiddleware(function (Middleware $middleware) {
-        $middleware->web(append: [
-            \App\Http\Middleware\LanguageMiddleware::class,
-            \App\Http\Middleware\TrimInputsMiddleware::class,
-            \App\Http\Middleware\SingleLoginMiddleware::class,
+   ->withMiddleware(function (Middleware $middleware) {
+        $middleware->append(\Illuminate\Http\Middleware\HandleCors::class);
+        $middleware->append(StartSession::class);
+        $middleware->append(ShareErrorsFromSession::class); 
+        // $middleware->append(VerifyCsrfToken::class); 
+        $middleware->group('http', [
+            VerifyCsrfToken::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {

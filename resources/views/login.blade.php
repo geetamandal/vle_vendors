@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In | VLE Bastar</title>
-    <link rel="icon" type="image/svg+xml" href="{{ asset('logo.png') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('assets/images/logo-icon.svg') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap"
@@ -14,35 +14,18 @@
 
     <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-   <style>
-    .alog-brand {
-        position: relative;
-        width: 50%;
-        height: 100%;
-        overflow: hidden;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+    <style>
+        @media (max-width: 768px) {
 
-    .auth-left-image {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    @media (max-width: 768px) {
-
-        .alog-brand-title,
-        .alog-brand-desc,
-        .alog-brand-stats,
-        #alog-brand-stat,
-        .alog-features {
-            display: none;
+            .alog-brand-title,
+            .alog-brand-desc,
+            .alog-brand-stats,
+            #alog-brand-stat,
+            .alog-features {
+                display: none;
+            }
         }
-    }
-</style>
+    </style>
 </head>
 
 <body class="auth-login-page">
@@ -55,22 +38,16 @@
 
         <div class="alog-wrapper">
             <!-- Left Brand Panel -->
-
-            <!-- Left Brand Panel -->
             <div class="alog-brand">
                 <div class="alog-brand-orb alog-brand-orb-1"></div>
                 <div class="alog-brand-orb alog-brand-orb-2"></div>
 
-                <div class="position-relative w-100 h-100" style="z-index: 2;">
+                <div class="position-relative" style="z-index: 2;">
 
-                    <!-- Left Brand Panel -->
-                    <div class="alog-brand">
-                        <img src="{{ asset('assets/images/auth.png') }}" alt="Authentication" class="auth-left-image" style="height: 590px;width:auto">
-                    </div>
+                   //image
 
                 </div>
             </div>
-
             <!-- Right Form Panel -->
             <div class="alog-form">
                 <div class="alog-form-inner">

@@ -362,12 +362,12 @@
     <div class="inner-banner inner-bg1">
         <div class="container">
             <div class="inner-title text-center">
-                <h3> {{ __('word.product') }}</h3>
+                <h3>उत्पाद</h3>
                 <ul>
                     <li>
-                        <a href="{{ url('/') }}"> {{ __('word.home') }}</a>
+                        <a href="{{ url('/') }}">होम</a>
                     </li>
-                    <li> {{ __('word.product') }}</li>
+                    <li>उत्पाद</li>
                 </ul>
             </div>
         </div>
@@ -387,40 +387,40 @@
 
                         <!-- Categories -->
                         <div class="shop-sidebar-widget">
-                            <h3 class="sidebar-title"> {{ __('word.categories') }}</h3>
+                            <h3 class="sidebar-title">श्रेणियाँ</h3>
 
                             <ul class="shop-category-list">
                                 <li>
                                     <a href="#">
-                                       {{ __('word.all_p') }}
+                                        सभी उत्पाद
                                         <span>(24)</span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="#">
-                                       {{ __('word.paint') }}
+                                        पेंट
                                         <span>(10)</span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="#">
-                                       {{ __('word.wall_p') }}
+                                        वॉल पेंट
                                         <span>(6)</span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="#">
-                                       {{ __('word.primer') }}
+                                        प्राइमर
                                         <span>(4)</span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="#">
-                                       {{ __('word.coating') }}
+                                        वुड कोटिंग
                                         <span>(4)</span>
                                     </a>
                                 </li>
@@ -429,7 +429,7 @@
 
                         <!-- Price Filter -->
                         <div class="shop-sidebar-widget">
-                            <h3 class="sidebar-title"> {{ __('word.price') }}</h3>
+                            <h3 class="sidebar-title">कीमत</h3>
 
                             <div class="price-filter">
                                 <div class="price-input">
@@ -438,26 +438,26 @@
                                 </div>
 
                                 <button type="button" class="default-btn">
-                                     {{ __('word.filter') }}
+                                    फ़िल्टर
                                 </button>
                             </div>
                         </div>
 
                         <!-- Availability -->
                         <div class="shop-sidebar-widget">
-                            <h3 class="sidebar-title"> {{ __('word.avail') }}</h3>
+                            <h3 class="sidebar-title">उपलब्धता</h3>
 
                             <div class="shop-check">
                                 <label>
                                     <input type="checkbox">
-                                    <span> {{ __('word.avail_p') }}</span>
+                                    <span>उपलब्ध उत्पाद</span>
                                 </label>
                             </div>
 
                             <div class="shop-check">
                                 <label>
                                     <input type="checkbox">
-                                    <span> {{ __('word.stock') }}</span>
+                                    <span>स्टॉक में</span>
                                 </label>
                             </div>
                         </div>
@@ -478,10 +478,10 @@
 
                         <div class="shop-sort">
                             <select>
-                                <option value="">{{ __('word.sort') }}</option>
-                                <option value="latest">{{ __('word.naveentam') }}</option>
-                                <option value="low">{{ __('word.low') }}</option>
-                                <option value="high">{{ __('word.high') }}</option>
+                                <option value="">क्रम से लगाएं</option>
+                                <option value="latest">नवीनतम</option>
+                                <option value="low">कीमत: कम से अधिक</option>
+                                <option value="high">कीमत: अधिक से कम</option>
                             </select>
                         </div>
 

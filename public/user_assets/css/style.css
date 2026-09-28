@@ -140,11 +140,11 @@ img {
 }
 
 .pt-100 {
-  padding-top: 40px;
+  padding-top: 100px;
 }
 
 .pb-100 {
-  padding-bottom: 40px !important;
+  padding-bottom: 100px !important;
 }
 
 .ptb-70 {
@@ -741,7 +741,7 @@ Responsive Css
     padding-bottom: 50px;
   }
   .pt-100 {
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .ptb-70 {
     padding-top: 50px;

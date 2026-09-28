@@ -508,12 +508,12 @@
     <div class="inner-banner inner-bg3">
         <div class="container">
             <div class="inner-title text-center">
-                <h3> {{ __('word.cart') }}</h3>
+                <h3> कार्ट</h3>
                 <ul>
                     <li>
-                        <a href="{{ url('/') }}">{{ __('word.home') }}</a>
+                        <a href="{{ url('/') }}">होम</a>
                     </li>
-                    <li> {{ __('word.cart') }}</li>
+                    <li> कार्ट</li>
                 </ul>
             </div>
         </div>
@@ -534,12 +534,12 @@
 
                         <div class="cart-header">
                             <div>
-                                <h3> {{ __('word.your_cart') }}</h3>
-                                <p>{{ __('word.select') }}</p>
+                                <h3>आपका कार्ट</h3>
+                                <p>आपके द्वारा चुने गए उत्पाद</p>
                             </div>
 
                             <span class="cart-count">
-                                3 {{ __('word.product') }}
+                                3 उत्पाद
                             </span>
                         </div>
 
@@ -554,12 +554,12 @@
                                 </div>
 
                                 <div class="cart-product-info">
-                                    <h4>{{ __('word.primium') }}</h4>
+                                    <h4>प्रीमियम चावल</h4>
 
-                                    <p>5 {{ __('word.kg') }}</p>
+                                    <p>5 किलोग्राम पैक</p>
 
                                     <span class="cart-product-code">
-                                       {{ __('word.code') }} : TK-RICE-001
+                                        कोड: TK-RICE-001
                                     </span>
                                 </div>
 
@@ -608,12 +608,12 @@
                                 </div>
 
                                 <div class="cart-product-info">
-                                    <h4>   {{ __('word.basmati') }}</h4>
+                                    <h4>बासमती चावल</h4>
 
-                                    <p>5    {{ __('word.kg') }}</p>
+                                    <p>5 किलोग्राम पैक</p>
 
                                     <span class="cart-product-code">
-                                          {{ __('word.code') }}: TK-RICE-002
+                                        कोड: TK-RICE-002
                                     </span>
                                 </div>
 
@@ -652,7 +652,59 @@
                         </div>
 
 
-                       
+                        <!-- Cart Item 3 -->
+                        <div class="cart-item">
+
+                            <div class="cart-product">
+
+                                <div class="cart-product-image">
+                                    <img src="{{ asset('user_assets/images/products/product-3.jpg') }}"
+                                        alt="सोनामसूरी चावल">
+                                </div>
+
+                                <div class="cart-product-info">
+                                    <h4>सोनामसूरी चावल</h4>
+
+                                    <p>5 किलोग्राम पैक</p>
+
+                                    <span class="cart-product-code">
+                                        कोड: TK-RICE-003
+                                    </span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="cart-price">
+                                ₹549
+                            </div>
+
+
+                            <div class="cart-quantity">
+
+                                <button type="button" onclick="decreaseCartQty(3)">
+                                    <i class='bx bx-minus'></i>
+                                </button>
+
+                                <input type="text" id="cartQty3" value="1" readonly>
+
+                                <button type="button" onclick="increaseCartQty(3)">
+                                    <i class='bx bx-plus'></i>
+                                </button>
+
+                            </div>
+
+
+                            <div class="cart-total">
+                                ₹549
+                            </div>
+
+
+                            <button type="button" class="cart-remove" onclick="removeCartItem(this)" title="हटाएं">
+                                <i class='bx bx-trash'></i>
+                            </button>
+
+                        </div>
 
 
                         <!-- Continue Shopping -->
@@ -660,12 +712,12 @@
 
                             <a href="{{ url('/') }}" class="continue-shopping">
                                 <i class='bx bx-left-arrow-alt'></i>
-                                {{ __('word.continue') }}
+                                खरीदारी जारी रखें
                             </a>
 
                             <button type="button" class="clear-cart-btn" onclick="clearCart()">
                                 <i class='bx bx-trash'></i>
-                                {{ __('word.empty') }}
+                                कार्ट खाली करें
                             </button>
 
                         </div>
@@ -681,26 +733,26 @@
                     <div class="cart-summary">
 
                         <div class="summary-header">
-                            <h3> {{ __('word.order') }}</h3>
+                            <h3>ऑर्डर सारांश</h3>
                         </div>
 
 
                         <div class="summary-row">
-                            <span> {{ __('word.p_price') }}</span>
+                            <span>उत्पाद मूल्य</span>
                             <strong>₹1,647</strong>
                         </div>
 
 
                         <div class="summary-row">
-                            <span> {{ __('word.discount') }}</span>
+                            <span>डिस्काउंट</span>
                             <strong class="discount">- ₹150</strong>
                         </div>
 
 
                         <div class="summary-row">
-                            <span> {{ __('word.d_charge') }}</span>
+                            <span>डिलीवरी शुल्क</span>
                             <strong class="free-delivery">
-                               {{ __('word.free') }}
+                                निःशुल्क
                             </strong>
                         </div>
 
@@ -709,13 +761,13 @@
 
 
                         <div class="summary-total">
-                            <span> {{ __('word.amount') }}</span>
+                            <span>कुल राशि</span>
                             <strong>₹1,497</strong>
                         </div>
 
                         <!-- Checkout -->
                         <a href="{{ url('/checkout') }}" class="checkout-btn">
-                            {{ __('word.p_check') }}
+                            चेकआउट के लिए आगे बढ़ें
                             <i class='bx bx-right-arrow-alt'></i>
                         </a>
 
@@ -724,8 +776,8 @@
                             <i class='bx bx-lock-alt'></i>
 
                             <div>
-                                <strong> {{ __('word.secure') }}</strong>
-                                <span> {{ __('word.s_complete') }}</span>
+                                <strong>सुरक्षित भुगतान</strong>
+                                <span>आपका भुगतान पूरी तरह सुरक्षित है</span>
                             </div>
 
                         </div>
@@ -740,8 +792,8 @@
                             </div>
 
                             <div>
-                                <strong>  {{ __('word.s_pack') }}</strong>
-                                <span> {{ __('word.secorely') }}</span>
+                                <strong>सुरक्षित पैकिंग</strong>
+                                <span>सभी उत्पाद सुरक्षित पैक किए जाते हैं</span>
                             </div>
                         </div>
 
@@ -752,8 +804,8 @@
                             </div>
 
                             <div>
-                                <strong>{{ __('word.tej_d') }}</strong>
-                                <span>{{ __('word.doorstep') }}</span>
+                                <strong>तेज़ डिलीवरी</strong>
+                                <span>समय पर आपके घर तक डिलीवरी</span>
                             </div>
                         </div>
 
@@ -764,8 +816,8 @@
                             </div>
 
                             <div>
-                                <strong> {{ __('word.guarantee') }}</strong>
-                                <span> {{ __('word.h_quality') }}</span>
+                                <strong>गुणवत्ता की गारंटी</strong>
+                                <span>बेहतर गुणवत्ता वाले उत्पाद</span>
                             </div>
                         </div>
 

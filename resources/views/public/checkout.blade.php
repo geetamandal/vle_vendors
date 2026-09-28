@@ -478,12 +478,12 @@
     <div class="inner-banner inner-bg3">
         <div class="container">
             <div class="inner-title text-center">
-                <h3> {{ __('word.checkout') }}</h3>
+                <h3>चेकआउट</h3>
                 <ul>
                     <li>
-                        <a href="{{ url('/') }}">{{ __('word.home') }}</a>
+                        <a href="{{ url('/') }}">होम</a>
                     </li>
-                    <li>{{ __('word.checkout') }}</li>
+                    <li>चेकआउट</li>
                 </ul>
             </div>
         </div>
@@ -501,13 +501,13 @@
 
                         <div class="checkout-header">
                             <div>
-                                <h3>{{ __('word.bill') }}</h3>
-                                <p> {{ __('word.info_p') }}</p>
+                                <h3>बिलिंग विवरण</h3>
+                                <p>अपना डिलीवरी पता और संपर्क जानकारी दर्ज करें</p>
                             </div>
 
                             <div class="checkout-step">
                                 <span>1</span>
-                                {{ __('word.des') }}
+                                विवरण
                             </div>
                         </div>
                         <form id="checkoutForm">
@@ -517,7 +517,7 @@
 
                                 <h5>
                                     <i class='bx bx-user'></i>
-                                   {{ __('word.personal_in') }}
+                                    व्यक्तिगत जानकारी
                                 </h5>
 
                                 <div class="row g-3">
@@ -525,7 +525,7 @@
                                     <!-- First Name -->
                                     <div class="col-md-6">
                                         <label>
-                                              {{ __('word.name') }}<span>*</span>
+                                             नाम <span>*</span>
                                         </label>
 
                                         <input type="text"
@@ -538,7 +538,7 @@
                                     <!-- Mobile -->
                                     <div class="col-md-6">
                                         <label>
-                                             {{ __('word.mobile') }}<span>*</span>
+                                            मोबाइल नंबर <span>*</span>
                                         </label>
 
                                         <input type="text"
@@ -554,7 +554,7 @@
                                     <!-- Email -->
                                     <div class="col-md-6">
                                         <label>
-                                            {{ __('word.mail') }}
+                                            ईमेल पता
                                         </label>
 
                                         <input type="email"
@@ -573,7 +573,7 @@
 
                                 <h5>
                                     <i class='bx bx-map'></i>
-                                   {{ __('word.d_address') }}
+                                    डिलीवरी पता
                                 </h5>
 
                                 <div class="row g-3">
@@ -581,7 +581,7 @@
                                     <!-- Address -->
                                     <div class="col-12">
                                         <label>
-                                           {{ __('word.full_a') }} <span>*</span>
+                                            पूरा पता <span>*</span>
                                         </label>
 
                                         <input type="text"
@@ -594,7 +594,7 @@
                                     <!-- City -->
                                     <div class="col-md-6">
                                         <label>
-                                             {{ __('word.city') }}<span>*</span>
+                                            शहर <span>*</span>
                                         </label>
 
                                         <input type="text"
@@ -607,7 +607,7 @@
                                     <!-- State -->
                                     <div class="col-md-6">
                                         <label>
-                                            राज्य {{ __('word.bill') }}<span>*</span>
+                                            राज्य <span>*</span>
                                         </label>
 
                                         <select name="state" class="form-select">
@@ -625,7 +625,7 @@
                                     <!-- Pincode -->
                                     <div class="col-md-6">
                                         <label>
-                                           {{ __('word.pincode') }} <span>*</span>
+                                            पिन कोड <span>*</span>
                                         </label>
 
                                         <input type="text"
@@ -639,7 +639,7 @@
                                     <!-- Landmark -->
                                     <div class="col-md-6">
                                         <label>
-                                           {{ __('word.nearby') }}
+                                            नज़दीकी स्थान
                                         </label>
 
                                         <input type="text"
@@ -657,11 +657,11 @@
 
                                 <h5>
                                     <i class='bx bx-note'></i>
-                                    अतिरिक्त जानकारी{{ __('word.bill') }}
+                                    अतिरिक्त जानकारी
                                 </h5>
 
                                 <label>
-                                    ऑर्डर संबंधी जानकारी{{ __('word.bill') }}
+                                    ऑर्डर संबंधी जानकारी
                                 </label>
 
                                 <textarea name="note"
@@ -678,7 +678,7 @@
 
                                     <span class="checkmark"></span>
 
-                                    बिलिंग पते से अलग डिलीवरी पता देना है{{ __('word.bill') }}
+                                    बिलिंग पते से अलग डिलीवरी पता देना है
                                 </label>
 
                             </div>
@@ -687,7 +687,7 @@
 
                                 <h5>
                                     <i class='bx bx-home'></i>
-                                    वैकल्पिक डिलीवरी पता{{ __('word.bill') }}
+                                    वैकल्पिक डिलीवरी पता
                                 </h5>
 
                                 <textarea class="form-control"

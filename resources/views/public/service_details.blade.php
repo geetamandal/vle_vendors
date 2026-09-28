@@ -271,12 +271,12 @@
     <div class="inner-banner inner-bg2">
         <div class="container">
             <div class="inner-title text-center">
-                <h3>{{ __('word.s_details') }}</h3>
+                <h3>सेवा केंद्र विवरण</h3>
                 <ul>
                     <li>
-                        <a href="{{ url('/') }}">{{ __('word.home') }}</a>
+                        <a href="{{ url('/') }}">होम</a>
                     </li>
-                    <li>{{ __('word.s_details') }}</li>
+                    <li>सेवा केंद्र विवरण</li>
                 </ul>
             </div>
         </div>
@@ -314,11 +314,11 @@
                             </span>
 
                             <h2>
-                               {{ __('word.s_center') }}
+                                बस्तर डिजिटल सेवा केंद्र
                             </h2>
 
                             <p>
-                               {{ __('word.s_area') }}
+                                आपके क्षेत्र में उपलब्ध डिजिटल एवं नागरिक सेवा केंद्र
                             </p>
 
                         </div>
@@ -336,7 +336,7 @@
 
                                     <div class="vle-info">
                                         <span>Shop Name</span>
-                                        <h4>{{ __('word.s_center') }}</h4>
+                                        <h4>बस्तर डिजिटल सेवा केंद्र</h4>
                                     </div>
 
                                 </div>
@@ -353,7 +353,7 @@
 
                                     <div class="vle-info">
                                         <span>Location</span>
-                                        <h4>{{ __('word.bastar') }}</h4>
+                                        <h4>जगदलपुर, बस्तर</h4>
                                     </div>
 
                                 </div>
@@ -412,19 +412,19 @@
                             <i class='flaticon-vector'></i>
                         </div>
 
-                        <h3>{{ __('word.seva1') }}</h3>
+                        <h3>जाति प्रमाण पत्र</h3>
 
                         <p>
-                            {{ __('word.jati_d') }}
+                            जाति प्रमाण पत्र हेतु आवेदन एवं संबंधित प्रक्रिया में सहायता।
                         </p>
 
                         <div class="service-document">
-                            <strong>{{ __('word.imp_doc') }}:</strong>
-                           {{ __('word.all_doc') }}
+                            <strong>आवश्यक दस्तावेज़:</strong>
+                            आधार कार्ड, निवास प्रमाण, पासपोर्ट साइज फोटो
                         </div>
 
                         <a href="#" class="read-btn">
-                           {{ __('word.information') }}
+                           जानकारी हेतु संपर्क करें
                         </a>
 
                         <div class="top">
@@ -441,20 +441,19 @@
                             <i class='flaticon-project-management'></i>
                         </div>
 
-                        <h3>{{ __('word.seva4') }}</h3>
+                        <h3>जन्म प्रमाण पत्र</h3>
 
                         <p>
-                           {{ __('word.apply') }}                        </p>
-
+                            जन्म प्रमाण पत्र हेतु आवेदन एवं आवश्यक प्रक्रिया में सहायता।
                         </p>
 
                         <div class="service-document">
-                            <strong>{{ __('word.imp_doc') }}:</strong>
-                            {{ __('word.proof') }}
+                            <strong>आवश्यक दस्तावेज़:</strong>
+                            आधार कार्ड, अस्पताल/स्कूल रिकॉर्ड, माता-पिता का पहचान पत्र
                         </div>
 
                         <a href="#" class="read-btn">
-                            {{ __('word.information') }}
+                            जानकारी हेतु संपर्क करें
                         </a>
 
                         <div class="top">
@@ -471,19 +470,19 @@
                             <i class='flaticon-digital-marketing'></i>
                         </div>
 
-                        <h3>{{ __('word.seva2') }}</h3>
+                        <h3>आधार सेवा</h3>
 
                         <p>
-                            {{ __('word.various') }}
+                            आधार से संबंधित विभिन्न सेवाओं एवं आवेदन में सहायता।
                         </p>
 
                         <div class="service-document">
-                            <strong>{{ __('word.imp_doc') }}:</strong>
-                            {{ __('word.test_adhar') }}
+                            <strong>आवश्यक दस्तावेज़:</strong>
+                            आधार कार्ड, मोबाइल नंबर
                         </div>
 
                         <a href="#" class="read-btn">
-                            {{ __('word.information') }}
+                            जानकारी हेतु संपर्क करें
                         </a>
 
                         <div class="top">
@@ -500,19 +499,19 @@
                             <i class='flaticon-content'></i>
                         </div>
 
-                        <h3>{{ __('word.seva3') }}</h3>
+                        <h3>पैन कार्ड</h3>
 
                         <p>
-                            {{ __('word.s_process') }}
+                            पैन कार्ड हेतु आवेदन एवं आवश्यक प्रक्रिया में सहायता।
                         </p>
 
                         <div class="service-document">
-                            <strong>{{ __('word.imp_doc') }}:</strong>
-                            {{ __('word.sign') }}
+                            <strong>आवश्यक दस्तावेज़:</strong>
+                            आधार कार्ड, पासपोर्ट साइज फोटो, हस्ताक्षर
                         </div>
 
                         <a href="#" class="read-btn">
-                            {{ __('word.information') }}
+                            जानकारी हेतु संपर्क करें
                         </a>
 
                         <div class="top">
@@ -529,19 +528,19 @@
                             <i class='flaticon-open-book'></i>
                         </div>
 
-                        <h3>{{ __('word.residence_certificate') }}</h3>
+                        <h3>निवास प्रमाण पत्र</h3>
 
                         <p>
-                       {{ __('word.nivas') }}
+                            निवास प्रमाण पत्र हेतु आवेदन एवं आवश्यक प्रक्रिया में सहायता।
                         </p>
 
                         <div class="service-document">
-                            <strong>{{ __('word.imp_doc') }}:</strong>
-                            {{ __('word.photo') }}
+                            <strong>आवश्यक दस्तावेज़:</strong>
+                            आधार कार्ड, पता प्रमाण, पासपोर्ट साइज फोटो
                         </div>
 
                         <a href="#" class="read-btn">
-                            {{ __('word.information') }}
+                            जानकारी हेतु संपर्क करें
                         </a>
 
                         <div class="top">
@@ -558,19 +557,19 @@
                             <i class='flaticon-operator'></i>
                         </div>
 
-                        <h3>{{ __('word.income') }}</h3>
+                        <h3>आय प्रमाण पत्र</h3>
 
                         <p>
-                            {{ __('word.s_help') }}
+                            आय प्रमाण पत्र हेतु आवेदन एवं आवश्यक प्रक्रिया में सहायता।
                         </p>
 
                         <div class="service-document">
-                            <strong>{{ __('word.imp_doc') }}:</strong>
-                            {{ __('word.s_income') }}
+                            <strong>आवश्यक दस्तावेज़:</strong>
+                            आधार कार्ड, आय प्रमाण, निवास प्रमाण
                         </div>
 
                         <a href="#" class="read-btn">
-                            {{ __('word.information') }}
+                            जानकारी हेतु संपर्क करें
                         </a>
 
                         <div class="top">

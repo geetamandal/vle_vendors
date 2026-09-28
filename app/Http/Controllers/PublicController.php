@@ -55,11 +55,6 @@ class PublicController extends Controller
     }
 
 
-
-     public function wishList()
-     { 
-          return view('public.wishlist');
-     }
     
 
 

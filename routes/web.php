@@ -7,16 +7,6 @@ use App\Http\Controllers\PublicController;
 use App\Http\Controllers\UtilController;
 use Illuminate\Support\Facades\Route;
 
-
-Route::get('lang/{locale}', function ($locale) {
-    if (! in_array($locale, ['en', 'hi'])) {
-        abort(400);
-    }
-    session(['locale' => $locale]);
-    return redirect()->back();
-})->name('lang.switch');
-
-
   Route::get('/', [PublicController::class, 'index']);
 
 Route::get('/login', [AuthController::class, 'login'])->name('login');
@@ -33,7 +23,6 @@ Route::get('/logout', [AuthController::class, 'logout']);
   Route::get('/product-details/{id}',[PublicController::class,'productDetails']);
   Route::match(['get','post'],'/cart',[PublicController::class,'addToCart']);
   Route::match(['get','post'],'/checkout',[PublicController::class,'checkOut']);
-  Route::get('/wishlist',[PublicController::class,'wishList']);
 
 
 

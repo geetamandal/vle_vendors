@@ -12,7 +12,7 @@
                             <h3>
                                 <a href="tel:07782222222">07782-222222</a>
                             </h3>
-                            <p>{{ __('word.contact') }}</p>
+                            <p>हमसे संपर्क करें</p>
                         </div>
                         <div class="right">
                             <i class="flaticon-phone-call-1"></i>
@@ -31,7 +31,7 @@
                                     collector-bastar@cg.gov.in
                                 </a>
                             </h3>
-                            <p>{{ __('word.email') }}</p>
+                            <p>ईमेल करें</p>
                         </div>
                         <div class="right">
                             <i class="flaticon-email"></i>
@@ -50,7 +50,7 @@
                                     जिला प्रशासन, बस्तर, छत्तीसगढ़
                                 </a>
                             </h3>
-                            <p>{{ __('word.pata') }}</p>
+                            <p>स्थान</p>
                         </div>
                         <div class="right">
                             <i class="flaticon-pin"></i>
@@ -75,24 +75,29 @@
                             </a>
                         </div>
 
-                       <p>{{ __('word.footer_d') }}</p>
+                        <p>
+                            जिला प्रशासन बस्तर का आधिकारिक पोर्टल। नागरिकों को
+                            विभिन्न सरकारी सेवाओं, योजनाओं एवं आवश्यक जानकारी
+                            एक ही स्थान पर उपलब्ध कराने का प्रयास।
+                        </p>
+
                     </div>
                 </div>
 
                 <!-- Useful Links -->
                 <div class="col-lg-2 col-sm-6">
                     <div class="footer-widget ps-5">
-                        <h3>{{ __('word.imp_link') }}</h3>
+                        <h3>महत्वपूर्ण लिंक</h3>
 
                         <ul class="footer-list">
                             <li>
-                                <a href="{{ url('/') }}">{{ __('word.home') }}</a>
+                                <a href="{{ url('/') }}">होम</a>
                             </li>
                             <li>
-                                <a href="{{ url('about') }}">{{ __('word.about') }}</a>
+                                <a href="{{ url('about') }}">हमारे बारे में</a>
                             </li>
                             <li>
-                                <a href="{{ url('contact') }}"> {{ __('word.contact') }}</a>
+                                <a href="{{ url('contact') }}">संपर्क करें</a>
                             </li>
                         </ul>
                     </div>
@@ -101,14 +106,14 @@
                 <!-- Quick Links -->
                 <div class="col-lg-2 col-sm-6">
                     <div class="footer-widget ps-3">
-                        <h3>{{ __('word.quick_link') }}</h3>
+                        <h3>त्वरित लिंक</h3>
 
                         <ul class="footer-list">
                             <li>
-                                <a href="{{ url('services') }}">  {{ __('word.service') }}</a>
+                                <a href="{{ url('services') }}">सेवाएँ</a>
                             </li>
                             <li>
-                                <a href="{{ url('products') }}">{{ __('word.product') }}</a>
+                                <a href="{{ url('products') }}">उत्पाद</a>
                             </li>
                         </ul>
                     </div>
@@ -117,15 +122,15 @@
                 <!-- Office Information -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="footer-widget ps-2">
-                        <h3>{{ __('word.office_info') }}</h3>
+                        <h3>कार्यालय जानकारी</h3>
 
                         <p>
-                           {{ __('word.f_p') }}<br>
-                           {{ __('word.f_p1') }}
+                            जिला प्रशासन बस्तर<br>
+                            जिला बस्तर, छत्तीसगढ़
                         </p>
 
                         <p>
-                            {{ __('word.f_p2') }}
+                            कार्यालय समय: प्रातः 10:00 बजे से शाम 5:30 बजे तक
                         </p>
                     </div>
                 </div>

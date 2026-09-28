@@ -17,13 +17,12 @@
             width: 100%;
             height: 190px;
             overflow: hidden;
-            background: #fff;
         }
 
         .service-center-image img {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -123,12 +122,12 @@
     <div class="inner-banner inner-bg1">
         <div class="container">
             <div class="inner-title text-center">
-                <h3> {{ __('word.service') }}</h3>
+                <h3>सेवाएँ</h3>
                 <ul>
                     <li>
-                        <a href="{{ url('/') }}"> {{ __('word.home') }}</a>
+                        <a href="{{ url('/') }}">होम</a>
                     </li>
-                    <li> {{ __('word.service') }}</li>
+                    <li>सेवाएँ</li>
                 </ul>
             </div>
         </div>
@@ -142,46 +141,46 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="service-center-card">
 
-                        <div class="service-center-image">
-                            <img src="user_assets/images/projects/service-1.png" alt="VLE Center">
+                        <div class="service-center-image">                             
+                             <img src="user_assets/images/projects/service-1.png" alt="VLE Center">
                         </div>
 
                         <div class="service-center-content">
 
                             <h3>
-                                <a href="#"> {{ __('word.s_center') }}</a>
+                                <a href="#">बस्तर डिजिटल सेवा केंद्र</a>
                             </h3>
 
                             <div class="service-location">
                                 <i class="bx bx-map"></i>
-                                <span> {{ __('word.bastar') }}</span>
+                                <span>जगदलपुर, बस्तर</span>
                             </div>
 
                             <div class="service-divider"></div>
 
-                            <h4> {{ __('word.a_service') }}</h4>
+                            <h4>उपलब्ध सेवाएं</h4>
 
                             <ul class="service-list">
                                 <li>
                                     <span><i class="bx bx-fingerprint"></i></span>
-                                    {{ __('word.seva2') }}
+                                    आधार सेवा
                                 </li>
                                 <li>
                                     <span><i class="bx bx-id-card"></i></span>
-                                    {{ __('word.seva3') }}
+                                    पैन कार्ड
                                 </li>
                                 <li>
                                     <span><i class="bx bx-file"></i></span>
-                                    {{ __('word.seva1') }}
+                                    जन्म प्रमाण पत्र
                                 </li>
                                 <li>
                                     <span><i class="bx bx-home"></i></span>
-                                    {{ __('word.residence_certificate') }}
+                                    निवास प्रमाण पत्र
                                 </li>
                             </ul>
 
                             <a href="{{ url('service-details') }}" class="service-more-btn">
-                                {{ __('word.more_info') }}
+                                अधिक जानकारी
                                 <i class="bx bx-chevron-right"></i>
                             </a>
 
@@ -194,45 +193,45 @@
                     <div class="service-center-card">
 
                         <div class="service-center-image">
-                            <img src="user_assets/images/projects/service-2.png" alt="VLE Center">
+                           <img src="user_assets/images/projects/service-2.png" alt="VLE Center">
                         </div>
 
                         <div class="service-center-content">
 
                             <h3>
-                                <a href="#"> {{ __('word.online') }}</a>
+                                <a href="#">मां दंतेश्वरी ऑनलाइन सेंटर</a>
                             </h3>
 
                             <div class="service-location">
                                 <i class="bx bx-map"></i>
-                                <span> {{ __('word.kanker') }}</span>
+                                <span>कांकेर, बस्तर</span>
                             </div>
 
                             <div class="service-divider"></div>
 
-                            <h4>{{ __('word.a_service') }}</h4>
+                            <h4>उपलब्ध सेवाएं</h4>
 
                             <ul class="service-list">
                                 <li>
                                     <span><i class="bx bx-fingerprint"></i></span>
-                                    {{ __('word.seva2') }}
+                                    आधार सेवा
                                 </li>
                                 <li>
                                     <span><i class="bx bx-id-card"></i></span>
-                                    {{ __('word.seva3') }}
+                                    पैन कार्ड
                                 </li>
                                 <li>
                                     <span><i class="bx bx-rupee"></i></span>
-                                    {{ __('word.income') }}
+                                    आय प्रमाण पत्र
                                 </li>
                                 <li>
                                     <span><i class="bx bx-user"></i></span>
-                                    {{ __('word.seva1') }}
+                                    जाति प्रमाण पत्र
                                 </li>
                             </ul>
 
                             <a href="#" class="service-more-btn">
-                                {{ __('word.more_info') }}
+                                अधिक जानकारी
                                 <i class="bx bx-chevron-right"></i>
                             </a>
 
@@ -245,41 +244,41 @@
                     <div class="service-center-card">
 
                         <div class="service-center-image">
-                            <img src="user_assets/images/projects/service-3.png" alt="VLE Center">
+                           <img src="user_assets/images/projects/service-3.png" alt="VLE Center">
                         </div>
 
                         <div class="service-center-content">
 
                             <h3>
-                                <a href="#">{{ __('word.suvidha') }}</a>
+                                <a href="#">बस्तर सुविधा केंद्र</a>
                             </h3>
 
                             <div class="service-location">
                                 <i class="bx bx-map"></i>
-                                <span> {{ __('word.dantewada') }}</span>
+                                <span>दंतेवाड़ा, बस्तर</span>
                             </div>
 
                             <div class="service-divider"></div>
 
-                            <h4>{{ __('word.a_service') }}</h4>
+                            <h4>उपलब्ध सेवाएं</h4>
 
                             <ul class="service-list">
                                 <li>
                                     <span><i class="bx bx-id-card"></i></span>
-                                    {{ __('word.seva3') }}
+                                    पैन कार्ड
                                 </li>
                                 <li>
                                     <span><i class="bx bx-home"></i></span>
-                                    {{ __('word.residence_certificate') }}
+                                    निवास प्रमाण पत्र
                                 </li>
                                 <li>
                                     <span><i class="bx bx-rupee"></i></span>
-                                    {{ __('word.income') }}
+                                    आय प्रमाण पत्र
                                 </li>
                             </ul>
 
                             <a href="#" class="service-more-btn">
-                                {{ __('word.more_info') }}
+                                अधिक जानकारी
                                 <i class="bx bx-chevron-right"></i>
                             </a>
 
@@ -292,45 +291,45 @@
                     <div class="service-center-card">
 
                         <div class="service-center-image">
-                            <img src="user_assets/images/projects/service-4.png" alt="VLE Center">
+                           <img src="user_assets/images/projects/service-4.png" alt="VLE Center">
                         </div>
 
                         <div class="service-center-content">
 
                             <h3>
-                                <a href="#"> {{ __('word.v_s_center') }}</a>
+                                <a href="#">ग्राम सेवा केंद्र</a>
                             </h3>
 
                             <div class="service-location">
                                 <i class="bx bx-map"></i>
-                                <span> {{ __('word.narayanpur') }}</span>
+                                <span>नारायणपुर, बस्तर</span>
                             </div>
 
                             <div class="service-divider"></div>
 
-                            <h4>{{ __('word.a_service') }}</h4>
+                            <h4>उपलब्ध सेवाएं</h4>
 
                             <ul class="service-list">
                                 <li>
                                     <span><i class="bx bx-fingerprint"></i></span>
-                                    {{ __('word.seva2') }}
+                                    आधार सेवा
                                 </li>
                                 <li>
                                     <span><i class="bx bx-file"></i></span>
-                                    {{ __('word.seva4') }}
+                                    जन्म प्रमाण पत्र
                                 </li>
                                 <li>
                                     <span><i class="bx bx-user"></i></span>
-                                    {{ __('word.seva1') }}
+                                    जाति प्रमाण पत्र
                                 </li>
                                 <li>
                                     <span><i class="bx bx-id-card"></i></span>
-                                    {{ __('word.seva3') }}
+                                    पैन कार्ड
                                 </li>
                             </ul>
 
                             <a href="#" class="service-more-btn">
-                                {{ __('word.more_info') }}
+                                अधिक जानकारी
                                 <i class="bx bx-chevron-right"></i>
                             </a>
 

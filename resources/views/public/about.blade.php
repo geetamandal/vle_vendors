@@ -6,12 +6,12 @@
     <div class="inner-banner inner-bg2">
         <div class="container">
             <div class="inner-title text-center">
-                <h3>  {{ __('word.about') }}</h3>
+                <h3> हमारे बारे में</h3>
                 <ul>
                     <li>
-                        <a href="{{ url('/') }}"> {{ __('word.home') }}</a>
+                        <a href="{{ url('/') }}">होम</a>
                     </li>
-                    <li>  {{ __('word.about') }}</li>
+                    <li> हमारे बारे में</li>
                 </ul>
             </div>
         </div>
@@ -35,15 +35,18 @@
                     <div class="about-content pl-20">
                         <div class="section-title">
 
-                            <span class="sp-title"> {{ __('word.about') }}</span>
+                            <span class="sp-title">हमारे बारे में</span>
 
                             <h2>
-                                {{ __('word.about') }}
+                                आपकी शासकीय सेवाएँ, अब और भी आसान
                             </h2>
 
                             <p>
-                                 {{ __('word.about_p') }}
-                               
+                                हमारा उद्देश्य नागरिकों को विभिन्न शासकीय एवं डिजिटल सेवाओं
+                                का लाभ सरल, सुविधाजनक और सुरक्षित तरीके से उपलब्ध कराना है।
+                                इस पोर्टल के माध्यम से नागरिकों को आवश्यक दस्तावेज एवं
+                                प्रमाण-पत्र संबंधी सेवाओं के लिए एक ही स्थान पर सहायता प्रदान
+                                की जाती है।
                             </p>
 
                         </div>
@@ -52,28 +55,28 @@
 
                             <li>
                                 <i class='flaticon-arrow-pointing-to-right'></i>
-                                {{ __('word.about_s1') }}
+                                जाति प्रमाण-पत्र संबंधी सेवाएँ
                             </li>
 
                             <li>
                                 <i class='flaticon-arrow-pointing-to-right'></i>
-                                 {{ __('word.about_s2') }}
+                                आधार कार्ड एवं आधार संबंधी सेवाएँ
                             </li>
 
                             <li>
                                 <i class='flaticon-arrow-pointing-to-right'></i>
-                                {{ __('word.about_s3') }}
+                                आय एवं निवास प्रमाण-पत्र संबंधी सेवाएँ
                             </li>
 
                             <li>
                                 <i class='flaticon-arrow-pointing-to-right'></i>
-                                {{ __('word.about_s4') }}
+                                विभिन्न शासकीय एवं डिजिटल सेवाओं की सुविधा
                             </li>
 
                         </ul>
 
                         <a href="{{ url('/service') }}" class="default-btn border-radius-5">
-                            {{ __('word.our_service') }} 
+                            हमारी सेवाएँ  
                         </a>
 
                     </div>
@@ -89,14 +92,14 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="section-title">
-                        <span class="sp-title"> {{ __('word.our_service') }} </span>
-                        <h2>{{ __('word.service_title') }} </h2>
+                        <span class="sp-title">हमारी सेवाएं</span>
+                        <h2>हम आपके लिए विभिन्न शासकीय सेवाएं प्रदान करते हैं</h2>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="service-btn">
-                        <a href="service-details.html" class="default-btn border-radius-5">{{ __('word.adhik_ankari') }}</a>
+                        <a href="service-details.html" class="default-btn border-radius-5">अधिक जानकारी</a>
                     </div>
                 </div>
             </div>
@@ -108,13 +111,13 @@
                             <i class='flaticon-project-management'></i>
                         </div>
                         <h3>
-                            {{ __('word.seva1') }}
+                            <a href="service-details.html">जाति प्रमाण पत्र</a>
                         </h3>
                         <p>
-                           {{ __('word.caste_d') }}
+                            जाति प्रमाण पत्र हेतु ऑनलाइन आवेदन एवं आवश्यक प्रक्रिया में सहायता प्राप्त करें।
 
                         </p>
-                        <a href="service-details.html" class="read-btn">{{ __('word.adhik_ankari') }}</a>
+                        <a href="service-details.html" class="read-btn">अधिक जानकारी</a>
                         <div class="top">
                             <img src="{{ asset('user_assets/images/services/services-top.png ') }}" alt="Images">
                         </div>
@@ -129,13 +132,13 @@
                             <i class='flaticon-vector'></i>
                         </div>
                         <h3>
-                            {{ __('word.seva2') }}
+                            <a href="service-details.html">आधार सेवा</a>
                         </h3>
                         <p>
-                            {{ __('word.addhar_d') }}
+                            आधार कार्ड से संबंधित विभिन्न सेवाओं एवं आवश्यक प्रक्रियाओं की सुविधा प्राप्त करें।
 
                         </p>
-                        <a href="service-details.html" class="read-btn">{{ __('word.adhik_ankari') }}</a>
+                        <a href="service-details.html" class="read-btn">अधिक जानकारी</a>
                         <div class="top">
                             <img src="{{ asset('user_assets/images/services/services-top.png ') }}" alt="Images">
                         </div>
@@ -150,13 +153,13 @@
                             <i class='flaticon-digital-marketing'></i>
                         </div>
                         <h3>
-                            {{ __('word.seva3') }}
+                            <a href="service-details.html">पैन कार्ड</a>
                         </h3>
                         <p>
-                           {{ __('word.pan_d') }}
+                            पैन कार्ड के लिए आवेदन एवं संबंधित आवश्यक दस्तावेजों की जानकारी प्राप्त करें।
 
                         </p>
-                        <a href="service-details.html" class="read-btn">{{ __('word.adhik_ankari') }}</a>
+                        <a href="service-details.html" class="read-btn">अधिक जानकारी</a>
                         <div class="top">
                             <img src="{{ asset('user_assets/images/services/services-top.png ') }}" alt="Images">
                         </div>
@@ -171,13 +174,13 @@
                             <i class='flaticon-content'></i>
                         </div>
                         <h3>
-                            {{ __('word.seva4') }}
+                            <a href="service-details.html">जन्म प्रमाण पत्र</a>
                         </h3>
                         <p>
-                           {{ __('word.birth') }}
+                            जन्म प्रमाण पत्र बनवाने एवं आवेदन प्रक्रिया से संबंधित आवश्यक सहायता प्राप्त करें।
 
                         </p>
-                        <a href="service-details.html" class="read-btn"> {{ __('word.adhik_ankari') }}</a>
+                        <a href="service-details.html" class="read-btn">अधिक जानकारी</a>
                         <div class="top">
                             <img src="{{ asset('user_assets/images/services/services-top.png ') }}" alt="Images">
                         </div>

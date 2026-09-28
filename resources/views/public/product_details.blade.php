@@ -78,12 +78,12 @@
     <div class="inner-banner inner-bg3">
         <div class="container">
             <div class="inner-title text-center">
-                <h3> {{ __('word.p_info') }}</h3>
+                <h3> उत्पाद की जानकारी </h3>
                 <ul>
                     <li>
-                        <a href="{{ url('/') }}">{{ __('word.home') }}</a>
+                        <a href="{{ url('/') }}">होम</a>
                     </li>
-                    <li>{{ __('word.p_info') }} </li>
+                    <li> उत्पाद की जानकारी </li>
                 </ul>
             </div>
         </div>
@@ -135,7 +135,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="product-details-content">
 
-                        <h2>{{ __('word.primium') }}</h2>
+                        <h2>प्रीमियम चावल</h2>
 
                         <!-- Rating -->
                         <div class="product-rating">
@@ -156,14 +156,17 @@
                         <!-- Short Description -->
                         <div class="product-short-description">
                             <p>
-                               {{ __('word.p_description') }}
+                                प्रीमियम गुणवत्ता वाले चावल, जो अपने लंबे दाने,
+                                बेहतरीन खुशबू और स्वाद के लिए जाने जाते हैं। रोज़ाना भोजन,
+                                पुलाव और विशेष व्यंजनों के लिए उपयुक्त। साफ-सुथरे और
+                                उच्च गुणवत्ता वाले चावलों का बेहतरीन विकल्प।
                             </p>
                         </div>
 
                         <!-- Availability -->
                         <div class="product-availability">
-                            <strong>  {{ __('word.avail') }}:</strong>
-                            <span class="in-stock"> {{ __('word.stock') }}</span>
+                            <strong>उपलब्धता:</strong>
+                            <span class="in-stock">स्टॉक में उपलब्ध</span>
                         </div>
 
                         <!-- Quantity + Add Cart -->
@@ -178,7 +181,7 @@
                             </div>
 
                            <button type="button" class="default-btn" onclick="addToCart()">
-     {{ __('word.add_to_cart') }}
+    कार्ट में जोड़ें
     <i class='bx bx-cart'></i>
 </button>
 
@@ -188,22 +191,22 @@
                         <div class="product-meta">
 
                             <p>
-                                <strong> {{ __('word.category') }}:</strong>
-                                {{ __('word.grocery') }}
+                                <strong>श्रेणी:</strong>
+                                किराना एवं खाद्य सामग्री
                             </p>
 
                             <p>
-                                <strong> {{ __('word.p_code') }}:</strong>
+                                <strong>उत्पाद कोड:</strong>
                                 TK-RICE-001
                             </p>
 
                             <p>
-                                <strong>{{ __('word.packing') }}:</strong>
-                                5 {{ __('word.kg') }}
+                                <strong>पैकिंग:</strong>
+                                5 किलोग्राम
                             </p>
 
                             <p>
-                                <strong>{{ __('word.quantity') }}:</strong>
+                                <strong>उपलब्ध मात्रा:</strong>
                                 25 पैक
                             </p>
 
@@ -214,7 +217,7 @@
                 </div>
 
 
-            </div><br>
+            </div>
 
 
             <!-- Description / Reviews -->
@@ -223,10 +226,12 @@
                 <div class="product-tab-list">
 
                     <button type="button" class="product-tab-btn active" onclick="showProductTab('description', this)">
-                        {{ __('word.detail') }}
+                        विवरण
                     </button>
 
-                  
+                    <button type="button" class="product-tab-btn" onclick="showProductTab('reviews', this)">
+                        समीक्षाएं
+                    </button>
 
                 </div>
 
@@ -234,27 +239,92 @@
                 <!-- Description -->
                 <div id="description" class="product-tab-content active">
 
-                    <h4> {{ __('word.p_info') }}</h4>
+                    <h4>उत्पाद विवरण</h4>
 
                     <p>
-                        {{ __('word.p1_details') }}
+                        यह उत्पाद उच्च गुणवत्ता वाली सामग्री से तैयार किया गया है।
+                        इसका डिजाइन आधुनिक और उपयोग में आसान है। यह उत्पाद दैनिक
+                        उपयोग के लिए उपयुक्त है और लंबे समय तक बेहतर प्रदर्शन देता है।
                     </p>
 
                     <p>
-                       {{ __('word.p2_details') }}
+                        हम अपने ग्राहकों को गुणवत्तापूर्ण उत्पाद उपलब्ध कराने के लिए
+                        प्रतिबद्ध हैं। उत्पाद की गुणवत्ता, पैकिंग और डिलीवरी का
+                        विशेष ध्यान रखा जाता है।
                     </p>
 
                     <ul>
-                        <li> {{ __('word.material') }}</li>
-                        <li> {{ __('word.design') }}</li>
-                        <li> {{ __('word.easy') }}</li>
-                        <li> {{ __('word.durable') }}</li>
+                        <li>उच्च गुणवत्ता वाली सामग्री</li>
+                        <li>आकर्षक और आधुनिक डिजाइन</li>
+                        <li>उपयोग में आसान</li>
+                        <li>लंबे समय तक टिकाऊ</li>
                     </ul>
 
                 </div>
 
 
-             
+                <!-- Reviews -->
+                <div id="reviews" class="product-tab-content">
+
+                    <h4>ग्राहक समीक्षाएं</h4>
+
+                    <div class="product-review-item">
+
+                        <div class="review-user">
+                            <div class="review-avatar">
+                                र
+                            </div>
+
+                            <div>
+                                <h5>राहुल शर्मा</h5>
+
+                                <div class="review-stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p>
+                            उत्पाद की गुणवत्ता बहुत अच्छी है। पैकिंग भी अच्छी थी
+                            और समय पर डिलीवरी प्राप्त हुई।
+                        </p>
+
+                    </div>
+
+
+                    <div class="product-review-item">
+
+                        <div class="review-user">
+                            <div class="review-avatar">
+                                अ
+                            </div>
+
+                            <div>
+                                <h5>अमित वर्मा</h5>
+
+                                <div class="review-stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p>
+                            उत्पाद उम्मीद के अनुसार मिला। कीमत के हिसाब से
+                            गुणवत्ता काफी अच्छी है।
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
 
 
@@ -262,8 +332,8 @@
             <div class="related-product-area mt-70">
 
                 <div class="section-title text-center">
-                    <span>{{ __('word.related') }}</span>
-                    <h2>{{ __('word.rel_p') }}</h2>
+                    <span>संबंधित उत्पाद</span>
+                    <h2>आपको ये उत्पाद भी पसंद आ सकते हैं</h2>
                 </div>
 
                 <div class="row">

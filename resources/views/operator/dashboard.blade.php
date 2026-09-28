@@ -180,7 +180,205 @@
                 </div>
             </div>
 
-        </div>       
+        </div>
+        
+        <!-- ============ ROW 4: ORDER FLOW PIPELINE (conversion funnel) ============ -->
+        <div class="row g-4 mb-4">
+            <div class="col-12">
+                <div class="card pipeline-card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Order Flow Pipeline — Conversion Funnel</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="pipeline-track">
+
+                            @foreach ($leadStageCounts as $index => $stage)
+                                <div class="pipeline-step">
+
+                                    @php
+                                        $icons = [
+                                            1 => 'user-plus',
+                                            2 => 'clipboard',
+                                            3 => 'package',
+                                            4 => 'file-text',
+                                            5 => 'map-pin',
+                                            6 => 'phone-call',
+                                            7 => 'users',
+                                            8 => 'credit-card',
+                                            9 => 'file',
+                                            10 => 'edit',
+                                            11 => 'check-circle',
+                                        ];
+
+                                        $gradients = [
+                                            1 => 'linear-gradient(135deg,#6366F1,#8B5CF6)',
+                                            2 => 'linear-gradient(135deg,#10B981,#059669)',
+                                            3 => 'linear-gradient(135deg,#F59E0B,#D97706)',
+                                            4 => 'linear-gradient(135deg,#EC4899,#DB2777)',
+                                            5 => 'linear-gradient(135deg,#06B6D4,#0891B2)',
+                                            6 => 'linear-gradient(135deg,#6366F1,#8B5CF6)',
+                                            7 => 'linear-gradient(135deg,#10B981,#059669)',
+                                            8 => 'linear-gradient(135deg,#F59E0B,#D97706)',
+                                            9 => 'linear-gradient(135deg,#EC4899,#DB2777)',
+                                            10 => 'linear-gradient(135deg,#06B6D4,#0891B2)',
+                                            11 => 'linear-gradient(135deg,#EF4444,#DC2626)',
+                                        ];
+                                    @endphp
+
+                                    <div class="step-icon"
+                                        style="background:{{ $gradients[$stage->id] ?? 'linear-gradient(135deg,#6366F1,#8B5CF6)' }};">
+
+                                        <i data-feather="{{ $icons[$stage->id] ?? 'circle' }}"></i>
+
+                                    </div>
+
+                                    <div class="step-label">
+                                        {{ $stage->stage_name }}
+                                    </div>
+
+                                    <div class="step-count">
+                                        {{ $stage->lead_count }} total
+                                    </div>
+
+                                </div>
+
+                                @if (!$loop->last)
+                                    @php
+                                        $previousCount = (int) $leadStageCounts[$index]->lead_count;
+                                        $nextCount = (int) $leadStageCounts[$index + 1]->lead_count;
+
+                                        $conversionRate =
+                                            $previousCount > 0 ? round(($nextCount / $previousCount) * 100) : 0;
+                                    @endphp
+
+                                    <div class="pipeline-arrow">
+
+                                        <i data-feather="chevron-right"></i>
+
+                                        <span
+                                            class="funnel-rate
+                    {{ $conversionRate < 50 ? 'low' : ($conversionRate < 75 ? 'mid' : '') }}">
+
+                                            {{ $conversionRate }}%
+
+                                        </span>
+
+                                    </div>
+                                @endif
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============ ROW 6: PAYMENTS + LEADS + TOP PRODUCTS ============ -->
+        <div class="row g-4 mb-4">
+            <div class="col-xl-8">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Top Selling Products</h5>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Enquiry Date</th>
+                                        <th>Customer Name</th>
+                                        <th>Mobile</th>
+                                        <th>City</th>
+                                        <th>Requirement</th>
+                                        <th>Priority</th>
+                                        <th>Status</th>                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($leads as $key => $lead)
+                                        <tr>
+                                            <td>{{ $key + 1 }}</td>
+
+                                            <td>
+                                                {{ $lead->enquiry_date ? \Carbon\Carbon::parse($lead->enquiry_date)->format('d M Y') : '-' }}
+                                            </td>
+
+                                            <td>
+                                                <div class="fw-semibold">
+                                                    {{ $lead->customer_name ?? '-' }}
+                                                </div>
+
+                                                @if (!empty($lead->email))
+                                                    <small class="text-muted">
+                                                        {{ $lead->email }}
+                                                    </small>
+                                                @endif
+                                            </td>
+
+                                            <td>{{ $lead->mobile ?? '-' }}</td>
+
+                                            <td>{{ $lead->city ?? '-' }}</td>
+
+                                            <td>
+                                                {{ \Illuminate\Support\Str::limit($lead->requirement ?? ($lead->remarks ?? '-'), 40) }}
+                                            </td>
+
+                                            <td>
+                                                @if ($lead->priority === 'High')
+                                                    <span class="badge bg-danger">High</span>
+                                                @elseif ($lead->priority === 'Medium')
+                                                    <span class="badge bg-warning text-dark">Medium</span>
+                                                @elseif ($lead->priority === 'Low')
+                                                    <span class="badge bg-success">Low</span>
+                                                @else
+                                                    <span class="badge bg-secondary">-</span>
+                                                @endif
+                                            </td>
+
+                                            <td>
+                                                {{ $lead->stage_name ?? '-' }}
+                                            </td>                                            
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card h-100">
+
+                    <div class="card-header">
+                        <h5 class="card-title mb-1">Lead Priority</h5>
+
+                        <p class="text-muted mb-0" style="font-size:.8rem;">
+                            Priority wise assigned leads
+                        </p>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div id="leadPriorityChart" class="chart-container"></div>
+
+                        <div class="mt-3">
+
+                            @foreach ($leadPriorityCounts as $priority)
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+
+                                    <span>{{ $priority->priority }}</span>
+
+                                    <strong>{{ $priority->lead_count }}</strong>
+
+                                </div>
+                            @endforeach
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 @endsection
 

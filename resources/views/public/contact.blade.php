@@ -11,12 +11,12 @@
         <div class="inner-banner inner-bg2">
             <div class="container">
                 <div class="inner-title text-center">
-                    <h3>  {{ __('word.contact') }}</h3>
+                    <h3> संपर्क करें</h3>
                     <ul>
                         <li>
-                            <a href="{{ url('/') }}"> {{ __('word.home') }}</a>
+                            <a href="{{ url('/') }}">होम</a>
                         </li>
-                        <li>  {{ __('word.contact') }}</li>
+                        <li> संपर्क करें</li>
                     </ul>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="contact-card">
                             <i class="flaticon-phone-call-1"></i>
-                            <h3> {{ __('word.phone') }}</h3>
+                            <h3>फ़ोन नंबर</h3>
                             <p><a href="tel:07782-222222">07782-222222</a></p>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="contact-card">
                             <i class="flaticon-email"></i>
-                            <h3> {{ __('word.email') }}</h3>
+                            <h3>ईमेल</h3>
                             <p><a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#48202d242427083e2b272626662b2725"><span class="__cf_email__" data-cfemail="cba3aea7a7a48bbda8a4a5a5e5a8a4a6">[ collector-bastar@cg.gov.in]</span></a></p>
                             <p></p>
                         </div>
@@ -47,7 +47,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="contact-card">
                             <i class="flaticon-pin"></i>
-                            <h3>  {{ __('word.address') }}</h3>
+                            <h3> पता</h3>
                             <p> जिला प्रशासन, बस्तर, छत्तीसगढ़</p>
                             <p></p>
                         </div>
@@ -70,7 +70,7 @@
                     <div class="col-lg-6">
                         <div class="contact-widget-form pl-20">
                             <div class="contact-form">
-                                <h3> {{ __('word.sampark') }}</h3>
+                                <h3>हमसे संपर्क करें!</h3>
                                 <form id="contactForm">
                                     <div class="row">
                                         <div class="col-lg-6">
