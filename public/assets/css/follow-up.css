@@ -1,0 +1,226 @@
+/* ============================================
+   FOLLOW-UP DETAILS PAGE — UI STYLES
+   ============================================ */
+
+/* ---------- Stat Cards (top row) ---------- */
+.act-stat-card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 2px 14px rgba(15, 23, 42, .05);
+    transition: all .3s ease;
+}
+.act-stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(15, 23, 42, .09);
+}
+.act-stat-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.act-stat-value {
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #1E293B;
+}
+
+/* ---------- Day / Customer Label ---------- */
+.act-day-label {
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #e2e8f0;
+}
+
+/* ---------- Vertical Timeline ---------- */
+.act-timeline {
+    position: relative;
+    margin-left: 6px;
+    padding-left: 34px;
+}
+.act-timeline::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 15px;
+    width: 2px;
+    background: linear-gradient(180deg, #E2E8F0, #F1F5F9);
+}
+.act-timeline-item {
+    position: relative;
+    padding-bottom: 22px;
+}
+.act-timeline-item:last-child {
+    padding-bottom: 0;
+}
+.act-timeline-dot {
+    position: absolute;
+    left: -34px;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 0 0 0 4px #fff, 0 2px 8px rgba(15, 23, 42, .12);
+    z-index: 1;
+}
+.act-timeline-content {
+    background: #F8FAFC;
+    border: 1px solid #F1F5F9;
+    border-radius: 12px;
+    padding: 12px 16px;
+    transition: all .25s ease;
+}
+.act-timeline-item:hover .act-timeline-content {
+    background: #fff;
+    border-color: #E2E8F0;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, .06);
+}
+.act-timeline-content p {
+    font-size: .88rem;
+    color: #1E293B;
+}
+.act-comment-preview {
+    font-size: .82rem;
+    color: #64748B;
+    background: #fff;
+    border: 1px solid #EEF2F7;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-top: 6px;
+    line-height: 1.6;
+}
+
+/* ---------- Right Sidebar: Process Workflow ---------- */
+.act-member-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.act-member-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    transition: background .2s ease;
+}
+.act-member-item:hover {
+    background: #F8FAFC;
+}
+.act-member-item h6 {
+    font-size: .85rem;
+    color: #1E293B;
+}
+.act-member-item small {
+    font-size: .74rem;
+}
+
+/* ---------- Right Sidebar: Other Activities ---------- */
+.act-project-list {
+    display: flex;
+    flex-direction: column;
+}
+.act-project-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    border-bottom: 1px solid #F1F5F9;
+    transition: background .2s ease;
+}
+.act-project-item:last-child {
+    border-bottom: none;
+}
+.act-project-item:hover {
+    background: #F8FAFC;
+}
+.act-project-color {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.act-project-item h6 {
+    font-size: .85rem;
+    color: #1E293B;
+}
+.act-project-item small {
+    font-size: .74rem;
+    color: #94A3B8;
+}
+
+/* ---------- Modal Polish ---------- */
+#contactFormModal .modal-content {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+}
+#contactFormModal .modal-header {
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
+    color: #fff;
+    border: none;
+    padding: 20px 24px;
+}
+#contactFormModal .modal-header .btn-close {
+    filter: brightness(0) invert(1);
+    opacity: .85;
+}
+#contactFormModal .modal-body {
+    padding: 24px;
+}
+#contactFormModal .form-label {
+    font-size: .82rem;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 6px;
+}
+#contactFormModal .form-select,
+#contactFormModal .form-control {
+    border-radius: 10px;
+    border-color: #E2E8F0;
+    font-size: .88rem;
+    padding: 10px 14px;
+}
+#contactFormModal .form-select:focus,
+#contactFormModal .form-control:focus {
+    border-color: #8B5CF6;
+    box-shadow: 0 0 0 .2rem rgba(139, 92, 246, .15);
+}
+#contactFormModal .modal-footer {
+    border-top: 1px solid #F1F5F9;
+    padding: 16px 24px;
+}
+
+/* ---------- Dark Mode ---------- */
+.dark-mode .act-stat-card { background: var(--card-bg, #1E293B); box-shadow: 0 2px 14px rgba(0,0,0,.2); }
+.dark-mode .act-stat-value { color: #F1F5F9; }
+.dark-mode .act-day-label { color: #CBD5E1; border-bottom-color: #334155; }
+.dark-mode .act-timeline::before { background: linear-gradient(180deg,#334155,#1E293B); }
+.dark-mode .act-timeline-dot { box-shadow: 0 0 0 4px #1E293B, 0 2px 8px rgba(0,0,0,.3); }
+.dark-mode .act-timeline-content { background: #0F172A; border-color: #1E293B; }
+.dark-mode .act-timeline-item:hover .act-timeline-content { background: #1E293B; border-color: #334155; }
+.dark-mode .act-timeline-content p { color: #F1F5F9; }
+.dark-mode .act-comment-preview { background: #1E293B; border-color: #334155; color: #94A3B8; }
+.dark-mode .act-member-item:hover { background: #1E293B; }
+.dark-mode .act-member-item h6 { color: #F1F5F9; }
+.dark-mode .act-project-item { border-bottom-color: #1E293B; }
+.dark-mode .act-project-item:hover { background: #1E293B; }
+.dark-mode .act-project-item h6 { color: #F1F5F9; }
+.dark-mode #contactFormModal .modal-content { background: #1E293B; }
+.dark-mode #contactFormModal .form-label { color: #CBD5E1; }
+.dark-mode #contactFormModal .form-select,
+.dark-mode #contactFormModal .form-control { background: #0F172A; border-color: #334155; color: #F1F5F9; }
+.dark-mode #contactFormModal .modal-footer { border-top-color: #334155; }

@@ -1,0 +1,80 @@
+/* ===================== PRIORITY BADGES ===================== */
+.priority-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: .68rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+}
+.priority-badge.priority-high   { color: #DC2626; background: #FEF2F2; }
+.priority-badge.priority-medium { color: #D97706; background: #FFFBEB; }
+.priority-badge.priority-low    { color: #16A34A; background: #F0FDF4; }
+
+/* ===================== PENDING ACTION CLICKABLE CARDS ===================== */
+.pending-action-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 18px 12px;
+    border-radius: 14px;
+    background: #fff;
+    border: 1px solid #f1f5f9;
+    text-decoration: none;
+    text-align: center;
+    transition: all .25s ease;
+    height: 100%;
+}
+.pending-action-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(99, 102, 241, .12);
+    border-color: rgba(99, 102, 241, .25);
+}
+.pending-action-card svg { width: 22px; height: 22px; }
+.pending-action-card .pa-value {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #001F3B;
+    line-height: 1;
+}
+.pending-action-card .pa-label {
+    font-size: .72rem;
+    color: #64748B;
+    font-weight: 500;
+}
+
+/* ===================== MY PERFORMANCE GRID ===================== */
+.performance-stat {
+    text-align: center;
+    padding: 18px 10px;
+    border-radius: 14px;
+    background: #F8FAFF;
+    border: 1px solid #EEF2FF;
+    height: 100%;
+}
+.performance-stat .perf-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #001F3B;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.performance-stat .perf-label {
+    font-size: .72rem;
+    color: #64748B;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+}
+.performance-stat.performance-highlight {
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
+    border-color: transparent;
+}
+.performance-stat.performance-highlight .perf-value,
+.performance-stat.performance-highlight .perf-label {
+    color: #fff;
+}

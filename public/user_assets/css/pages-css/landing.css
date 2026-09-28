@@ -1,0 +1,288 @@
+/* ================================
+Process Section
+================================ */
+
+.process-sec {
+    position: relative;
+    padding: 110px 0 100px;
+    background-image: url('../images/process_bg_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.process-sec::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 18, 32, 0.90);
+    z-index: 0;
+}
+
+.process-sec .container {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ================================
+Section Title
+================================ */
+
+.title-area {
+    margin-bottom: 55px;
+}
+
+.sub-title6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sub-title6 .shape {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 3px;
+    background: #ff5a16;
+}
+
+.sub-title6 .shape.left {
+    margin-right: 0;
+}
+
+.sub-title6 .shape.right {
+    margin-left: 0;
+}
+
+.sub-title6 .dots {
+    position: absolute;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ff5a16;
+    transform: translateY(-50%);
+    box-shadow: 10px 0 0 #ff5a16;
+}
+
+.sub-title6 .left .dots {
+    right: 100%;
+    margin-right: 8px;
+}
+
+.sub-title6 .right .dots {
+    left: 100%;
+    margin-left: 8px;
+}
+
+.sec-title {
+    margin: 20px 0 0;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+/* ================================
+Process Cards
+================================ */
+
+.process-card2-wrap {
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.process-card2 {
+    position: relative;
+    width: 275px;
+    height: 275px;
+    padding: 60px 35px 30px;
+    background: #ffffff;
+    border: 4px solid #ff5a16;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 0 8px rgba(255, 90, 22, 0.15);
+}
+
+.process-card2::before {
+    content: "";
+    position: absolute;
+    inset: -18px;
+    border: 4px dotted #ff5a16;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+
+/* ================================
+Icon
+================================ */
+
+.process-card2_icon {
+    position: absolute;
+    top: -58px;
+    left: 50%;
+    width: 108px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    background: #ff5a16;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 38px;
+    z-index: 2;
+}
+
+.process-card2_icon i {
+    line-height: 1;
+}
+
+
+/* ================================
+Card Content
+================================ */
+
+.process-card2_title {
+    margin: 5px 0 15px;
+    color: #151a26;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.process-card2_text {
+    margin: 0;
+    color: #5c6470;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+
+/* ================================
+Arrows
+================================ */
+
+.process-card2-wrap:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    width: 80px;
+    height: 50px;
+    border-top: 8px solid rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    transform: rotate(20deg);
+}
+
+.process-card2-wrap:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 5px);
+    right: -72px;
+    width: 20px;
+    height: 20px;
+    border-top: 8px solid rgba(255, 255, 255, 0.35);
+    border-right: 8px solid rgba(255, 255, 255, 0.35);
+    transform: rotate(45deg);
+    z-index: 2;
+}
+
+
+/* ================================
+Responsive
+================================ */
+
+@media (max-width: 1399px) {
+
+    .process-card2 {
+        width: 245px;
+        height: 245px;
+        padding: 55px 25px 25px;
+    }
+
+    .process-card2_title {
+        font-size: 24px;
+    }
+
+    .process-card2_text {
+        font-size: 15px;
+    }
+
+    .process-card2-wrap:not(:last-child)::after {
+        right: -55px;
+        width: 60px;
+    }
+
+    .process-card2-wrap:not(:last-child)::before {
+        right: -58px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+
+    .sec-title {
+        font-size: 42px;
+    }
+
+    .process-card2 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .process-card2_icon {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }
+
+    .process-card2-wrap:not(:last-child)::after,
+    .process-card2-wrap:not(:last-child)::before {
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .process-sec {
+        padding: 80px 0;
+    }
+
+    .sec-title {
+        font-size: 34px;
+    }
+
+    .sub-title6 .shape {
+        width: 45px;
+    }
+
+    .process-card2-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+
+    .process-card2 {
+        width: 260px;
+        height: 260px;
+    }
+
+    .process-card2_icon {
+        width: 90px;
+        height: 90px;
+        top: -45px;
+    }
+}
