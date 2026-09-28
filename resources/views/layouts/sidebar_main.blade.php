@@ -2,7 +2,7 @@
 
     <div class="sidebar-header">
         <a href="{{ url('/dashboard') }}" class="sidebar-logo">
-            <img src="{{ asset('logo-1.png') }}" alt="JK" style="height: 75px;">
+            <img src="{{ asset('logo.png') }}" alt="VLE" style="height: 70px;margin-left:60px">
         </a>
     </div>
 

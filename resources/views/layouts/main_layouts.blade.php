@@ -7,7 +7,7 @@
 
     <title>VLE - Bastar</title>
 
-    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.png') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('logo.png') }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

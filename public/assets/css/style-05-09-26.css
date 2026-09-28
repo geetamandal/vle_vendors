@@ -400,9 +400,9 @@ p {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    color: var(--sidebar-color);
-    font-size: 13.5px;
-    font-weight: 500;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 450;
     border-radius: 0;
     margin: 1px 12px;
     border-radius: 8px;
