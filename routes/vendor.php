@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix("1")->group(function () {
 
+      Route::get('/', [Vendor1Controller::class, 'index']);
 
 
 });
