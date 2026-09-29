@@ -105,6 +105,12 @@
             background: #f5f5f5;
             color: var(--theme-color);
         }
+
+        .preloader-text {
+            font-size: 32px;           
+            display: block;
+            margin-top: 5px;
+        }
     </style>
     @stack('css')
 </head>
@@ -113,14 +119,16 @@
     <div id="magic-cursor" class="cursor-black-bg">
         <div id="ball"></div>
     </div>
-    <div class="preloader"><button class="th-btn preloaderCls">CANCEL PRELOADER</button>
-        <div class="preloader-inner">
-            <div class="bounce mb-4"><img src="user_assets/img/icon/favicon-bastar.png" style="height: 100px;width:100px" alt="img"></div><span
-                class="loader">Digital Bastar
-                <span class="loading-text">Digital Bastar</span></span>
-        </div>
-    </div>
-
+    <div class="preloader">
+		<div class="preloader-inner">
+			<span class="loader">डिजिटल - बस्तर
+				<span class="loading-text">डिजिटल - बस्तर</span>
+				<span class="preloader-text">Digital - Bastar
+			</span></span>
+		</div>
+	</div>
+	
+    
     <!-- header -->
 
     <!-- mobile view header  -->

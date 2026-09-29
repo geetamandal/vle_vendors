@@ -1,49 +1,58 @@
 <!doctype html>
 <html class="no-js" lang="zxx" dir="ltr">
+<!-- Mirrored from html.themehour.net/escul/demo/home-10.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Apr 2026 17:14:59 GMT -->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Digital - Bastar</title>
-    <meta name="author" content="Digital-Bastar">
-    <meta name="description" content="Digital Bastar - Local Business Digital Platform">
-    <meta name="keywords" content="Digital Bastar, Local Business, Vendors, VLE, Bastar">
+    <title>Escul - Online Courses & Education HTML Template - Home X (Online Trainer)</title>
+    <meta name="author" content="Escul">
+    <meta name="description" content="Escul - Online Courses & Education HTML Template">
+    <meta name="keywords" content="Escul - Online Courses & Education HTML Template">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="{{ asset('user_assets/img/favicons/favicon-32x32.png') }}">
-    <link rel="manifest" href="{{ asset('user_assets/img/favicons/manifest.json') }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ asset('user_assets/img/favicons/ms-icon-144x144.png') }}">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Noto+Serif:ital,wght@0,100..900;1,100..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap"
         rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ asset('user_assets/css/app.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('user_assets/css/fontawesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('user_assets/css/style.css') }}">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="th-magic-cursor theme-style2">
+<body class="th-magic-cursor">
     <div id="magic-cursor" class="cursor-black-bg">
         <div id="ball"></div>
     </div>
     <div class="preloader"><button class="th-btn preloaderCls">CANCEL PRELOADER</button>
         <div class="preloader-inner">
-            <div class="bounce mb-4"><img src="user_assets/img/logo-icon.svg" alt="img"></div><span
-                class="loader">Escul
-                <span class="loading-text">Digital Bastar</span></span>
+            <div class="bounce mb-4"><img src="assets/img/logo-icon.svg" alt="img"></div><span class="loader">Escul
+                <span class="loading-text">Escul</span></span>
         </div>
     </div>
     <div class="sidemenu-wrapper sidemenu-info d-none d-lg-block">
         <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
             <div class="widget">
                 <div class="th-widget-about">
-                    <div class="about-logo"><a href="index.html"><img src="user_assets/img/logo.svg" alt="Escul"></a>
+                    <div class="about-logo"><a href="index.html"><img src="assets/img/logo.svg" alt="Escul"></a>
                     </div>
                     <p class="about-text">University education is the foundation for shaping skilled, knowledgeable,
                         and responsible individuals who contribute meaningfully to society.</p><a href="contact.html"
@@ -60,7 +69,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img"><a href="blog-details.html"><img
-                                    src="user_assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a></div>
+                                    src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a></div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">How To Start
                                     Learn Online Study From Your Home</a></h4>
@@ -70,7 +79,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img"><a href="blog-details.html"><img
-                                    src="user_assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a></div>
+                                    src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a></div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Time Management
                                     Tips Balancing Work and Study</a></h4>
@@ -80,7 +89,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img"><a href="blog-details.html"><img
-                                    src="user_assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a></div>
+                                    src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a></div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Best Online
                                     Courses Top Platforms for Learning</a></h4>
@@ -113,13 +122,11 @@
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="th-menu-content">
-                <div class="mobile-logo"><a href="index.html"><img src="user_assets/img/logo.svg"
-                            alt="Escul"></a>
+                <div class="mobile-logo"><a href="index.html"><img src="assets/img/logo.svg" alt="Escul"></a>
                 </div>
                 <div class="th-mobile-menu-bottom">
                     <form class="th-mobile-search" action="#"><input type="text" placeholder="Search...">
-                        <button class="icon-btn" type="submit"><i class="fal fa-search"></i></button>
-                    </form>
+                        <button class="icon-btn" type="submit"><i class="fal fa-search"></i></button></form>
                     <div class="btn-wrap"><a href="contact.html" class="th-btn w-100">APPLY NOW <svg class="ms-2"
                                 width="16" height="14" viewBox="0 0 16 14" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -230,8 +237,7 @@
             <button data-color="#1882FF"><i class="fa-solid fa-droplet"></i></button> <button data-color="#743EF9"><i
                     class="fa-solid fa-droplet"></i></button> <button data-color="#FF5C2A"><i
                     class="fa-solid fa-droplet"></i></button> <button data-color="#FE5A86"><i
-                    class="fa-solid fa-droplet"></i></button>
-        </div>
+                    class="fa-solid fa-droplet"></i></button></div>
         <h4 class="color-scheme-wrap-subtitle mt-20 text-center">Secondary Color</h4>
         <div class="secondary-color-switch-btns"><button data-secondary-color="#FFBF00"><i
                     class="fa-solid fa-droplet"></i></button> <button data-secondary-color="#50C878"><i
@@ -246,7 +252,7 @@
                 <div class="menu-area">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
-                            <div class="header-logo"><a href="index.html"><img src="user_assets/img/logo2.svg"
+                            <div class="header-logo"><a href="index.html"><img src="assets/img/logo.svg"
                                         alt="Escul"></a></div>
                         </div>
                         <div class="col-auto">
@@ -260,7 +266,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/index.jpg"
+                                                                        src="assets/img/pages/index.jpg"
                                                                         alt="Home One">
                                                                     <div class="btn-wrap"><a href="index.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -274,7 +280,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-2.jpg"
+                                                                        src="assets/img/pages/home-2.jpg"
                                                                         alt="Home Two">
                                                                     <div class="btn-wrap"><a href="home-2.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -288,7 +294,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-3.jpg"
+                                                                        src="assets/img/pages/home-3.jpg"
                                                                         alt="Home Three">
                                                                     <div class="btn-wrap"><a href="home-3.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -302,7 +308,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-4.jpg"
+                                                                        src="assets/img/pages/home-4.jpg"
                                                                         alt="Home Four">
                                                                     <div class="btn-wrap"><a href="home-4.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -316,7 +322,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-5.jpg"
+                                                                        src="assets/img/pages/home-5.jpg"
                                                                         alt="Home Five">
                                                                     <div class="btn-wrap"><a href="home-5.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -330,7 +336,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-6.jpg"
+                                                                        src="assets/img/pages/home-6.jpg"
                                                                         alt="Home Six">
                                                                     <div class="btn-wrap"><a href="home-6.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -344,7 +350,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-7.jpg"
+                                                                        src="assets/img/pages/home-7.jpg"
                                                                         alt="Home Seven">
                                                                     <div class="btn-wrap"><a href="home-7.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -358,7 +364,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-8.jpg"
+                                                                        src="assets/img/pages/home-8.jpg"
                                                                         alt="Home Eight">
                                                                     <div class="btn-wrap"><a href="home-8.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -372,7 +378,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-9.jpg"
+                                                                        src="assets/img/pages/home-9.jpg"
                                                                         alt="Home Nine">
                                                                     <div class="btn-wrap"><a href="home-9.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -386,7 +392,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-10.jpg"
+                                                                        src="assets/img/pages/home-10.jpg"
                                                                         alt="Home Ten">
                                                                     <div class="btn-wrap"><a href="home-10.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -401,7 +407,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-11.jpg"
+                                                                        src="assets/img/pages/home-11.jpg"
                                                                         alt="Home Eleven">
                                                                     <div class="btn-wrap"><a href="home-11.html"
                                                                             class="th-btn style3">Multipage</a> <a
@@ -416,7 +422,7 @@
                                                         <div class="col-xxl-3 col-lg-4">
                                                             <div class="mega-menu-box coming-soon">
                                                                 <div class="mega-menu-img"><img
-                                                                        src="user_assets/img/pages/home-4.jpg"
+                                                                        src="assets/img/pages/home-4.jpg"
                                                                         alt="Home Coming">
                                                                     <h4 class="box-title">Coming Soon</h4>
                                                                 </div>
@@ -499,662 +505,185 @@
     </header>
     <div id="smooth-wrapper">
         <div id="smooth-content">
-            <div class="th-hero-wrapper hero-3" id="hero" data-bg-src="user_assets/img/hero/hero_bg_3_1.jpg">
-                <div class="container">
-                    <div class="row gx-40 align-items-center">
-                        <div class="col-xl-7">
-                            <div class="hero-style3"><span class="sub-title wow animate__fadeInUp"
-                                    data-wow-delay="0.2s">Learn Smart. Learn Digital.</span>
-                                <h2 class="hero-title"><span class="title1 wow animate__fadeInUp"
-                                        data-wow-delay="0.4s">Unlock Your</span> <span
-                                        class="title2 wow animate__fadeInUp" data-wow-delay="0.6s">Digital Education
-                                        in</span> <span class="title3 text-theme2 wow animate__fadeInUp"
-                                        data-wow-delay="0.8s">Online Learning</span></h2>
-                                <p class="hero-text wow animate__fadeInUp" data-wow-delay="0.8s">Education can be
-                                    thought of as the transmission of the values and accumulated knowledge of a society.
-                                </p>
-                                <div class="btn-wrap wow animate__fadeInUp" data-wow-delay="0.9s"><a
-                                        href="about.html" class="th-btn">GET STARTED <svg class="ms-2"
-                                            width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                                stroke="currentColor" stroke-width="1.5"></path>
-                                        </svg></a></div>
+            <div class="th-hero-wrapper hero-10" id="hero">
+                <div class="hero-inner" data-bg-src="assets/img/hero/hero_bg_10_1.jpg">
+                    <div class="hero-bg-shape10-1 wow animate__fadeInUp"><img
+                            src="assets/img/shape/hero_shape10_1.png" data-speed="0.8" alt="img"></div>
+                    <div class="hero-bg-shape10-2 d-xl-block d-none wow animate__fadeInUp"><img
+                            src="assets/img/shape/hero_shape6_1.png" data-speed="0.9" alt="img"></div>
+                    <div class="hero-bg-shape10-3 wow animate__fadeInUp"><img
+                            src="assets/img/hero/hero-bg-shape10-1.png" alt="img"></div>
+                    <div class="container">
+                        <div class="row gy-50 align-items-center flex-row-reverse">
+                            <div class="col-lg-6">
+                                <div class="hero-thumb10-1 th--hover-item wow animate__fadeInUp">
+                                    <div class="thumb th--hover-img" data-displacement="assets/img/imghover/fluid.jpg"
+                                        data-intensity="0.2" data-speedin="1" data-speedout="1"><img
+                                            class="img-cover" src="assets/img/hero/hero_thumb10_1.jpg"
+                                            alt="About"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero-style10">
+                                    <div class="hero-subtitle wow animate__fadeInUp" data-wow-delay="0.2s">Welcome To
+                                        Online Coaching</div>
+                                    <h2 class="hero-title"><span class="title1 wow animate__fadeInUp"
+                                            data-wow-delay="0.3s">From Beginner</span> <span
+                                            class="title2 wow animate__fadeInUp" data-wow-delay="0.4s">To Pro—With
+                                            the</span> <span class="title3 wow animate__fadeInUp"
+                                            data-wow-delay="0.5s">Right Trainer.</span></h2>
+                                    <p class="hero-text wow animate__fadeInUp" data-wow-delay="0.6s">Education can be
+                                        thought of as the transmission of the values and accumulated knowledge of a
+                                        society.</p>
+                                    <div class="btn-wrap wow animate__fadeInUp" data-wow-delay="0.7s"><a
+                                            href="contact.html" class="th-btn">GET STARTED <svg class="ms-2"
+                                                width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                    stroke="currentColor" stroke-width="1.5"></path>
+                                            </svg></a></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 text-xl-start text-center align-self-center">
-                            <div class="hero-thumb3-1 wow animate__fadeInRight">
-                                <div class="hero-info-card-wrap wow animate__fadeInUp" data-wow-delay="0.4s">
-                                    <div class="hero-thumb-info jump"><img
-                                            src="user_assets/img/hero/hero_thumb-info3_1.png" alt="img"></div>
-                                </div>
-                                <div class="hero-info-chart jump-reverse"><img
-                                        src="user_assets/img/hero/hero_thumb3_2.png" alt="img"></div>
-                                <div class="thumb"><img src="user_assets/img/hero/hero_thumb3_1.png" alt="img">
+                    </div>
+                </div>
+                <div class="pt-60 pb-60 overflow-hidden brand-area-1">
+                    <div class="container">
+                        <div class="brand-wrap1 text-center">
+                            <h3 class="brand-wrap-title th_fade_anim"><span class="th-text-perspective">Our Trusted
+                                    Partners</span></h3>
+                            <div class="swiper th-slider th_fade_anim" id="brandSlider1"
+                                data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5", "spaceBetween": "85"}}}'>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-1.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-2.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-3.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-4.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-5.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-1.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-2.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-3.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-4.svg" alt="Brand Logo"></a></div>
+                                    <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
+                                                src="assets/img/brand/brand1-5.svg" alt="Brand Logo"></a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="pt-40 pb-40 bg-theme overflow-hidden overflow-hidden">
-                <div class="container-fluid p-0">
-                    <div class="swiper th-slider marquee-slider1"
-                        data-slider-options='{"breakpoints":{"0":{"slidesPerView":"auto"}},"autoplay":{"delay":0,"disableOnInteraction":false},"noSwiping":"true","speed":10000,"spaceBetween":30}'>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="marquee-card"><a target="_blank" href="#"><span
-                                            class="text-white">LEARNING INNOVATION</span></a> <span
-                                        class="marquee-card-icon"><img class="spin"
-                                            src="user_assets/img/icon/marquee-icon1-1.svg" alt="img"></span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="marquee-card"><a target="_blank" href="#"><span
-                                            class="text-white">WORLDWIDE LEARNERS</span></a> <span
-                                        class="marquee-card-icon"><img class="spin"
-                                            src="user_assets/img/icon/marquee-icon1-1.svg" alt="img"></span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="marquee-card"><a target="_blank" href="#"><span
-                                            class="text-white">UNIQUE KNOWLEDGE</span></a> <span
-                                        class="marquee-card-icon"><img class="spin"
-                                            src="user_assets/img/icon/marquee-icon1-1.svg" alt="img"></span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="marquee-card"><a target="_blank" href="#"><span
-                                            class="text-white">DREAM TODAY</span></a> <span
-                                        class="marquee-card-icon"><img class="spin"
-                                            src="user_assets/img/icon/marquee-icon1-1.svg" alt="img"></span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="marquee-card"><a target="_blank" href="#"><span
-                                            class="text-white">LEARNING INNOVATION</span></a> <span
-                                        class="marquee-card-icon"><img class="spin"
-                                            src="user_assets/img/icon/marquee-icon1-1.svg" alt="img"></span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="marquee-card"><a target="_blank" href="#"><span
-                                            class="text-white">WORLDWIDE LEARNERS</span></a> <span
-                                        class="marquee-card-icon"><img class="spin"
-                                            src="user_assets/img/icon/marquee-icon1-1.svg" alt="img"></span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="marquee-card"><a target="_blank" href="#"><span
-                                            class="text-white">UNIQUE KNOWLEDGE</span></a> <span
-                                        class="marquee-card-icon"><img class="spin"
-                                            src="user_assets/img/icon/marquee-icon1-1.svg" alt="img"></span>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="marquee-card"><a target="_blank" href="#"><span
-                                            class="text-white">DREAM TODAY</span></a> <span
-                                        class="marquee-card-icon"><img class="spin"
-                                            src="user_assets/img/icon/marquee-icon1-1.svg" alt="img"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <section class="space overflow-hidden" id="category-sec">
-                <div class="category-bg3-1 shape-mockup th_fade_anim" data-speed="0.9" data-left="6%"
-                    data-top="20%"><img src="user_assets/img/shape/category_shape3_1.png" alt="img"></div>
-                <div class="container">
-                    <div class="row justify-content-lg-between justify-content-center align-items-center">
-                        <div class="col-xxl-7 col-lg-8">
-                            <div class="title-area text-lg-start text-center">
-                                <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Browse top
-                                        essential Digital Education Courses</span></h2>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="sec-btn th_fade_anim">
-                                <div class="icon-box btn-wrap style3"><button data-slider-prev="#categorySlider3"
-                                        class="slider-arrow default style6 slider-prev"><svg width="17"
-                                            height="15" viewBox="0 0 17 15" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M8.4672 0C8.4672 0.783225 7.69103 1.95525 6.90638 2.93955C5.89598 4.20682 4.69013 5.3139 3.30645 6.15915C2.26988 6.79208 1.01115 7.39965 1.90735e-06 7.39965M8.4672 14.8176C8.4672 14.0344 7.69103 12.8623 6.90638 11.878C5.89598 10.6108 4.69013 9.5037 3.30645 8.65845C2.26988 8.02552 1.01115 7.41795 1.90735e-06 7.41795M1.90735e-06 7.4088H16.9344"
-                                                stroke="currentColor" />
-                                        </svg></button> <button data-slider-next="#categorySlider3"
-                                        class="slider-arrow default style6 slider-next"><svg width="17"
-                                            height="15" viewBox="0 0 17 15" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                stroke="currentColor" />
-                                        </svg></button></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-slider3 th_fade_anim">
-                        <div class="swiper th-slider has-shadow" id="categorySlider3"
-                            data-slider-options='{"breakpoints":{"0":{"slidesPerView":"1"},"526":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"991":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"},"1400":{"slidesPerView":"5"}}}'>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#1CB098 " data-border="#4EE4CC ">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-1.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">Business<br>Management</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#947DFF" data-border="#AC9AFF">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-2.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">Website<br>Development</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#F66D96" data-border="#FF8AB6">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-3.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">UI/UX<br>Design</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#63D3EF" data-border="#85E3FC">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-4.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">Digital<br>Marketing</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#FDAC4C" data-border="#FFCD98">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-5.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">Practical<br>Learning</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#1CB098 " data-border="#4EE4CC ">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-1.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">Business<br>Management</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#947DFF" data-border="#AC9AFF">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-2.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">Website<br>Development</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#F66D96" data-border="#FF8AB6">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-3.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">UI/UX<br>Design</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#63D3EF" data-border="#85E3FC">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-4.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">Digital<br>Marketing</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim">
-                                    <div class="category-card3" data-theme-color="#FDAC4C" data-border="#FFCD98">
-                                        <div class="box-icon"><img src="user_assets/img/icon/category/category3-5.svg"
-                                                alt="Image"></div>
-                                        <h3 class="box-title"><a href="course.html">Practical<br>Learning</a></h3><a
-                                            class="icon-btn style8" href="course-details.html"><svg width="17"
-                                                height="15" viewBox="0 0 17 15" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                                    stroke="currentColor" />
-                                            </svg></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="overflow-hidden space-bottom overflow-hidden" id="course-sec">
-                <div class="course-bg-shape3-1 shape-mockup th_fade_anim d-xl-block d-none" data-speed="0.9"
-                    data-right="4%" data-top="10%"><img src="user_assets/img/shape/about_shape1_1.png"
-                        alt="img">
-                </div>
+            <section class="space overflow-hidden feature-area-4 position-relative z-index-common">
                 <div class="container">
                     <div class="title-area text-center"><span class="sub-title text-theme th_fade_anim"><img
-                                src="user_assets/img/icon/subtitle-icon1-4.svg" alt="img">Our Courses</span>
-                        <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Our Featured
-                                Courses</span></h2>
+                                src="assets/img/icon/subtitle-icon1-1.svg" alt="img">Why Choose Trainer</span>
+                        <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">So Many Reasons To
+                                Start</span></h2>
+                        <p class="th_fade_anim">Start, switch, or advance your career with more than 34,000+ courses in
+                            escul</p>
                     </div>
-                    <div class="slider-area">
-                        <div class="swiper th-slider course-slider2 has-shadow" id="CourseSlider2"
-                            data-slider-options='{"autoHeight": "true","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide th_fade_anim" data-delay=".3">
-                                    <div class="course-card">
-                                        <div class="box-img"><a href="blog-details.html"><img
-                                                    src="user_assets/img/course/course1-1.jpg"
-                                                    alt="Course Image"></a><span class="box-price">$18.00</span></div>
-                                        <h3 class="box-title"><a href="course-details.html">Graphic Design Online
-                                                Course Material Projects.</a></h3>
-                                        <div class="box-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                <span style="width:100%">Rated <strong class="rating">5.00</strong>
-                                                    out of 5</span>
-                                            </div><span class="ms-2">4.9 (10k)</span>
-                                        </div>
-                                        <div class="box-content">
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-file-lines"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Lessons:</span>
-                                                    <h4 class="course-info-text">50+ Lessons</h4>
-                                                </div>
-                                            </div>
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-users"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Students:</span>
-                                                    <h4 class="course-info-text">160+ Students</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="btn-wrap">
-                                            <div class="meta-box">
-                                                <div class="meta-thumb"><img
-                                                        src="user_assets/img/course/course-thumb1-1.png"
-                                                        alt="avater">
-                                                </div>
-                                                <div class="media-body">
-                                                    <h5 class="box-name"><a href="team.html">Michel Shon</a></h5>
-                                                </div>
-                                            </div><a href="course-details.html"
-                                                class="th-btn btn-sm style-border2">VIEW DETAILS<svg class="ms-2"
-                                                    width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                                        stroke="currentColor" stroke-width="1.5"></path>
-                                                </svg></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim" data-delay=".5">
-                                    <div class="course-card">
-                                        <div class="box-img"><a href="blog-details.html"><img
-                                                    src="user_assets/img/course/course1-2.jpg"
-                                                    alt="Course Image"></a><span class="box-price">$28.00</span></div>
-                                        <h3 class="box-title"><a href="course-details.html">Web Development Bootcamp
-                                                Hands-on Projects.</a></h3>
-                                        <div class="box-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                <span style="width:100%">Rated <strong class="rating">5.00</strong>
-                                                    out of 5</span>
-                                            </div><span class="ms-2">4.9 (10k)</span>
-                                        </div>
-                                        <div class="box-content">
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-file-lines"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Lessons:</span>
-                                                    <h4 class="course-info-text">50+ Lessons</h4>
-                                                </div>
-                                            </div>
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-users"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Students:</span>
-                                                    <h4 class="course-info-text">160+ Students</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="btn-wrap">
-                                            <div class="meta-box">
-                                                <div class="meta-thumb"><img
-                                                        src="user_assets/img/course/course-thumb1-1.png"
-                                                        alt="avater">
-                                                </div>
-                                                <div class="media-body">
-                                                    <h5 class="box-name"><a href="team.html">Sarah Lee</a></h5>
-                                                </div>
-                                            </div><a href="course-details.html"
-                                                class="th-btn btn-sm style-border2">VIEW DETAILS<svg class="ms-2"
-                                                    width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                                        stroke="currentColor" stroke-width="1.5"></path>
-                                                </svg></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim" data-delay=".7">
-                                    <div class="course-card">
-                                        <div class="box-img"><a href="blog-details.html"><img
-                                                    src="user_assets/img/course/course1-3.jpg"
-                                                    alt="Course Image"></a><span class="box-price">$38.00</span></div>
-                                        <h3 class="box-title"><a href="course-details.html">Digital Marketing
-                                                Masterclass Real-World Campaigns.</a></h3>
-                                        <div class="box-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                <span style="width:100%">Rated
-                                                    <strong class="rating">5.00</strong> out of 5</span></div><span
-                                                class="ms-2">4.9 (10k)</span>
-                                        </div>
-                                        <div class="box-content">
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-file-lines"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Lessons:</span>
-                                                    <h4 class="course-info-text">50+ Lessons</h4>
-                                                </div>
-                                            </div>
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-users"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Students:</span>
-                                                    <h4 class="course-info-text">160+ Students</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="btn-wrap">
-                                            <div class="meta-box">
-                                                <div class="meta-thumb"><img
-                                                        src="user_assets/img/course/course-thumb1-1.png"
-                                                        alt="avater">
-                                                </div>
-                                                <div class="media-body">
-                                                    <h5 class="box-name"><a href="team.html">John Doe</a></h5>
-                                                </div>
-                                            </div><a href="course-details.html"
-                                                class="th-btn btn-sm style-border2">VIEW DETAILS<svg class="ms-2"
-                                                    width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                                        stroke="currentColor" stroke-width="1.5"></path>
-                                                </svg></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim" data-delay=".3">
-                                    <div class="course-card">
-                                        <div class="box-img"><a href="blog-details.html"><img
-                                                    src="user_assets/img/course/course1-4.jpg"
-                                                    alt="Course Image"></a><span class="box-price">$18.00</span>
-                                        </div>
-                                        <h3 class="box-title"><a href="course-details.html">Data Science for
-                                                Beginners Real-World Applications.</a></h3>
-                                        <div class="box-rating">
-                                            <div class="star-rating" role="img"
-                                                aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
-                                                    <strong class="rating">5.00</strong> out of 5</span></div><span
-                                                class="ms-2">4.9 (10k)</span>
-                                        </div>
-                                        <div class="box-content">
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-file-lines"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Lessons:</span>
-                                                    <h4 class="course-info-text">50+ Lessons</h4>
-                                                </div>
-                                            </div>
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-users"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Students:</span>
-                                                    <h4 class="course-info-text">160+ Students</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="btn-wrap">
-                                            <div class="meta-box">
-                                                <div class="meta-thumb"><img
-                                                        src="user_assets/img/course/course-thumb1-1.png"
-                                                        alt="avater">
-                                                </div>
-                                                <div class="media-body">
-                                                    <h5 class="box-name"><a href="team.html">Lisa Wong</a></h5>
-                                                </div>
-                                            </div><a href="course-details.html"
-                                                class="th-btn btn-sm style-border2">VIEW DETAILS<svg class="ms-2"
-                                                    width="16" height="14" viewBox="0 0 16 14"
-                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                                        stroke="currentColor" stroke-width="1.5"></path>
-                                                </svg></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim" data-delay=".5">
-                                    <div class="course-card">
-                                        <div class="box-img"><a href="blog-details.html"><img
-                                                    src="user_assets/img/course/course1-5.jpg"
-                                                    alt="Course Image"></a><span class="box-price">$28.00</span>
-                                        </div>
-                                        <h3 class="box-title"><a href="course-details.html">Machine Learning
-                                                Techniques In-Depth Exploration.</a></h3>
-                                        <div class="box-rating">
-                                            <div class="star-rating" role="img"
-                                                aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
-                                                    <strong class="rating">5.00</strong> out of 5</span></div><span
-                                                class="ms-2">4.9 (10k)</span>
-                                        </div>
-                                        <div class="box-content">
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-file-lines"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Lessons:</span>
-                                                    <h4 class="course-info-text">50+ Lessons</h4>
-                                                </div>
-                                            </div>
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-users"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Students:</span>
-                                                    <h4 class="course-info-text">160+ Students</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="btn-wrap">
-                                            <div class="meta-box">
-                                                <div class="meta-thumb"><img
-                                                        src="user_assets/img/course/course-thumb1-1.png"
-                                                        alt="avater">
-                                                </div>
-                                                <div class="media-body">
-                                                    <h5 class="box-name"><a href="team.html">Mark Thompson</a></h5>
-                                                </div>
-                                            </div><a href="course-details.html"
-                                                class="th-btn btn-sm style-border2">VIEW DETAILS<svg class="ms-2"
-                                                    width="16" height="14" viewBox="0 0 16 14"
-                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                                        stroke="currentColor" stroke-width="1.5"></path>
-                                                </svg></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide th_fade_anim" data-delay=".7">
-                                    <div class="course-card">
-                                        <div class="box-img"><a href="blog-details.html"><img
-                                                    src="user_assets/img/course/course1-6.jpg"
-                                                    alt="Course Image"></a><span class="box-price">$38.00</span>
-                                        </div>
-                                        <h3 class="box-title"><a href="course-details.html">Data Visualization
-                                                Masterclass Crafting Stunning Visuals.</a></h3>
-                                        <div class="box-rating">
-                                            <div class="star-rating" role="img"
-                                                aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
-                                                    <strong class="rating">5.00</strong> out of 5</span></div><span
-                                                class="ms-2">4.9 (10k)</span>
-                                        </div>
-                                        <div class="box-content">
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-file-lines"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Lessons:</span>
-                                                    <h4 class="course-info-text">50+ Lessons</h4>
-                                                </div>
-                                            </div>
-                                            <div class="course-info">
-                                                <div class="box-icon"><i class="fal fa-users"></i></div>
-                                                <div class="course-info-details"><span
-                                                        class="course-info-title">Students:</span>
-                                                    <h4 class="course-info-text">160+ Students</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="btn-wrap">
-                                            <div class="meta-box">
-                                                <div class="meta-thumb"><img
-                                                        src="user_assets/img/course/course-thumb1-1.png"
-                                                        alt="avater">
-                                                </div>
-                                                <div class="media-body">
-                                                    <h5 class="box-name"><a href="team.html">Emily Chen</a></h5>
-                                                </div>
-                                            </div><a href="course-details.html"
-                                                class="th-btn btn-sm style-border2">VIEW DETAILS<svg class="ms-2"
-                                                    width="16" height="14" viewBox="0 0 16 14"
-                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                                        stroke="currentColor" stroke-width="1.5"></path>
-                                                </svg></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><button data-slider-prev="#CourseSlider2" class="slider-arrow style6 slider-prev"><svg
-                                width="17" height="15" viewBox="0 0 17 15" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8.4672 0C8.4672 0.783225 7.69103 1.95525 6.90638 2.93955C5.89598 4.20682 4.69013 5.3139 3.30645 6.15915C2.26988 6.79208 1.01115 7.39965 1.90735e-06 7.39965M8.4672 14.8176C8.4672 14.0344 7.69103 12.8623 6.90638 11.878C5.89598 10.6108 4.69013 9.5037 3.30645 8.65845C2.26988 8.02552 1.01115 7.41795 1.90735e-06 7.41795M1.90735e-06 7.4088H16.9344"
-                                    stroke="currentColor" />
-                            </svg></button> <button data-slider-next="#CourseSlider2"
-                            class="slider-arrow style6 slider-next"><svg width="17" height="15"
-                                viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
-                                    stroke="currentColor" />
-                            </svg></button>
-                    </div>
-                    <div class="btn-wrap mt-60 justify-content-center th_fade_anim"><a href="course.html"
-                            class="th-btn">VIEW ALL COURSES<svg class="ms-2" width="16" height="14"
-                                viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                    stroke="currentColor" stroke-width="1.5"></path>
-                            </svg></a></div>
-                </div>
-            </section>
-            <div class="space overflow-hidden" id="about-sec" data-bg-src="user_assets/img/bg/about-bg3-1.jpg">
-                <div class="about-bg-shape3-1 shape-mockup th_fade_anim" data-speed="0.9" data-left="6%"
-                    data-top="20%"><img src="user_assets/img/shape/about_shape3_1.png" alt="img"></div>
-                <div class="about-bg-shape3-2 shape-mockup th_fade_anim" data-speed="0.9" data-right="6%"
-                    data-bottom="20%"><img src="user_assets/img/shape/about_shape3_2.png" alt="img"></div>
-                <div class="container">
-                    <div class="row gy-50 align-items-center">
-                        <div class="col-xl-6 col-lg-10">
-                            <div class="img-box3">
-                                <div class="img1 th--hover-item th_fade_anim">
-                                    <div class="thumb th--hover-img"
-                                        data-displacement="user_assets/img/imghover/fluid.jpg" data-intensity="0.2"
-                                        data-speedin="1" data-speedout="1"><img class="img-cover"
-                                            src="user_assets/img/normal/about_3_1.jpg" alt="About"></div>
-                                </div>
-                                <div class="img2 th--hover-item th_fade_anim">
-                                    <div class="thumb th--hover-img"
-                                        data-displacement="user_assets/img/imghover/fluid.jpg" data-intensity="0.2"
-                                        data-speedin="1" data-speedout="1"><img class="img-cover"
-                                            src="user_assets/img/normal/about_3_2.jpg" alt="About"></div>
-                                </div>
-                                <div class="client-group-wrap jump"><span class="title"><span
-                                            class="text-theme">Happy</span> Student</span> <img
-                                        src="user_assets/img/normal/volunteer-group1.png" alt="img"></div>
+                    <div class="row gy-4 justify-content-center">
+                        <div class="col-xl-4 col-md-6 th_fade_anim" data-delay=".3">
+                            <div class="feature-card5">
+                                <div class="box-icon"><img src="assets/img/feature/feature-card-icon5-1.svg"
+                                        alt="icon"></div>
+                                <h3 class="box-title">Highly Experience</h3>
+                                <p class="box-text">An education trainer is a skilled professional dedicated to helping
+                                    learners develop new knowledge, strengthen abilities.</p>
                             </div>
                         </div>
-                        <div class="col-xl-6">
-                            <div class="about-wrap3">
+                        <div class="col-xl-4 col-md-6 th_fade_anim" data-delay=".5">
+                            <div class="feature-card5">
+                                <div class="box-icon"><img src="assets/img/feature/feature-card-icon5-2.svg"
+                                        alt="icon"></div>
+                                <h3 class="box-title">Innovative Approach</h3>
+                                <p class="box-text">An education trainer employs creative teaching strategies to engage
+                                    students and enhance their learning experience.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 th_fade_anim" data-delay=".7">
+                            <div class="feature-card5">
+                                <div class="box-icon"><img src="assets/img/feature/feature-card-icon5-3.svg"
+                                        alt="icon"></div>
+                                <h3 class="box-title">Proven Results</h3>
+                                <p class="box-text">An education trainer tracks progress and adapts methods to ensure
+                                    effective learning outcomes and student success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="space-bottom overflow-hidden">
+                <div class="container">
+                    <div class="counter-wrap8 th_fade_anim">
+                        <div class="counter-card style8 hover-item">
+                            <div class="media-body">
+                                <h2 class="box-number"><span class="counter-number">3.9</span>k<span
+                                        class="text-theme2 fw-normal">+</span></h2>
+                                <p class="box-text">Total Student Enrolled</p>
+                            </div>
+                        </div>
+                        <div class="counter-card style8 hover-item item-active">
+                            <div class="media-body">
+                                <h2 class="box-number"><span class="counter-number">1.2</span>k<span
+                                        class="text-theme2 fw-normal">+</span></h2>
+                                <p class="box-text">Active Courses</p>
+                            </div>
+                        </div>
+                        <div class="counter-card style8 hover-item">
+                            <div class="media-body">
+                                <h2 class="box-number"><span class="counter-number">850</span><span
+                                        class="text-theme2 fw-normal">+</span></h2>
+                                <p class="box-text">Qualified Instructors</p>
+                            </div>
+                        </div>
+                        <div class="counter-card style8 hover-item">
+                            <div class="media-body">
+                                <h2 class="box-number"><span class="counter-number">5.5</span>k<span
+                                        class="text-theme2 fw-normal">+</span></h2>
+                                <p class="box-text">Course Completions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overflow-hidden" id="about-sec">
+                <div class="about-wrap10 bg-smoke4 space overflow-hidden">
+                    <div class="about-bg-shape10-1 d-xl-block d-none shape-mockup" data-speed="0.8" data-top="15%"
+                        data-left="5%"><img src="assets/img/shape/about_shape3_1.png" alt="img"></div>
+                    <div class="about-bg-shape10-2 shape-mockup d-xl-block d-none" data-speed="0.9" data-bottom="15%"
+                        data-right="5%"><img src="assets/img/shape/about_shape3_2.png" alt="img"></div>
+                    <div class="about-bg-shape10-3 shape-mockup" data-bottom="0%" data-right="0%"><img
+                            src="assets/img/shape/about_shape10_1.png" alt="img"></div>
+                    <div class="container">
+                        <div class="row gy-50 gx-80 align-items-center">
+                            <div class="col-xl-6 col-lg-10">
+                                <div class="img-box10">
+                                    <div class="img1 th--hover-item th_fade_anim">
+                                        <div class="thumb th--hover-img"
+                                            data-displacement="assets/img/imghover/fluid.jpg" data-intensity="0.2"
+                                            data-speedin="1" data-speedout="1"><img class="img-cover"
+                                                src="assets/img/normal/about_10_1.jpg" alt="About"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
                                 <div class="title-area mb-35"><span class="sub-title text-theme th_fade_anim"><img
-                                            src="user_assets/img/icon/subtitle-icon1-4.svg" alt="img"> Get To
-                                        Know
+                                            src="assets/img/icon/subtitle-icon1-1.svg" alt="img"> Get To Know
                                         About Us</span>
-                                    <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">A Smarter
-                                            Way To Learn In The Digital World</span></h2>
-                                    <p class="th_fade_anim">The admission process is designed to help students find
-                                        the right academic program that matches their interests, goals, and talents. It
+                                    <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">A Smarter Way
+                                            To Learn In The Digital World</span></h2>
+                                    <p class="th_fade_anim">The admission process is designed to help students find the
+                                        right academic program that matches their interests, goals, and talents. It
                                         typically involves submitting an application form.</p>
                                 </div>
                                 <div class="row gy-40">
@@ -1222,559 +751,585 @@
                     </div>
                 </div>
             </div>
-            <div class="overflow-hidden bg-theme">
-                <div class="container">
-                    <div class="counter-wrap1 bg-theme th_fade_anim p-lg-0">
-                        <div class="counter-card">
-                            <div class="media-body">
-                                <h2 class="box-number text-white"><span class="counter-number">3.9</span>k+</h2>
-                                <p class="box-text">Total Student Enrolled</p>
+            <div class="pt-40 pb-40 bg-theme overflow-hidden overflow-hidden">
+                <div class="container-fluid p-0">
+                    <div class="swiper th-slider marquee-slider1"
+                        data-slider-options='{"breakpoints":{"0":{"slidesPerView":"auto"}},"autoplay":{"delay":0,"disableOnInteraction":false},"noSwiping":"true","speed":10000,"spaceBetween":30}'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="marquee-card"><a target="_blank" href="#"><span
+                                            class="text-white">LEARNING INNOVATION</span></a> <span
+                                        class="marquee-card-icon"><img class="spin"
+                                            src="assets/img/icon/marquee-icon1-1.svg" alt="img"></span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="marquee-card"><a target="_blank" href="#"><span
+                                            class="text-white">WORLDWIDE LEARNERS</span></a> <span
+                                        class="marquee-card-icon"><img class="spin"
+                                            src="assets/img/icon/marquee-icon1-1.svg" alt="img"></span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="marquee-card"><a target="_blank" href="#"><span
+                                            class="text-white">UNIQUE KNOWLEDGE</span></a> <span
+                                        class="marquee-card-icon"><img class="spin"
+                                            src="assets/img/icon/marquee-icon1-1.svg" alt="img"></span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="marquee-card"><a target="_blank" href="#"><span
+                                            class="text-white">DREAM TODAY</span></a> <span
+                                        class="marquee-card-icon"><img class="spin"
+                                            src="assets/img/icon/marquee-icon1-1.svg" alt="img"></span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="marquee-card"><a target="_blank" href="#"><span
+                                            class="text-white">LEARNING INNOVATION</span></a> <span
+                                        class="marquee-card-icon"><img class="spin"
+                                            src="assets/img/icon/marquee-icon1-1.svg" alt="img"></span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="marquee-card"><a target="_blank" href="#"><span
+                                            class="text-white">WORLDWIDE LEARNERS</span></a> <span
+                                        class="marquee-card-icon"><img class="spin"
+                                            src="assets/img/icon/marquee-icon1-1.svg" alt="img"></span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="marquee-card"><a target="_blank" href="#"><span
+                                            class="text-white">UNIQUE KNOWLEDGE</span></a> <span
+                                        class="marquee-card-icon"><img class="spin"
+                                            src="assets/img/icon/marquee-icon1-1.svg" alt="img"></span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="marquee-card"><a target="_blank" href="#"><span
+                                            class="text-white">DREAM TODAY</span></a> <span
+                                        class="marquee-card-icon"><img class="spin"
+                                            src="assets/img/icon/marquee-icon1-1.svg" alt="img"></span></div>
                             </div>
                         </div>
-                        <div class="divider"></div>
-                        <div class="counter-card">
-                            <div class="media-body">
-                                <h2 class="box-number text-white"><span class="counter-number">1.2</span>k+</h2>
-                                <p class="box-text">Active Courses</p>
-                            </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="counter-card">
-                            <div class="media-body">
-                                <h2 class="box-number text-white"><span class="counter-number">850</span>+</h2>
-                                <p class="box-text">Qualified Instructors</p>
-                            </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="counter-card">
-                            <div class="media-body">
-                                <h2 class="box-number text-white"><span class="counter-number">5.5</span>k+</h2>
-                                <p class="box-text">Course Completions</p>
-                            </div>
-                        </div>
-                        <div class="divider"></div>
                     </div>
                 </div>
             </div>
-            <section class="space overflow-hidden" id="team-sec">
+            <section class="overflow-hidden th-anim-trigger space overflow-hidden" id="course-sec">
+                <div class="course-bg-shape6-1 shape-mockup th_fade_anim" data-speed="1.08" data-right="3%"
+                    data-top="30%"><img src="assets/img/shape/about_shape1_1.png" alt="img"></div>
+                <div class="course-bg-shape6-2 shape-mockup" data-speed="0.9" data-left="6%" data-bottom="30%">
+                    <div class="thumb"><img src="assets/img/shape/category_shape3_1.png" alt="img"></div>
+                </div>
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-xxl-6 col-lg-7">
-                            <div class="title-area text-center"><span class="sub-title text-theme th_fade_anim"><img
-                                        src="user_assets/img/icon/subtitle-icon1-4.svg" alt="img">Our
-                                    Teachers</span>
-                                <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Meet Our
-                                        Professional Teachers</span></h2>
+                        <div class="col-lg-7">
+                            <div class="title-area text-center"><span class="sub-title th_fade_anim"><img
+                                        src="assets/img/icon/subtitle-icon1-1.svg" alt="img">OUR COURSES</span>
+                                <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Our Featured
+                                        Courses</span></h2>
                             </div>
                         </div>
                     </div>
-                    <div class="slider-area">
-                        <div class="swiper th-slider has-shadow team-slider1" id="teamSlider1"
-                            data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="team-card3 th_fade_anim th--hover-item">
-                                        <div class="box-img th--hover-img"
-                                            data-displacement="user_assets/img/imghover/fluid.jpg"
-                                            data-intensity="0.2" data-speedin="1" data-speedout="1"><img
-                                                src="user_assets/img/team/team_3_1.jpg" alt="Image">
-                                            <div class="th-social"><a target="_blank"
-                                                    href="https://facebook.com/"><i
-                                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                                <a target="_blank" href="https://linkedin.com/"><i
-                                                        class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                    href="https://instagram.com/"><i
-                                                        class="fab fa-instagram"></i></a>
-                                            </div>
+                    <div class="th-course-row columns-3">
+                        <div class="th-course-single th_fade_anim" data-delay=".3">
+                            <div class="course-card">
+                                <div class="box-img"><a href="blog-details.html"><img
+                                            src="assets/img/course/course1-1.jpg" alt="Course Image"></a><span
+                                        class="box-price">$18.00</span></div>
+                                <h3 class="box-title"><a href="course-details.html">Graphic Design Online Course
+                                        Material Projects.</a></h3>
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
+                                            style="width:100%">Rated <strong class="rating">5.00</strong> out of
+                                            5</span></div><span class="ms-2">4.9 (10k)</span>
+                                </div>
+                                <div class="box-content">
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-file-lines"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Lessons:</span>
+                                            <h4 class="course-info-text">50+ Lessons</h4>
                                         </div>
-                                        <div class="box-content">
-                                            <h3 class="box-title"><a href="team-details.html">Sanderling Jui</a>
-                                            </h3>
-                                            <p class="box-text">Instructor</p>
-                                            <div class="box-rating"><i class="fas fa-star"></i> <i
-                                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <span
-                                                    class="ms-2">(4.9)</span></div>
+                                    </div>
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-users"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Students:</span>
+                                            <h4 class="course-info-text">160+ Students</h4>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="team-card3 th_fade_anim th--hover-item">
-                                        <div class="box-img th--hover-img"
-                                            data-displacement="user_assets/img/imghover/fluid.jpg"
-                                            data-intensity="0.2" data-speedin="1" data-speedout="1"><img
-                                                src="user_assets/img/team/team_3_2.jpg" alt="Image">
-                                            <div class="th-social"><a target="_blank"
-                                                    href="https://facebook.com/"><i
-                                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                                <a target="_blank" href="https://linkedin.com/"><i
-                                                        class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                    href="https://instagram.com/"><i
-                                                        class="fab fa-instagram"></i></a>
-                                            </div>
+                                <div class="btn-wrap">
+                                    <div class="meta-box">
+                                        <div class="meta-thumb"><img src="assets/img/course/course-thumb1-1.png"
+                                                alt="avater"></div>
+                                        <div class="media-body">
+                                            <h5 class="box-name"><a href="team.html">Michel Shon</a></h5>
                                         </div>
-                                        <div class="box-content">
-                                            <h3 class="box-title"><a href="team-details.html">Michel Jemison</a>
-                                            </h3>
-                                            <p class="box-text">Instructor</p>
-                                            <div class="box-rating"><i class="fas fa-star"></i> <i
-                                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <span
-                                                    class="ms-2">(4.9)</span></div>
+                                    </div><a href="course-details.html" class="th-btn btn-sm style-border2">VIEW
+                                        DETAILS<svg class="ms-2" width="16" height="14" viewBox="0 0 16 14"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5"></path>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="th-course-single th_fade_anim" data-delay=".5">
+                            <div class="course-card">
+                                <div class="box-img"><a href="blog-details.html"><img
+                                            src="assets/img/course/course1-2.jpg" alt="Course Image"></a><span
+                                        class="box-price">$28.00</span></div>
+                                <h3 class="box-title"><a href="course-details.html">Web Development Bootcamp Hands-on
+                                        Projects.</a></h3>
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
+                                            style="width:100%">Rated <strong class="rating">5.00</strong> out of
+                                            5</span></div><span class="ms-2">4.9 (10k)</span>
+                                </div>
+                                <div class="box-content">
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-file-lines"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Lessons:</span>
+                                            <h4 class="course-info-text">50+ Lessons</h4>
+                                        </div>
+                                    </div>
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-users"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Students:</span>
+                                            <h4 class="course-info-text">160+ Students</h4>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="team-card3 th_fade_anim th--hover-item">
-                                        <div class="box-img th--hover-img"
-                                            data-displacement="user_assets/img/imghover/fluid.jpg"
-                                            data-intensity="0.2" data-speedin="1" data-speedout="1"><img
-                                                src="user_assets/img/team/team_3_3.jpg" alt="Image">
-                                            <div class="th-social"><a target="_blank"
-                                                    href="https://facebook.com/"><i
-                                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                                <a target="_blank" href="https://linkedin.com/"><i
-                                                        class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                    href="https://instagram.com/"><i
-                                                        class="fab fa-instagram"></i></a>
-                                            </div>
+                                <div class="btn-wrap">
+                                    <div class="meta-box">
+                                        <div class="meta-thumb"><img src="assets/img/course/course-thumb1-1.png"
+                                                alt="avater"></div>
+                                        <div class="media-body">
+                                            <h5 class="box-name"><a href="team.html">Sarah Lee</a></h5>
                                         </div>
-                                        <div class="box-content">
-                                            <h3 class="box-title"><a href="team-details.html">Jacob Jones</a></h3>
-                                            <p class="box-text">Instructor</p>
-                                            <div class="box-rating"><i class="fas fa-star"></i> <i
-                                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <span
-                                                    class="ms-2">(4.9)</span></div>
+                                    </div><a href="course-details.html" class="th-btn btn-sm style-border2">VIEW
+                                        DETAILS<svg class="ms-2" width="16" height="14"
+                                            viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5"></path>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="th-course-single th_fade_anim" data-delay=".7">
+                            <div class="course-card">
+                                <div class="box-img"><a href="blog-details.html"><img
+                                            src="assets/img/course/course1-3.jpg" alt="Course Image"></a><span
+                                        class="box-price">$38.00</span></div>
+                                <h3 class="box-title"><a href="course-details.html">Digital Marketing Masterclass
+                                        Real-World Campaigns.</a></h3>
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
+                                            style="width:100%">Rated <strong class="rating">5.00</strong> out of
+                                            5</span></div><span class="ms-2">4.9 (10k)</span>
+                                </div>
+                                <div class="box-content">
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-file-lines"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Lessons:</span>
+                                            <h4 class="course-info-text">50+ Lessons</h4>
+                                        </div>
+                                    </div>
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-users"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Students:</span>
+                                            <h4 class="course-info-text">160+ Students</h4>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="team-card3 th_fade_anim th--hover-item">
-                                        <div class="box-img th--hover-img"
-                                            data-displacement="user_assets/img/imghover/fluid.jpg"
-                                            data-intensity="0.2" data-speedin="1" data-speedout="1"><img
-                                                src="user_assets/img/team/team_3_4.jpg" alt="Image">
-                                            <div class="th-social"><a target="_blank"
-                                                    href="https://facebook.com/"><i
-                                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                                <a target="_blank" href="https://linkedin.com/"><i
-                                                        class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                    href="https://instagram.com/"><i
-                                                        class="fab fa-instagram"></i></a>
-                                            </div>
+                                <div class="btn-wrap">
+                                    <div class="meta-box">
+                                        <div class="meta-thumb"><img src="assets/img/course/course-thumb1-1.png"
+                                                alt="avater"></div>
+                                        <div class="media-body">
+                                            <h5 class="box-name"><a href="team.html">John Doe</a></h5>
                                         </div>
-                                        <div class="box-content">
-                                            <h3 class="box-title"><a href="team-details.html">Emely Adamp</a></h3>
-                                            <p class="box-text">Instructor</p>
-                                            <div class="box-rating"><i class="fas fa-star"></i> <i
-                                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <span
-                                                    class="ms-2">(4.9)</span></div>
+                                    </div><a href="course-details.html" class="th-btn btn-sm style-border2">VIEW
+                                        DETAILS<svg class="ms-2" width="16" height="14"
+                                            viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5"></path>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="th-course-single th_fade_anim" data-delay=".3">
+                            <div class="course-card">
+                                <div class="box-img"><a href="blog-details.html"><img
+                                            src="assets/img/course/course1-4.jpg" alt="Course Image"></a><span
+                                        class="box-price">$18.00</span></div>
+                                <h3 class="box-title"><a href="course-details.html">Data Science for Beginners
+                                        Real-World Applications.</a></h3>
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
+                                            style="width:100%">Rated <strong class="rating">5.00</strong> out of
+                                            5</span></div><span class="ms-2">4.9 (10k)</span>
+                                </div>
+                                <div class="box-content">
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-file-lines"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Lessons:</span>
+                                            <h4 class="course-info-text">50+ Lessons</h4>
                                         </div>
                                     </div>
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-users"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Students:</span>
+                                            <h4 class="course-info-text">160+ Students</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-wrap">
+                                    <div class="meta-box">
+                                        <div class="meta-thumb"><img src="assets/img/course/course-thumb1-1.png"
+                                                alt="avater"></div>
+                                        <div class="media-body">
+                                            <h5 class="box-name"><a href="team.html">Lisa Wong</a></h5>
+                                        </div>
+                                    </div><a href="course-details.html" class="th-btn btn-sm style-border2">VIEW
+                                        DETAILS<svg class="ms-2" width="16" height="14"
+                                            viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5"></path>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="th-course-single th_fade_anim" data-delay=".5">
+                            <div class="course-card">
+                                <div class="box-img"><a href="blog-details.html"><img
+                                            src="assets/img/course/course1-5.jpg" alt="Course Image"></a><span
+                                        class="box-price">$28.00</span></div>
+                                <h3 class="box-title"><a href="course-details.html">Machine Learning Techniques
+                                        In-Depth Exploration.</a></h3>
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
+                                            style="width:100%">Rated <strong class="rating">5.00</strong> out of
+                                            5</span></div><span class="ms-2">4.9 (10k)</span>
+                                </div>
+                                <div class="box-content">
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-file-lines"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Lessons:</span>
+                                            <h4 class="course-info-text">50+ Lessons</h4>
+                                        </div>
+                                    </div>
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-users"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Students:</span>
+                                            <h4 class="course-info-text">160+ Students</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-wrap">
+                                    <div class="meta-box">
+                                        <div class="meta-thumb"><img src="assets/img/course/course-thumb1-1.png"
+                                                alt="avater"></div>
+                                        <div class="media-body">
+                                            <h5 class="box-name"><a href="team.html">Mark Thompson</a></h5>
+                                        </div>
+                                    </div><a href="course-details.html" class="th-btn btn-sm style-border2">VIEW
+                                        DETAILS<svg class="ms-2" width="16" height="14"
+                                            viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5"></path>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="th-course-single th_fade_anim" data-delay=".7">
+                            <div class="course-card">
+                                <div class="box-img"><a href="blog-details.html"><img
+                                            src="assets/img/course/course1-6.jpg" alt="Course Image"></a><span
+                                        class="box-price">$38.00</span></div>
+                                <h3 class="box-title"><a href="course-details.html">Data Visualization Masterclass
+                                        Crafting Stunning Visuals.</a></h3>
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
+                                            style="width:100%">Rated <strong class="rating">5.00</strong> out of
+                                            5</span></div><span class="ms-2">4.9 (10k)</span>
+                                </div>
+                                <div class="box-content">
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-file-lines"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Lessons:</span>
+                                            <h4 class="course-info-text">50+ Lessons</h4>
+                                        </div>
+                                    </div>
+                                    <div class="course-info">
+                                        <div class="box-icon"><i class="fal fa-users"></i></div>
+                                        <div class="course-info-details"><span
+                                                class="course-info-title">Students:</span>
+                                            <h4 class="course-info-text">160+ Students</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-wrap">
+                                    <div class="meta-box">
+                                        <div class="meta-thumb"><img src="assets/img/course/course-thumb1-1.png"
+                                                alt="avater"></div>
+                                        <div class="media-body">
+                                            <h5 class="box-name"><a href="team.html">Emily Chen</a></h5>
+                                        </div>
+                                    </div><a href="course-details.html" class="th-btn btn-sm style-border2">VIEW
+                                        DETAILS<svg class="ms-2" width="16" height="14"
+                                            viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5"></path>
+                                        </svg></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="btn-wrap mt-60 justify-content-center th_fade_anim"><a href="course.html"
+                            class="th-btn">VIEW ALL COURSES<svg class="ms-2" width="16" height="14"
+                                viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                    stroke="currentColor" stroke-width="1.5"></path>
+                            </svg></a></div>
                 </div>
             </section>
-            <section class="space-bottom overflow-hidden th-anim-trigger">
-                <div class="process-bg-shape1-1 shape-mockup" data-right="6%" data-top="20%">
-                    <div class="thumb th-anim-spin"><img src="user_assets/img/shape/process_shape1_1.png"
-                            alt="img"></div>
-                </div>
-                <div class="process-bg-shape1-2 shape-mockup th_fade_anim" data-speed="0.9" data-left="6%"
-                    data-bottom="20%"><img src="user_assets/img/shape/category_shape1_1.png" alt="img"></div>
-                <div class="process-bg-line3-1 shape-mockup" data-left="0" data-right="0" data-top="80px"><img
-                        src="user_assets/img/process/process-line3-1.png" alt="png"></div>
-                <div class="container">
-                    <div class="title-area text-center"><span class="sub-title text-theme th_fade_anim"><img
-                                src="user_assets/img/icon/subtitle-icon1-4.svg" alt="img">Work Process</span>
-                        <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">How Digital Learning
-                                Works</span></h2>
+            <div class="cta-area-1 style2 overflow-hidden" data-bg-src="assets/img/bg/cta-bg1-1.jpg"
+                data-overlay="theme" data-opacity="10">
+                <div class="cta-wrap1 space-bottom">
+                    <div class="cta-img1-1 text-center" data-speed="0.9"><img
+                            src="assets/img/normal/cta-img1-1.png" alt="img"></div>
+                    <div class="container">
+                        <div class="row gy-4 justify-content-center">
+                            <div class="col-xxl-6 col-xl-7 col-lg-8">
+                                <div class="cta-card">
+                                    <div class="title-area mb-20">
+                                        <h2 class="sec-title text-white th_fade_anim"><span
+                                                class="th-text-perspective"><span class="text-theme2">50%</span>
+                                                Discount For The First 50 Students & Mentors</span></h2>
+                                    </div>
+                                    <p class="box-text th_fade_anim">Get unlimited access to <span
+                                            class="text-theme">6,000+</span> of Udemy’s top courses for your team.</p>
+                                    <div class="btn-wrap mt-50 justify-content-center th_fade_anim"><a
+                                            href="contact.html" class="th-btn style2">JOIN WITH US<svg
+                                                class="ms-2" width="16" height="14" viewBox="0 0 16 14"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                    stroke="currentColor" stroke-width="1.5"></path>
+                                            </svg></a><a href="contact.html" class="th-btn style8">BECOME AN
+                                            TEACHER<svg class="ms-2" width="16" height="14"
+                                                viewBox="0 0 16 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                    stroke="currentColor" stroke-width="1.5"></path>
+                                            </svg></a></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="process-card-wrap3">
-                        <div class="process-card3 th_fade_anim th--hover-item">
-                            <div class="process-card-bg" data-theme-color="#F0FBF8" data-border="#1CB098"></div>
-                            <div class="box-img th--hover-img"
-                                data-displacement="user_assets/img/imghover/fluid.jpg" data-intensity="0.2"
-                                data-speedin="1" data-speedout="1"><img
-                                    src="user_assets/img/process/process-card-3-1.png" alt="img"></div>
-                            <div class="box-content">
-                                <h3 class="box-title">Sign Up & Choose<br>Your Course</h3>
-                                <p class="box-text">Standards in leadership skills synergize optimal expertise rather
-                                    than.</p>
+                </div>
+            </div>
+            <section class="space overflow-hidden">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-5">
+                            <div class="title-area mb-50"><span class="sub-title text-theme th_fade_anim"><img
+                                        src="assets/img/icon/subtitle-icon1-1.svg" alt="img">Let’s begin</span>
+                                <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">How To Begin A
+                                        Professional Trainer</span></h2>
+                                <p class="th_fade_anim">An education trainer is a skilled professional dedicated to
+                                    helping learners develop new knowledge, strengthen abilities, and achieve personal
+                                    or professional goals. Through structured lessons.</p>
+                                <div class="btn-wrap mt-40 th_fade_anim"><a href="about.html" class="th-btn">GET
+                                        STARTED <svg class="ms-2" width="16" height="14"
+                                            viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5"></path>
+                                        </svg></a></div>
                             </div>
                         </div>
-                        <div class="process-card3 th_fade_anim th--hover-item">
-                            <div class="process-card-bg" data-theme-color="#EAF4FF" data-border="#1882FF"></div>
-                            <div class="box-img th--hover-img"
-                                data-displacement="user_assets/img/imghover/fluid.jpg" data-intensity="0.2"
-                                data-speedin="1" data-speedout="1"><img
-                                    src="user_assets/img/process/process-card-3-2.png" alt="img"></div>
-                            <div class="box-content">
-                                <h3 class="box-title">Learn Anytime<br>Anywhere</h3>
-                                <p class="box-text">Standards in leadership skills synergize optimal expertise rather
-                                    than.</p>
-                            </div>
-                        </div>
-                        <div class="process-card3 th_fade_anim th--hover-item">
-                            <div class="process-card-bg" data-theme-color="#F5F0FF" data-border="#743EF9"></div>
-                            <div class="box-img th--hover-img"
-                                data-displacement="user_assets/img/imghover/fluid.jpg" data-intensity="0.2"
-                                data-speedin="1" data-speedout="1"><img
-                                    src="user_assets/img/process/process-card-3-3.png" alt="img"></div>
-                            <div class="box-content">
-                                <h3 class="box-title">Complete Assignments<br>& Projects</h3>
-                                <p class="box-text">Standards in leadership skills synergize optimal expertise rather
-                                    than.</p>
-                            </div>
-                        </div>
-                        <div class="process-card3 th_fade_anim th--hover-item">
-                            <div class="process-card-bg" data-theme-color="#F1EEE3" data-border="#FF5C2A"></div>
-                            <div class="box-img th--hover-img"
-                                data-displacement="user_assets/img/imghover/fluid.jpg" data-intensity="0.2"
-                                data-speedin="1" data-speedout="1"><img
-                                    src="user_assets/img/process/process-card-3-4.png" alt="img"></div>
-                            <div class="box-content">
-                                <h3 class="box-title">Get Certified<br>And Grow</h3>
-                                <p class="box-text">Standards in leadership skills synergize optimal expertise rather
-                                    than.</p>
+                        <div class="col-xl-6">
+                            <div class="why-wrap9">
+                                <ul class="work-process-list">
+                                    <li class="work-process-single-list th_fade_anim">
+                                        <div class="single-work-process">
+                                            <div class="box-number">1</div>
+                                            <div class="box-content">
+                                                <h3 class="box-title">Plan Your Curriculum</h3>
+                                                <p class="box-text">In today’s digital world, education trainers often
+                                                    provide online sessions, offering flexible, accessible training that
+                                                    fits into busy schedules. From academic subjects and skill
+                                                    development to career-focused training and personal growth,
+                                                    education trainers help learners.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="work-process-single-list th_fade_anim">
+                                        <div class="single-work-process">
+                                            <div class="box-number">2</div>
+                                            <div class="box-content">
+                                                <h3 class="box-title">Record Your Video</h3>
+                                                <p class="box-text">To create impactful learning experiences, it is
+                                                    essential to involve participants actively. Utilize tools like
+                                                    interactive discussions, quizzes, and group activities to foster
+                                                    engagement and enhance retention of information.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="work-process-single-list th_fade_anim">
+                                        <div class="single-work-process">
+                                            <div class="box-number">3</div>
+                                            <div class="box-content">
+                                                <h3 class="box-title">Launch Your Course</h3>
+                                                <p class="box-text">Regularly assess the effectiveness of your
+                                                    training methods through feedback and performance metrics. This will
+                                                    allow you to adapt your curriculum, ensuring it meets the evolving
+                                                    needs of your learners and remains relevant.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="overflow-hidden">
-                <div class="cta-wrap4 space" data-bg-src="user_assets/img/bg/cta-card-bg3-1.jpg"
-                    data-overlay="theme">
-                    <div class="cta-bg-shape4-1 shape-mockup" data-top="0" data-left="0"><img
-                            src="user_assets/img/shape/cta_shape4_1.png" alt="img"></div>
+                <div class="price-wrap3 space bg-smoke4">
+                    <div class="price-bg-shape1-2 shape-mockup d-xxl-block d-none th_fade_anim" data-speed="0.9"
+                        data-right="5%" data-top="10%"><img src="assets/img/shape/hero_shape2_1.png"
+                            alt="img"></div>
                     <div class="container">
-                        <div class="row">
-                            <div class="col-xxl-7 col-xl-6">
-                                <div class="cta-content-wrap">
-                                    <div class="title-area text-xl-start text-center mb-0"><span
-                                            class="sub-title text-theme th_fade_anim"><img
-                                                src="user_assets/img/icon/subtitle-icon1-4.svg" alt="img">Join
-                                            Our
-                                            New Sessions</span>
-                                        <h2 class="sec-title text-white th-text-perspective">Call To Enroll Your
-                                            Digital Learning Course</h2>
-                                        <div class="btn-wrap th_fade_anim mt-40"><a href="tel:11234567890"
-                                                class="cta-link mb-0">(+1) 123 456 7890</a></div>
-                                        <div
-                                            class="btn-wrap mt-40 th_fade_anim justify-content-xl-start justify-content-center">
-                                            <a href="contact.html" class="th-btn style2">JOIN WITH US <svg
-                                                    class="ms-2" width="16" height="14"
-                                                    viewBox="0 0 16 14" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                                        stroke="currentColor" stroke-width="1.5"></path>
-                                                </svg></a>
-                                        </div>
-                                    </div>
+                        <div class="row justify-content-center">
+                            <div class="col-xl-7 col-lg-8">
+                                <div class="title-area text-center mb-30"><span
+                                        class="sub-title text-theme th_fade_anim"><img
+                                            src="assets/img/icon/subtitle-icon1-1.svg" alt="img">Mentorship
+                                        Programs & Plans</span>
+                                    <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Our
+                                            Educational Pricing and Mentorship Plans</span></h2>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cta-img4-1 th_fade_anim">
-                        <div class="cta-bg-shape4-1"></div>
-                        <div class="cta-bg-shape4-2"></div><img src="user_assets/img/normal/cta-thumb4-1.png"
-                            alt="img">
-                    </div>
-                </div>
-            </section>
-            <section class="space overflow-hidden">
-                <div class="container">
-                    <div class="row gy-40 align-items-center">
-                        <div class="col-xl-6">
-                            <div class="why-img-box3">
-                                <div class="img1 th--hover-item th_fade_anim">
-                                    <div class="thumb th--hover-img"
-                                        data-displacement="user_assets/img/imghover/fluid.jpg" data-intensity="0.2"
-                                        data-speedin="1" data-speedout="1"><img class="img-cover"
-                                            src="user_assets/img/normal/why-thumb3-1.jpg" alt="About"></div>
-                                </div>
-                                <div class="about-tag">
-                                    <div class="about-experience-tag"><span class="circle-title-anime">Years Of
-                                            Experience ** Years Of Experience **</span></div>
-                                    <div class="year-counter">
-                                        <div class="box-title"><span class="counter-number">16</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="why-wrap3">
-                                <div class="title-area mb-50"><span class="sub-title text-theme th_fade_anim"><img
-                                            src="user_assets/img/icon/subtitle-icon1-4.svg" alt="img">Why
-                                        Choose
-                                        Us</span>
-                                    <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Your
-                                            Classroom, Anywhere In The World</span></h2>
-                                    <p class="th_fade_anim">Digital education is transforming the way people learn by
-                                        integrating technology, creativity, and innovation into the educational
-                                        experience. It allows learners to access quality education anytime.</p>
-                                </div>
-                                <div class="checklist th_fade_anim">
-                                    <ul>
-                                        <li>Learn At Your Own Pace</li>
-                                        <li>Certified Industry Experts</li>
-                                        <li>Affordable Learning For Everyone</li>
-                                        <li>Lifetime Access</li>
-                                        <li>Practical Skill Development</li>
+                                <div class="pricing-tab-wrap text-center th_fade_anim">
+                                    <ul class="nav nav-tabs pricing-tabs" role="tablist">
+                                        <li class="nav-item" role="presentation"><button class="nav-link active"
+                                                id="price-tab1" data-bs-toggle="tab"
+                                                data-bs-target="#price-tab1-pane" type="button" role="tab"
+                                                aria-controls="price-tab1-pane"
+                                                aria-selected="true">Monthly</button></li>
+                                        <li class="nav-item" role="presentation"><button class="nav-link"
+                                                id="price-tab2" data-bs-toggle="tab"
+                                                data-bs-target="#price-tab2-pane" type="button" role="tab"
+                                                aria-controls="price-tab2-pane"
+                                                aria-selected="false">Yearly</button></li>
                                     </ul>
+                                    <div class="discount-tag"><svg width="62" height="25"
+                                            viewBox="0 0 62 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 13.6885L2.07864 19.0748L5.70402 14.5815L0 13.6885ZM61.5 0.188477L61.037 -0.000171885C58.4643 6.31454 50.4557 14.9684 39.9021 19.7224C29.3824 24.4612 16.3955 25.3 3.79948 16.1124L3.50483 16.5163L3.21018 16.9203C16.153 26.3609 29.5344 25.4895 40.3129 20.6342C51.0575 15.794 59.2771 6.96981 61.963 0.377125L61.5 0.188477Z"
+                                                fill="currentColor" />
+                                        </svg> SAVE UP TO 30%</div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section class="space-bottom overflow-hidden">
-                <div class="price-bg-shape1-1 shape-mockup d-xxl-block d-none th_fade_anim" data-speed="0.9"
-                    data-right="4%" data-top="15%"><img src="user_assets/img/shape/price_shape1_1.png"
-                        alt="img"></div>
-                <div class="price-bg-shape1-2 shape-mockup d-xxl-block d-none th_fade_anim" data-speed="0.9"
-                    data-left="5%" data-top="10%"><img src="user_assets/img/shape/hero_shape2_1.png"
-                        alt="img">
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-7 col-lg-8">
-                            <div class="title-area text-center mb-30"><span
-                                    class="sub-title text-theme th_fade_anim"><img
-                                        src="user_assets/img/icon/subtitle-icon1-4.svg" alt="img">Pricing
-                                    Plans</span>
-                                <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Our Educational
-                                        Pricing And Membership Plans</span></h2>
-                            </div>
-                            <div class="pricing-tab-wrap text-center th_fade_anim">
-                                <ul class="nav nav-tabs pricing-tabs" role="tablist">
-                                    <li class="nav-item" role="presentation"><button class="nav-link active"
-                                            id="price-tab1" data-bs-toggle="tab" data-bs-target="#price-tab1-pane"
-                                            type="button" role="tab" aria-controls="price-tab1-pane"
-                                            aria-selected="true">Monthly</button></li>
-                                    <li class="nav-item" role="presentation"><button class="nav-link"
-                                            id="price-tab2" data-bs-toggle="tab" data-bs-target="#price-tab2-pane"
-                                            type="button" role="tab" aria-controls="price-tab2-pane"
-                                            aria-selected="false">Yearly</button></li>
-                                </ul>
-                                <div class="discount-tag"><svg width="62" height="25" viewBox="0 0 62 25"
-                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0 13.6885L2.07864 19.0748L5.70402 14.5815L0 13.6885ZM61.5 0.188477L61.037 -0.000171885C58.4643 6.31454 50.4557 14.9684 39.9021 19.7224C29.3824 24.4612 16.3955 25.3 3.79948 16.1124L3.50483 16.5163L3.21018 16.9203C16.153 26.3609 29.5344 25.4895 40.3129 20.6342C51.0575 15.794 59.2771 6.96981 61.963 0.377125L61.5 0.188477Z"
-                                            fill="currentColor" />
-                                    </svg> SAVE UP TO 30%</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pricing-tab-content tab-content">
-                        <div class="tab-pane fade show active" id="price-tab1-pane" role="tabpanel"
-                            aria-labelledby="price-tab1" tabindex="0">
-                            <div class="row gy-30 justify-content-center">
-                                <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".2">
-                                    <div class="price-card">
-                                        <div class="price-card-top">
-                                            <div class="price-card-title-wrap"><span class="price-tag"></span>
-                                                <h3 class="box-title">Starter</h3>
-                                                <h4 class="box-price">$0<span class="duration">/month</span></h4>
-                                            </div>
-                                            <p class="box-text">Perfect For Small Teams</p>
+                        <div class="pricing-tab-content tab-content">
+                            <div class="tab-pane fade show active" id="price-tab1-pane" role="tabpanel"
+                                aria-labelledby="price-tab1" tabindex="0">
+                                <div class="row gy-30 justify-content-center align-items-end">
+                                    <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".2">
+                                        <div class="price-card2">
+                                            <h3 class="box-title">Starter</h3>
+                                            <p class="box-text">Starter pack to help you to get started</p>
+                                            <h4 class="box-price">Free</h4>
                                             <div class="btn-wrap"><a href="pricing.html"
-                                                    class="th-btn style4 w-100">GET STARTED</a></div>
-                                        </div>
-                                        <div class="price-card_content">
-                                            <div class="checklist">
-                                                <ul>
-                                                    <li>Individual Course</li>
-                                                    <li>Course Learning Checks</li>
-                                                    <li>Offline Learning</li>
-                                                    <li>Course Discussions</li>
-                                                    <li>One to One Guidance</li>
-                                                </ul>
-                                            </div>
+                                                    class="th-btn style-border4">GET STARTED</a></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".4">
-                                    <div class="price-card">
-                                        <div class="price-card-top">
-                                            <div class="price-card-title-wrap"><span
-                                                    class="price-tag">Recommended</span>
-                                                <h3 class="box-title">Pro</h3>
-                                                <h4 class="box-price">$36<span class="duration">/month</span></h4>
-                                            </div>
-                                            <p class="box-text">Great for Growing Teams</p>
+                                    <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".4">
+                                        <div class="price-card2"><span class="price-tag">Recommended</span>
+                                            <h3 class="box-title">Pro</h3>
+                                            <p class="box-text">More power for small teams create project plans</p>
+                                            <h4 class="box-price"><span class="currency">$</span>20<span
+                                                    class="duration">/ Month</span></h4>
                                             <div class="btn-wrap"><a href="pricing.html"
-                                                    class="th-btn style4 w-100">GET STARTED</a></div>
-                                        </div>
-                                        <div class="price-card_content">
-                                            <div class="checklist">
-                                                <ul>
-                                                    <li>Standard Course</li>
-                                                    <li>Regular Learning Checks</li>
-                                                    <li>Limited Access Learning</li>
-                                                    <li>Group Discussions</li>
-                                                    <li>Email Support</li>
-                                                </ul>
-                                            </div>
+                                                    class="th-btn style-border4">GET STARTED</a></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".6">
-                                    <div class="price-card">
-                                        <div class="price-card-top">
-                                            <div class="price-card-title-wrap"><span class="price-tag"></span>
-                                                <h3 class="box-title">Professional</h3>
-                                                <h4 class="box-price">$25<span class="duration">/month</span></h4>
-                                            </div>
-                                            <p class="box-text">Ideal For Growing Teams</p>
+                                    <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".6">
+                                        <div class="price-card2">
+                                            <h3 class="box-title">Business +</h3>
+                                            <p class="box-text">For companies that need to manage work.</p>
+                                            <h4 class="box-price"><span class="currency">$</span>100<span
+                                                    class="duration">/ Month</span></h4>
                                             <div class="btn-wrap"><a href="pricing.html"
-                                                    class="th-btn style4 w-100">JOIN NOW</a></div>
-                                        </div>
-                                        <div class="price-card_content">
-                                            <div class="checklist">
-                                                <ul>
-                                                    <li>Group Course</li>
-                                                    <li>Peer Learning Checks</li>
-                                                    <li>Hybrid Learning</li>
-                                                    <li>Group Discussions</li>
-                                                    <li>Expert Mentorship</li>
-                                                </ul>
-                                            </div>
+                                                    class="th-btn style-border4">JOIN NOW</a></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".8">
-                                    <div class="price-card">
-                                        <div class="price-card-top">
-                                            <div class="price-card-title-wrap"><span class="price-tag"></span>
-                                                <h3 class="box-title">Enterprise</h3>
-                                                <h4 class="box-price">$50<span class="duration">/month</span></h4>
-                                            </div>
-                                            <p class="box-text">Best For Large Organizations</p>
+                                    <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".8">
+                                        <div class="price-card2">
+                                            <h3 class="box-title">Enterprise</h3>
+                                            <p class="box-text">For enterprise that need to additional security,
+                                                control.</p>
+                                            <h4 class="box-price">Custom</h4>
                                             <div class="btn-wrap"><a href="pricing.html"
-                                                    class="th-btn style4 w-100">SIGN UP TODAY</a></div>
-                                        </div>
-                                        <div class="price-card_content">
-                                            <div class="checklist">
-                                                <ul>
-                                                    <li>Custom Course</li>
-                                                    <li>Advanced Learning Checks</li>
-                                                    <li>Full Access Learning</li>
-                                                    <li>Team Discussions</li>
-                                                    <li>Dedicated Support</li>
-                                                </ul>
-                                            </div>
+                                                    class="th-btn style-border4">SIGN UP TODAY</a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="price-tab2-pane" role="tabpanel"
-                            aria-labelledby="price-tab2" tabindex="0">
-                            <div class="row gy-30 justify-content-center">
-                                <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".2">
-                                    <div class="price-card">
-                                        <div class="price-card-top">
-                                            <div class="price-card-title-wrap"><span class="price-tag"></span>
-                                                <h4 class="box-title">Starter</h4>
-                                                <h3 class="box-price">$50<span class="duration">/year</span></h3>
-                                            </div>
-                                            <p class="box-text">Perfect For Small Teams</p>
+                            <div class="tab-pane fade" id="price-tab2-pane" role="tabpanel"
+                                aria-labelledby="price-tab2" tabindex="0">
+                                <div class="row gy-30 justify-content-center align-items-end">
+                                    <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".2">
+                                        <div class="price-card2">
+                                            <h3 class="box-title">Starter</h3>
+                                            <p class="box-text">Starter pack to help you to get started</p>
+                                            <h4 class="box-price">Free</h4>
                                             <div class="btn-wrap"><a href="pricing.html"
-                                                    class="th-btn style4 w-100">GET STARTED</a></div>
-                                        </div>
-                                        <div class="price-card_content">
-                                            <div class="checklist">
-                                                <ul>
-                                                    <li>Individual Course</li>
-                                                    <li>Course Learning Checks</li>
-                                                    <li>Offline Learning</li>
-                                                    <li>Course Discussions</li>
-                                                    <li>One to One Guidance</li>
-                                                </ul>
-                                            </div>
+                                                    class="th-btn style-border4">GET STARTED</a></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".4">
-                                    <div class="price-card">
-                                        <div class="price-card-top">
-                                            <div class="price-card-title-wrap"><span
-                                                    class="price-tag">Recommended</span>
-                                                <h4 class="box-title">Pro</h4>
-                                                <h3 class="box-price">$86<span class="duration">/year</span></h3>
-                                            </div>
-                                            <p class="box-text">Great for Growing Teams</p>
+                                    <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".4">
+                                        <div class="price-card2"><span class="price-tag">Recommended</span>
+                                            <h3 class="box-title">Pro</h3>
+                                            <p class="box-text">More power for small teams create project plans</p>
+                                            <h4 class="box-price"><span class="currency">$</span>120<span
+                                                    class="duration">/ Year</span></h4>
                                             <div class="btn-wrap"><a href="pricing.html"
-                                                    class="th-btn style4 w-100">GET STARTED</a></div>
-                                        </div>
-                                        <div class="price-card_content">
-                                            <div class="checklist">
-                                                <ul>
-                                                    <li>Standard Course</li>
-                                                    <li>Regular Learning Checks</li>
-                                                    <li>Limited Access Learning</li>
-                                                    <li>Group Discussions</li>
-                                                    <li>Email Support</li>
-                                                </ul>
-                                            </div>
+                                                    class="th-btn style-border4">GET STARTED</a></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".6">
-                                    <div class="price-card">
-                                        <div class="price-card-top">
-                                            <div class="price-card-title-wrap"><span class="price-tag"></span>
-                                                <h4 class="box-title">Professional</h4>
-                                                <h3 class="box-price">$75<span class="duration">/year</span></h3>
-                                            </div>
-                                            <p class="box-text">Ideal For Growing Teams</p>
+                                    <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".6">
+                                        <div class="price-card2">
+                                            <h3 class="box-title">Business +</h3>
+                                            <p class="box-text">For companies that need to manage work.</p>
+                                            <h4 class="box-price"><span class="currency">$</span>400<span
+                                                    class="duration">/ Year</span></h4>
                                             <div class="btn-wrap"><a href="pricing.html"
-                                                    class="th-btn style4 w-100">JOIN NOW</a></div>
-                                        </div>
-                                        <div class="price-card_content">
-                                            <div class="checklist">
-                                                <ul>
-                                                    <li>Group Course</li>
-                                                    <li>Peer Learning Checks</li>
-                                                    <li>Hybrid Learning</li>
-                                                    <li>Group Discussions</li>
-                                                    <li>Expert Mentorship</li>
-                                                </ul>
-                                            </div>
+                                                    class="th-btn style-border4">JOIN NOW</a></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".8">
-                                    <div class="price-card">
-                                        <div class="price-card-top">
-                                            <div class="price-card-title-wrap"><span class="price-tag"></span>
-                                                <h4 class="box-title">Enterprise</h4>
-                                                <h3 class="box-price">$100<span class="duration">/year</span></h3>
-                                            </div>
-                                            <p class="box-text">Best For Large Organizations</p>
+                                    <div class="col-xl-3 col-md-6 th_fade_anim" data-delay=".8">
+                                        <div class="price-card2">
+                                            <h3 class="box-title">Enterprise</h3>
+                                            <p class="box-text">For enterprise that need to additional security,
+                                                control.</p>
+                                            <h4 class="box-price">Custom</h4>
                                             <div class="btn-wrap"><a href="pricing.html"
-                                                    class="th-btn style4 w-100">SIGN UP TODAY</a></div>
-                                        </div>
-                                        <div class="price-card_content">
-                                            <div class="checklist">
-                                                <ul>
-                                                    <li>Custom Course</li>
-                                                    <li>Advanced Learning Checks</li>
-                                                    <li>Full Access Learning</li>
-                                                    <li>Team Discussions</li>
-                                                    <li>Dedicated Support</li>
-                                                </ul>
-                                            </div>
+                                                    class="th-btn style-border4">SIGN UP TODAY</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1783,302 +1338,166 @@
                     </div>
                 </div>
             </section>
-            <section class="position-relative space overflow-hidden">
-                <div class="testi-bg3-1 shape-mockup"><img src="user_assets/img/bg/testi-bg3-1.png"
-                        alt="img">
-                </div>
-                <div class="testi-bg-shape3-1 shape-mockup" data-top="5%" data-right="2%" data-speed=".9"><img
-                        src="user_assets/img/shape/testi_shape3_1.png" alt="img"></div>
+            <section class="testi-area-1 space-top overflow-hidden" id="testi-sec">
+                <div class="testi-bg-shape1-1 shape-mockup th_fade_anim" data-speed="0.9" data-left="6%"
+                    data-top="7%"><img src="assets/img/shape/category_shape1_1.png" alt="img"></div>
                 <div class="container">
-                    <div class="row gy-60">
-                        <div class="col-xl-5">
-                            <div class="testi-img-box3">
-                                <div class="img1 th--hover-item th_fade_anim">
-                                    <div class="thumb th--hover-img"
-                                        data-displacement="user_assets/img/imghover/fluid.jpg" data-intensity="0.2"
-                                        data-speedin="1" data-speedout="1"><img
-                                            src="user_assets/img/testimonial/testi_thumb3_1.jpg" alt="img">
+                    <div class="row gy-40 gx-80">
+                        <div class="col-xl-6">
+                            <div class="title-area"><span class="sub-title text-theme th_fade_anim"><img
+                                        src="assets/img/icon/subtitle-icon1-1.svg"
+                                        alt="img">Testimonials</span>
+                                <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">What Trainer
+                                        Says</span></h2>
+                            </div>
+                            <div class="slider-area testi-slider7 th_fade_anim">
+                                <div class="swiper th-slider" id="testiSlide7"
+                                    data-slider-options='{"effect":"fade", "autoHeight": "true"}'>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="testi-card">
+                                                <div class="testi-meta-wrap">
+                                                    <div class="quote-icon"><img src="assets/img/icon/quote.svg"
+                                                            alt="img"></div>
+                                                    <div class="testi-review-wrap">
+                                                        <h3 class="rating-title"><strong>4.9</strong>/5.0</h3><span
+                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
+                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i> <i
+                                                                class="fas fa-star"></i></span>
+                                                    </div>
+                                                </div>
+                                                <p class="box-text">“University education is the foundation for
+                                                    shaping skilled, knowledgeable, and responsible individuals who
+                                                    contribute meaningfully to society. It provides students with a
+                                                    deeper understanding of their chosen fields through a blend of
+                                                    theoretical learning, practical experience,”</p>
+                                                <div class="testi-card-profile">
+                                                    <div class="box-thumb"><img
+                                                            src="assets/img/testimonial/testi_1_1.png"
+                                                            alt="img"></div>
+                                                    <div class="media-left">
+                                                        <h3 class="testi-card_name">Alex James</h3><span
+                                                            class="testi-card_desig">University Student</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="testi-card">
+                                                <div class="testi-meta-wrap">
+                                                    <div class="quote-icon"><img src="assets/img/icon/quote.svg"
+                                                            alt="img"></div>
+                                                    <div class="testi-review-wrap">
+                                                        <h3 class="rating-title"><strong>4.9</strong>/5.0</h3><span
+                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
+                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i> <i
+                                                                class="fas fa-star"></i></span>
+                                                    </div>
+                                                </div>
+                                                <p class="box-text">“Online mentorship is a personalized, one-to-one
+                                                    guidance system where learners connect with industry experts,
+                                                    coaches, or professionals through digital platforms. It helps
+                                                    individuals gain skills, solve challenges, and grow faster by
+                                                    receiving tailored advice.”</p>
+                                                <div class="testi-card-profile">
+                                                    <div class="box-thumb"><img
+                                                            src="assets/img/testimonial/testi_1_2.png"
+                                                            alt="img"></div>
+                                                    <div class="media-left">
+                                                        <h3 class="testi-card_name">Maria Gonzalez</h3><span
+                                                            class="testi-card_desig">University Student</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-7">
-                            <div class="testi-wrap3">
-                                <div class="title-area mb-30"><span class="sub-title text-theme th_fade_anim"><img
-                                            src="user_assets/img/icon/subtitle-icon1-4.svg"
-                                            alt="img">Testimonials</span>
-                                    <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">What Our
-                                            Students Say’s About us!</span></h2>
-                                </div>
-                                <div class="icon-box th_fade_anim"><button data-slider-prev="#testiSlide3"
-                                        class="slider-arrow default style7 slider-prev"><svg width="17"
+                                <div class="icon-box th_fade_anim"><button data-slider-prev="#testiSlide7"
+                                        class="slider-arrow default style3 slider-prev"><svg width="17"
                                             height="15" viewBox="0 0 17 15" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M8.4672 0C8.4672 0.783225 7.69103 1.95525 6.90638 2.93955C5.89598 4.20682 4.69013 5.3139 3.30645 6.15915C2.26988 6.79208 1.01115 7.39965 1.90735e-06 7.39965M8.4672 14.8176C8.4672 14.0344 7.69103 12.8623 6.90638 11.878C5.89598 10.6108 4.69013 9.5037 3.30645 8.65845C2.26988 8.02552 1.01115 7.41795 1.90735e-06 7.41795M1.90735e-06 7.4088H16.9344"
                                                 stroke="currentColor" />
-                                        </svg></button> <button data-slider-next="#testiSlide3"
-                                        class="slider-arrow default style7 slider-next"><svg width="17"
+                                        </svg></button> <button data-slider-next="#testiSlide7"
+                                        class="slider-arrow default style3 slider-next"><svg width="17"
                                             height="15" viewBox="0 0 17 15" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
                                                 stroke="currentColor" />
                                         </svg></button></div>
-                                <div class="testi-slider3 slider-area">
-                                    <div class="swiper th-slider has-shadow" id="testiSlide3"
-                                        data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1600":{"slidesPerView":"3"}},"autoHeight": "true"}'>
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Start Learning Today</h3>
-                                                    <p class="box-text">Online education learning has revolutionized
-                                                        the way knowledge is shared and accessed, offering flexibility,
-                                                        convenience, and inclusivity for learners around the world.</p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.8 (8k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_1.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">Alex James</h4><span
-                                                                class="testi-card_desig">Online Student</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Unlock Your Potential</h3>
-                                                    <p class="box-text">Personalized learning paths enable students to
-                                                        tailor their education to meet individual needs and goals,
-                                                        fostering a more engaging learning experience.</p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.6 (5k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_2.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">Maria Gonzalez</h4><span
-                                                                class="testi-card_desig">Part-time Learner</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Join the Future of Education</h3>
-                                                    <p class="box-text">Innovative technologies such as AI and VR are
-                                                        enhancing online education, making it more interactive and
-                                                        effective, preparing students for the challenges of tomorrow.
-                                                    </p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.9 (10k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_3.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">David Lee</h4><span
-                                                                class="testi-card_desig">Full-time Professional</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Expand Your Horizons</h3>
-                                                    <p class="box-text">With diverse course offerings and expert
-                                                        instructors, online education empowers learners to explore new
-                                                        fields and develop essential skills for the modern workforce.
-                                                    </p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.8 (8k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_4.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">Emily Chen</h4><span
-                                                                class="testi-card_desig">Career Changer</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Transform Your Career</h3>
-                                                    <p class="box-text">Online certifications and degrees provide
-                                                        opportunities for advancement and can significantly enhance job
-                                                        prospects in competitive markets.</p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.6 (5k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_5.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">Michael Brown</h4><span
-                                                                class="testi-card_desig">Aspiring Professional</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Join the Future of Education</h3>
-                                                    <p class="box-text">Innovative technologies such as AI and VR are
-                                                        enhancing online education, making it more interactive and
-                                                        effective, preparing students for the challenges of tomorrow.
-                                                    </p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.9 (10k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_6.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">David Lee</h4><span
-                                                                class="testi-card_desig">Full-time Professional</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Pursue Your Passion</h3>
-                                                    <p class="box-text">Online education learning has revolutionized
-                                                        the way knowledge is shared and accessed, offering flexibility,
-                                                        convenience, and inclusivity for learners around the world.</p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.8 (8k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_7.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">Sophia Martinez</h4><span
-                                                                class="testi-card_desig">Enthusiastic Learner</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Achieve Your Goals</h3>
-                                                    <p class="box-text">With diverse course offerings and expert
-                                                        instructors, online education empowers learners to explore new
-                                                        fields and develop essential skills for the modern workforce.
-                                                    </p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.6 (5k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_8.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">James Smith</h4><span
-                                                                class="testi-card_desig">Goal-Oriented Student</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide th_fade_anim">
-                                                <div class="testi-card2">
-                                                    <div class="box-icon"><img src="user_assets/img/icon/quote2.svg"
-                                                            alt="icon"></div>
-                                                    <h3 class="box-title">Join the Future of Education</h3>
-                                                    <p class="box-text">Innovative technologies such as AI and VR are
-                                                        enhancing online education, making it more interactive and
-                                                        effective, preparing students for the challenges of tomorrow.
-                                                    </p>
-                                                    <div class="testi-review-wrap"><span
-                                                            class="testi-card_review"><i class="fas fa-star"></i> <i
-                                                                class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                                        </span><span class="rating-title">4.9 (10k)</span></div>
-                                                    <div class="testi-card-profile">
-                                                        <div class="box-thumb"><img
-                                                                src="user_assets/img/testimonial/testi_2_9.png"
-                                                                alt="img"></div>
-                                                        <div class="media-left">
-                                                            <h4 class="testi-card_name">David Lee</h4><span
-                                                                class="testi-card_desig">Full-time Professional</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="contact-form contact-form-4 th_fade_anim" id="contact-sec">
+                                <form action="https://html.themehour.net/escul/demo/mail.php" method="POST"
+                                    class="contact-form ajax-contact">
+                                    <div class="title-area"><span class="sub-title text-theme"><img
+                                                src="assets/img/icon/subtitle-icon1-1.svg" alt="img">Get In
+                                            Touch</span>
+                                        <h2 class="sec-title"><span class="th-text-perspective">Sign Up For Free
+                                                Resources</span></h2>
                                     </div>
-                                </div>
+                                    <div class="row">
+                                        <div class="col-md-6 form-group style-border3"><input type="text"
+                                                placeholder="Your Name" class="form-control"> <i
+                                                class="fal fa-user"></i></div>
+                                        <div class="col-md-6 form-group style-border3"><input type="text"
+                                                placeholder="Your Email" class="form-control"> <i
+                                                class="fal fa-envelope"></i></div>
+                                        <div class="col-md-6 form-group style-border3"><input type="number"
+                                                class="form-control" name="number" id="number"
+                                                placeholder="Phone Number"> <i class="fal fa-phone-alt"></i></div>
+                                        <div class="col-md-6 form-group style-border3"><select name="subject"
+                                                id="subject" class="form-select">
+                                                <option value="" disabled="disabled" selected="selected"
+                                                    hidden>Select Subjects</option>
+                                                <option value="Software Development">Software Development</option>
+                                                <option value="Website Development">Website Development</option>
+                                                <option value="Digital Marketing">Digital Marketing</option>
+                                                <option value="Business Management">Business Management</option>
+                                            </select> <i class="fal fa-chevron-down"></i></div>
+                                        <div class="col-12 form-group style-border3">
+                                            <textarea name="message" id="message" cols="30" rows="3" class="form-control"
+                                                placeholder="Write Message...."></textarea> <i class="fal fa-pencil"></i>
+                                        </div>
+                                        <div class="form-btn mt-15 col-12"><button class="th-btn">SEND MESSAGE <svg
+                                                    class="ms-2" width="16" height="16"
+                                                    viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_458_9379)">
+                                                        <path
+                                                            d="M14.0331 2.03512C12.5811 0.471411 1.65895 4.30197 1.66797 5.7005C1.6782 7.28644 5.93336 7.7743 7.11277 8.10524C7.82203 8.30417 8.01197 8.50817 8.1755 9.2519C8.91617 12.6202 9.28803 14.2955 10.1356 14.3329C11.4865 14.3926 15.4502 3.56117 14.0331 2.03512Z"
+                                                            fill="transparent" stroke="currentColor"
+                                                            stroke-width="1.5"></path>
+                                                        <path d="M7.66797 8.33333L10.0013 6" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_458_9379">
+                                                            <rect width="16" height="16"
+                                                                fill="currentColor"></rect>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></button></div>
+                                    </div>
+                                    <p class="form-messages mb-0 mt-3"></p>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="space-bottom overflow-hidden" id="blog-sec">
+            <section class="space overflow-hidden" id="blog-sec">
                 <div class="container">
-                    <div class="row justify-content-lg-between justify-content-center align-items-center">
-                        <div class="col-lg-7">
-                            <div class="title-area text-lg-start text-center"><span
-                                    class="sub-title text-theme th_fade_anim"><img
-                                        src="user_assets/img/icon/subtitle-icon1-1.svg" alt="img">News &
-                                    Blog</span>
-                                <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Our Latest News
-                                        & Blog</span></h2>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="sec-btn th_fade_anim"><a href="blog.html" class="th-btn">VIEW ALL POST<svg
-                                        class="ms-2" width="16" height="14" viewBox="0 0 16 14"
-                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                            stroke="currentColor" stroke-width="1.5"></path>
-                                    </svg></a></div>
-                        </div>
+                    <div class="title-area text-center"><span class="sub-title text-theme th_fade_anim"><img
+                                src="assets/img/icon/subtitle-icon1-1.svg" alt="img">News & Blog</span>
+                        <h2 class="sec-title th_fade_anim"><span class="th-text-perspective">Our Latest News &
+                                Blog</span></h2>
                     </div>
                     <div class="slider-area">
                         <div class="swiper th-slider has-shadow" id="blogSlider1"
@@ -2087,9 +1506,9 @@
                                 <div class="swiper-slide th_fade_anim th--hover-item" data-delay=".3">
                                     <div class="blog-card">
                                         <div class="blog-img"><a class="th--hover-img" href="blog-details.html"
-                                                data-displacement="user_assets/img/imghover/fluid.jpg"
+                                                data-displacement="assets/img/imghover/fluid.jpg"
                                                 data-intensity="0.2" data-speedin="1" data-speedout="1"><img
-                                                    src="user_assets/img/blog/blog_1_1.jpg" alt="Blog Image"></a><a
+                                                    src="assets/img/blog/blog_1_1.jpg" alt="Blog Image"></a><a
                                                 class="blog-date" href="blog.html">20<span class="year">Jan,
                                                     2026</span></a></div>
                                         <div class="blog-content">
@@ -2097,8 +1516,8 @@
                                                     href="blog.html">Education</a></div>
                                             <h2 class="box-title"><a href="blog-details.html">The Power of
                                                     Education: Unlocking Your Best True Potential</a></h2><a
-                                                href="blog-details.html" class="th-btn style4 btn-sm">READ MORE<svg
-                                                    class="ms-2" width="16" height="14"
+                                                href="blog-details.html" class="th-btn style-border7 btn-sm">READ
+                                                MORE<svg class="ms-2" width="16" height="14"
                                                     viewBox="0 0 16 14" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path
@@ -2111,9 +1530,9 @@
                                 <div class="swiper-slide th_fade_anim th--hover-item" data-delay=".5">
                                     <div class="blog-card">
                                         <div class="blog-img"><a class="th--hover-img" href="blog-details.html"
-                                                data-displacement="user_assets/img/imghover/fluid.jpg"
+                                                data-displacement="assets/img/imghover/fluid.jpg"
                                                 data-intensity="0.2" data-speedin="1" data-speedout="1"><img
-                                                    src="user_assets/img/blog/blog_1_2.jpg" alt="Blog Image"></a><a
+                                                    src="assets/img/blog/blog_1_2.jpg" alt="Blog Image"></a><a
                                                 class="blog-date" href="blog.html">15<span class="year">Feb,
                                                     2026</span></a></div>
                                         <div class="blog-content">
@@ -2121,8 +1540,8 @@
                                                     href="blog.html">Technology</a></div>
                                             <h2 class="box-title"><a href="blog-details.html">Embracing Innovation:
                                                     Transforming Ideas into Reality</a></h2><a
-                                                href="blog-details.html" class="th-btn style4 btn-sm">READ MORE<svg
-                                                    class="ms-2" width="16" height="14"
+                                                href="blog-details.html" class="th-btn style-border7 btn-sm">READ
+                                                MORE<svg class="ms-2" width="16" height="14"
                                                     viewBox="0 0 16 14" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path
@@ -2135,9 +1554,9 @@
                                 <div class="swiper-slide th_fade_anim th--hover-item" data-delay=".7">
                                     <div class="blog-card">
                                         <div class="blog-img"><a class="th--hover-img" href="blog-details.html"
-                                                data-displacement="user_assets/img/imghover/fluid.jpg"
+                                                data-displacement="assets/img/imghover/fluid.jpg"
                                                 data-intensity="0.2" data-speedin="1" data-speedout="1"><img
-                                                    src="user_assets/img/blog/blog_1_3.jpg" alt="Blog Image"></a><a
+                                                    src="assets/img/blog/blog_1_3.jpg" alt="Blog Image"></a><a
                                                 class="blog-date" href="blog.html">18<span class="year">Feb,
                                                     2026</span></a></div>
                                         <div class="blog-content">
@@ -2145,8 +1564,8 @@
                                                     href="blog.html">Health</a></div>
                                             <h2 class="box-title"><a href="blog-details.html">The Importance of
                                                     Wellness: Nurturing Your Mind and Body</a></h2><a
-                                                href="blog-details.html" class="th-btn style4 btn-sm">READ MORE<svg
-                                                    class="ms-2" width="16" height="14"
+                                                href="blog-details.html" class="th-btn style-border7 btn-sm">READ
+                                                MORE<svg class="ms-2" width="16" height="14"
                                                     viewBox="0 0 16 14" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path
@@ -2161,91 +1580,8 @@
                     </div>
                 </div>
             </section>
-            <div class="space-bottom overflow-hidden brand-area-1">
-                <div class="container">
-                    <div class="brand-wrap1 text-center">
-                        <h3 class="brand-wrap-title th_fade_anim"><span class="th-text-perspective">Our Trusted
-                                Partners</span></h3>
-                        <div class="swiper th-slider th_fade_anim" id="brandSlider1"
-                            data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5", "spaceBetween": "85"}}}'>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-1.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-2.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-3.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-4.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-5.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-1.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-2.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-3.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-4.svg" alt="Brand Logo"></a></div>
-                                <div class="swiper-slide"><a href="blog.html" class="brand-box"><img
-                                            src="user_assets/img/brand/brand1-5.svg" alt="Brand Logo"></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <footer class="footer-wrapper footer-layout2">
-                <div class="footer-top th-anim-trigger">
-                    <div class="subscribe-box bg-theme" id="contact-sec">
-                        <div class="subscribe-bg-shape1-1 shape-mockup" data-top="0" data-left="0"><img
-                                src="user_assets/img/shape/footer_shape1_1.png" alt="img"></div>
-                        <div class="subscribe-bg-shape1-2 shape-mockup" data-bottom="0" data-right="0"><img
-                                src="user_assets/img/shape/footer_shape1_2.png" alt="img"></div>
-                        <div class="subscribe-bg-shape1-3 shape-mockup" data-bottom="10%" data-left="10%">
-                            <div class="thumb th-anim-spin"><img src="user_assets/img/shape/footer_shape1_3.png"
-                                    alt="img"></div>
-                        </div>
-                        <div class="subscribe-bg-shape1-4 shape-mockup" data-top="5%" data-right="10%">
-                            <div class="thumb"><img data-speed=".9"
-                                    src="user_assets/img/shape/footer_shape1_4.png" alt="img"></div>
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-between align-items-center">
-                                <div class="col-xxl-5 col-xl-6">
-                                    <h4 class="subscribe-box_title th_fade_anim th-text-perspective">Join Our
-                                        Newsletter</h4>
-                                    <p class="subscribe-box_text text-white th_fade_anim">Subscribe our newsletter to
-                                        get our latest update & news.</p>
-                                </div>
-                                <div class="col-xl-6">
-                                    <form class="newsletter-form th_fade_anim" data-delay=".3">
-                                        <div class="form-group"><input class="form-control" type="email"
-                                                placeholder="Enter Email Address" required=""></div><button
-                                            type="submit" class="th-btn style7">SUBSCRIBE NOW<svg class="ms-2"
-                                                width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <g clip-path="url(#clip0_458_9379)">
-                                                    <path
-                                                        d="M14.0331 2.03512C12.5811 0.471411 1.65895 4.30197 1.66797 5.7005C1.6782 7.28644 5.93336 7.7743 7.11277 8.10524C7.82203 8.30417 8.01197 8.50817 8.1755 9.2519C8.91617 12.6202 9.28803 14.2955 10.1356 14.3329C11.4865 14.3926 15.4502 3.56117 14.0331 2.03512Z"
-                                                        fill="transparent" stroke="currentColor"
-                                                        stroke-width="1.5" />
-                                                    <path d="M7.66797 8.33333L10.0013 6" stroke="currentColor"
-                                                        stroke-width="1.5" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </g>
-                                                <defs>
-                                                    <clipPath id="clip0_458_9379">
-                                                        <rect width="16" height="16" fill="currentColor" />
-                                                    </clipPath>
-                                                </defs>
-                                            </svg></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom" data-bg-src="user_assets/img/bg/footer-bg2-1.jpg">
+            <footer class="footer-wrapper footer-layout8">
+                <div class="footer-bottom" data-bg-src="assets/img/bg/footer-bg8-1.png">
                     <div class="widget-area space-top">
                         <div class="container">
                             <div class="row justify-content-between">
@@ -2253,7 +1589,7 @@
                                     <div class="widget footer-widget th_fade_anim" data-delay=".3">
                                         <div class="th-widget-about style2">
                                             <div class="about-logo"><a href="index.html"><img
-                                                        src="user_assets/img/logo.svg" alt="Escul"></a></div>
+                                                        src="assets/img/logo.svg" alt="Escul"></a></div>
                                             <p class="about-text">University education is the foundation for shaping
                                                 skilled, knowledgeable.</p>
                                             <h3 class="box-title">Take Your Learning with You</h3>
@@ -2365,10 +1701,11 @@
                 style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg></div>
-    <script src="user_assets/js/vendor/jquery-3.7.1.min.js"></script>
-    <script src="user_assets/js/app.min.js"></script>
-    <script src="user_assets/js/hover-effect.umd.js"></script>
-    <script src="user_assets/js/main.js"></script>
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/hover-effect.umd.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+<!-- Mirrored from html.themehour.net/escul/demo/home-10.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Apr 2026 17:15:31 GMT -->
 
 </html>
