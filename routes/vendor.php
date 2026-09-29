@@ -8,9 +8,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix("1")->group(function () {
 
-      Route::get('/', [Vendor1Controller::class, 'index']);
-});
 
+      Route::get('/index-1', [Vendor1Controller::class, 'index_1']);
+      Route::get('/service-1',[Vendor1Controller::class,'services']);
+     Route::get('/contact-1',[Vendor1Controller::class,'contact_us']);
+           Route::get('/product-1', [Vendor1Controller::class, 'product']);
+           Route::get('/product-details-1',[Vendor1Controller::class,'productDetails']);
+            Route::get('/cart-1', [Vendor1Controller::class, 'cart']);
+      Route::get('/checkout-1', [Vendor1Controller::class, 'checkout']);
+      Route::get('/placeorder-success-1', [Vendor1Controller::class, 'placeorder']);
+      
+
+});
 
 Route::prefix("2")->group(function () {
 
