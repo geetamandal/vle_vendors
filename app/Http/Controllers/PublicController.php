@@ -32,11 +32,16 @@ class PublicController extends Controller
         return view('public.services');
     }    
     
-    public function registration()
+    public function registrations()
     {
          $heading = "पंजीकरण";
         $title = 'Digital Bastar | Registration';
          return view('public.registration',compact('title', 'heading'));
+    }
+
+    public function shop()
+    {
+         return view('public.shop');
     }
 
 
