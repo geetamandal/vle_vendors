@@ -128,7 +128,7 @@
 
     <!-- mobile view header  -->
 
-    @include('public_layouts.header_new')
+    @include('public_layouts.header')
     <!-- end header -->
     <div id="smooth-wrapper">
         <div id="smooth-content">
