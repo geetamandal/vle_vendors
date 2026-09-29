@@ -37,5 +37,8 @@ Route::get('/logout', [AuthController::class, 'logout']);
   Route::get('/service',[PublicController::class,'service']);
   Route::get('/service-details',[PublicController::class,'serviceDetails']);
 
+  Route::match(['get', 'post'],'/application', [PublicController::class, 'registration']);
+
+
 
   
