@@ -12,13 +12,14 @@
         .testimonial-card .testimonial-content {
             flex: 1;
         }
-        .testimonial-slider .swiper-slide {
-    height: auto;
-}
 
-.testimonial-slider .swiper-slide > * {
-    height: 100%;
-}
+        .testimonial-slider .swiper-slide {
+            height: auto;
+        }
+
+        .testimonial-slider .swiper-slide>* {
+            height: 100%;
+        }
     </style>
 @endpush
 @section('main-content')
@@ -84,17 +85,17 @@
                         <div class="hero-info-card-wrap wow animate__fadeInUp" data-wow-delay="0.4s">
 
                             <div class="hero-thumb-info jump">
-                                <img src="{{ asset('user_assets/img/hero/hero_thumb-info3_1.png') }}" alt="डिजिटल बस्तर">
+                                {{-- <img src="{{ asset('user_assets/img/hero/hero_thumb-info3_1.png') }}" alt="डिजिटल बस्तर"> --}}
                             </div>
 
                         </div>
 
                         <div class="hero-info-chart jump-reverse">
-                            <img src="{{ asset('user_assets/img/hero/hero_thumb3_2.png') }}" alt="स्थानीय व्यवसाय">
+                            {{-- <img src="{{ asset('user_assets/img/hero/hero_thumb3_2.png') }}" alt="स्थानीय व्यवसाय"> --}}
                         </div>
 
                         <div class="thumb">
-                            <img src="{{ asset('user_assets/img/hero/hero_thumb3_1.png') }}" alt="डिजिटल बस्तर">
+                            <img src="{{ asset('user_assets/img/hero/hero.png') }}" alt="डिजिटल बस्तर">
                         </div>
 
                     </div>
@@ -124,7 +125,7 @@
 
                         <div class="img1 th_fade_anim">
                             <div class="thumb">
-                                <img class="img-cover" src="{{ asset('user_assets/img/normal/about_6_1.png') }}"
+                                <img class="img-cover" src="{{ asset('user_assets/img/normal/about_1.png') }}"
                                     alt="Digital Bastar">
                             </div>
                         </div>
@@ -154,7 +155,8 @@
                         <div class="title-area mb-35">
 
                             <span class="sub-title text-theme th_fade_anim">
-                                <img src="{{ asset('user_assets/img/icon/subtitle-icon1-4.svg') }}" alt="icon">
+                                <img src="{{ asset('user_assets/img/icon/favicon-bastar.png') }}" alt="icon"
+                                    style="height: :32px;width:32px">
                                 डिजिटल बस्तर के बारे में
                             </span>
 
@@ -243,673 +245,397 @@
             </div>
         </div>
     </div>
-    <section class="overflow-hidden th-anim-trigger space overflow-hidden" id="shop-sec">
-
-        <div class="course-bg-shape6-1 shape-mockup th_fade_anim" data-speed="1.08" data-right="3%" data-top="30%">
-            <img src="{{ asset('user_assets/img/shape/about_shape1_1.png') }}" alt="Digital Bastar">
-        </div>
-
-        <div class="course-bg-shape6-2 shape-mockup" data-speed="0.9" data-left="6%" data-bottom="30%">
-            <div class="thumb">
-                <img src="{{ asset('user_assets/img/shape/category_shape3_1.png') }}" alt="Digital Bastar">
-            </div>
-        </div>
-
+    <section class="overflow-hidden space-bottom overflow-hidden" id="course-sec">
+        
         <div class="container">
 
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-7">
+            <div class="title-area text-center">
+                <span class="sub-title text-theme th_fade_anim">
+                    <img src="{{ asset('user_assets/img/icon/subtitle-icon1-4.svg') }}" alt="icon">
+                    स्थानीय दुकानें
+                </span>
 
-                    <div class="title-area text-center">
-
-                        <span class="sub-title th_fade_anim">
-                            <img src="{{ asset('user_assets/img/icon/subtitle-icon1-4.svg') }}" alt="icon">
-                            स्थानीय दुकानें
-                        </span>
-
-                        <h2 class="sec-title th_fade_anim">
-                            <span class="th-text-perspective">
-                                बस्तर के स्थानीय व्यवसाय खोजें
-                            </span>
-                        </h2>
-
-                    </div>
-
-                </div>
+                <h2 class="sec-title th_fade_anim">
+                    <span class="th-text-perspective">
+                        बस्तर के स्थानीय व्यवसाय खोजें
+                    </span>
+                </h2>
             </div>
 
+            <div class="slider-area">
 
-            <div class="th-course-row columns-3">
+                <div class="swiper th-slider course-slider2 has-shadow" id="CourseSlider2"
+                    data-slider-options='{"autoHeight":"true","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
 
-                <!-- Shop 1 -->
-                <div class="th-course-single th_fade_anim" data-delay=".3">
+                    <div class="swiper-wrapper">
+                        <!-- Shop 1 -->
+                        <div class="swiper-slide th_fade_anim" data-delay=".3">
+                            <div class="course-card">
 
-                    <div class="course-card">
+                                <div class="box-img">
+                                    <a href="#">
+                                        <img src="{{ asset('user_assets/img/product/service-10.png') }}"
+                                            alt="बस्तर डिजिटल स्टोर">
+                                    </a>
+                                    <span class="box-price">जगदलपुर</span>
+                                </div>
 
-                        <div class="box-img">
-                            <a href="#">
-                                <img src="{{ asset('user_assets/images/projects/service-1.png') }}"
-                                    alt="बस्तर डिजिटल स्टोर">
-                            </a>
+                                <h3 class="box-title">
+                                    <a href="#">बस्तर डिजिटल स्टोर</a>
+                                </h3>
 
-                            <span class="box-price">
-                                जगदलपुर
-                            </span>
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width:100%">
+                                            Rated <strong class="rating">5.00</strong> out of 5
+                                        </span>
+                                    </div>
+                                    <span class="ms-2">4.9 (120)</span>
+                                </div>
+
+                                <div class="box-content">
+
+                                    <div class="course-info">
+                                        <div class="box-icon">
+                                            <i class="fal fa-store"></i>
+                                        </div>
+
+                                        <div class="course-info-details">
+                                            <span class="course-info-title">श्रेणी:</span>
+                                            <h4 class="course-info-text">
+                                                किराना एवं दैनिक जरूरतें
+                                            </h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="course-info">
+                                        <div class="box-icon">
+                                            <i class="fal fa-location-dot"></i>
+                                        </div>
+
+                                        <div class="course-info-details">
+                                            <span class="course-info-title">स्थान:</span>
+                                            <h4 class="course-info-text">
+                                                जगदलपुर, बस्तर
+                                            </h4>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="btn-wrap">
+
+                                    <div class="meta-box">                                        
+                                        <div class="media-body">
+                                            <h5 class="box-name">
+                                                <a href="#">स्थानीय विक्रेता</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="th-btn btn-sm style-border2">
+                                        दुकान देखें
+                                        <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5">
+                                            </path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
                         </div>
 
-                        <h3 class="box-title">
-                            <a href="#">
-                                बस्तर डिजिटल स्टोर
-                            </a>
-                        </h3>
 
-                        <div class="box-rating">
-                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                <span style="width:100%">
-                                    Rated <strong class="rating">5.00</strong> out of 5
-                                </span>
+                        <!-- Shop 2 -->
+                        <div class="swiper-slide th_fade_anim" data-delay=".5">
+                            <div class="course-card">
+
+                                <div class="box-img">
+                                    <a href="#">
+                                        <img src="{{ asset('user_assets/img/product/service-9.png') }}"
+                                            alt="मां दंतेश्वरी हैंडीक्राफ्ट">
+                                    </a>
+                                    <span class="box-price">जगदलपुर</span>
+                                </div>
+
+                                <h3 class="box-title">
+                                    <a href="#">मां दंतेश्वरी हैंडीक्राफ्ट</a>
+                                </h3>
+
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width:100%">
+                                            Rated <strong class="rating">5.00</strong> out of 5
+                                        </span>
+                                    </div>
+                                    <span class="ms-2">4.8 (96)</span>
+                                </div>
+
+                                <div class="box-content">
+
+                                    <div class="course-info">
+                                        <div class="box-icon">
+                                            <i class="fal fa-store"></i>
+                                        </div>
+
+                                        <div class="course-info-details">
+                                            <span class="course-info-title">श्रेणी:</span>
+                                            <h4 class="course-info-text">
+                                                हस्तशिल्प एवं कला
+                                            </h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="course-info">
+                                        <div class="box-icon">
+                                            <i class="fal fa-location-dot"></i>
+                                        </div>
+
+                                        <div class="course-info-details">
+                                            <span class="course-info-title">स्थान:</span>
+                                            <h4 class="course-info-text">
+                                                जगदलपुर, बस्तर
+                                            </h4>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="btn-wrap">
+
+                                    <div class="meta-box">                                        
+                                        <div class="media-body">
+                                            <h5 class="box-name">
+                                                <a href="#">स्थानीय विक्रेता</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="th-btn btn-sm style-border2">
+                                        दुकान देखें
+                                        <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5">
+                                            </path>
+                                        </svg>
+                                    </a>
+
+                                </div>
                             </div>
-
-                            <span class="ms-2">4.9 (120)</span>
                         </div>
 
-                        <div class="box-content">
 
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-store"></i>
+                        <!-- Shop 3 -->
+                        <div class="swiper-slide th_fade_anim" data-delay=".7">
+                            <div class="course-card">
+
+                                <div class="box-img">
+                                    <a href="#">
+                                        <img src="{{ asset('user_assets/img/product/service-8.png') }}"
+                                            alt="बस्तर फैशन हाउस">
+                                    </a>
+                                    <span class="box-price">बस्तर</span>
                                 </div>
 
-                                <div class="course-info-details">
-                                    <span class="course-info-title">श्रेणी:</span>
-                                    <h4 class="course-info-text">
-                                        किराना एवं दैनिक जरूरतें
-                                    </h4>
+                                <h3 class="box-title">
+                                    <a href="#">बस्तर फैशन हाउस</a>
+                                </h3>
+
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width:100%">
+                                            Rated <strong class="rating">5.00</strong> out of 5
+                                        </span>
+                                    </div>
+                                    <span class="ms-2">4.7 (84)</span>
+                                </div>
+
+                                <div class="box-content">
+
+                                    <div class="course-info">
+                                        <div class="box-icon">
+                                            <i class="fal fa-store"></i>
+                                        </div>
+
+                                        <div class="course-info-details">
+                                            <span class="course-info-title">श्रेणी:</span>
+                                            <h4 class="course-info-text">
+                                                कपड़े एवं फैशन
+                                            </h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="course-info">
+                                        <div class="box-icon">
+                                            <i class="fal fa-location-dot"></i>
+                                        </div>
+
+                                        <div class="course-info-details">
+                                            <span class="course-info-title">स्थान:</span>
+                                            <h4 class="course-info-text">
+                                                बस्तर
+                                            </h4>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="btn-wrap">
+
+                                    <div class="meta-box">                                        
+                                        <div class="media-body">
+                                            <h5 class="box-name">
+                                                <a href="#">स्थानीय विक्रेता</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="th-btn btn-sm style-border2">
+                                        दुकान देखें
+                                        <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.1541 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5">
+                                            </path>
+                                        </svg>
+                                    </a>
+
                                 </div>
                             </div>
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-location-dot"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">स्थान:</span>
-                                    <h4 class="course-info-text">
-                                        जगदलपुर, बस्तर
-                                    </h4>
-                                </div>
-                            </div>
-
                         </div>
 
-                        <div class="btn-wrap">
 
-                            <div class="meta-box">
+                        <!-- Shop 4 -->
+                        <div class="swiper-slide th_fade_anim" data-delay=".3">
+                            <div class="course-card">
 
-                                <div class="meta-thumb">
-                                    <img src="{{ asset('user_assets/images/projects/service-1.png') }}" alt="दुकानदार">
+                                <div class="box-img">
+                                    <a href="#">
+                                        <img src="{{ asset('user_assets/img/product/service-6.png') }}"
+                                            alt="बस्तर ऑर्गेनिक स्टोर">
+                                    </a>
+                                    <span class="box-price">दरभा</span>
                                 </div>
 
-                                <div class="media-body">
-                                    <h5 class="box-name">
-                                        <a href="#">स्थानीय विक्रेता</a>
-                                    </h5>
+                                <h3 class="box-title">
+                                    <a href="#">बस्तर ऑर्गेनिक स्टोर</a>
+                                </h3>
+
+                                <div class="box-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width:100%">
+                                            Rated <strong class="rating">4.90</strong> out of 5
+                                        </span>
+                                    </div>
+                                    <span class="ms-2">4.9 (75)</span>
                                 </div>
 
-                            </div>
+                                <div class="box-content">
 
-                            <a href="#" class="th-btn btn-sm style-border2">
-                                दुकान देखें
+                                    <div class="course-info">
+                                        <div class="box-icon">
+                                            <i class="fal fa-store"></i>
+                                        </div>
 
-                                <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                        <div class="course-info-details">
+                                            <span class="course-info-title">श्रेणी:</span>
+                                            <h4 class="course-info-text">
+                                                जैविक एवं स्थानीय उत्पाद
+                                            </h4>
+                                        </div>
+                                    </div>
 
-                                    <path
-                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                        stroke="currentColor" stroke-width="1.5">
-                                    </path>
+                                    <div class="course-info">
+                                        <div class="box-icon">
+                                            <i class="fal fa-location-dot"></i>
+                                        </div>
 
-                                </svg>
-                            </a>
+                                        <div class="course-info-details">
+                                            <span class="course-info-title">स्थान:</span>
+                                            <h4 class="course-info-text">
+                                                दरभा, बस्तर
+                                            </h4>
+                                        </div>
+                                    </div>
 
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Shop 2 -->
-                <div class="th-course-single th_fade_anim" data-delay=".5">
-
-                    <div class="course-card">
-
-                        <div class="box-img">
-                            <a href="#">
-                                <img src="{{ asset('user_assets/images/projects/service-2.png') }}"
-                                    alt="मां दंतेश्वरी हैंडीक्राफ्ट">
-                            </a>
-
-                            <span class="box-price">
-                                जगदलपुर
-                            </span>
-                        </div>
-
-                        <h3 class="box-title">
-                            <a href="#">
-                                मां दंतेश्वरी हैंडीक्राफ्ट
-                            </a>
-                        </h3>
-
-                        <div class="box-rating">
-                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                <span style="width:100%">
-                                    Rated <strong class="rating">5.00</strong> out of 5
-                                </span>
-                            </div>
-
-                            <span class="ms-2">4.8 (96)</span>
-                        </div>
-
-                        <div class="box-content">
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-store"></i>
                                 </div>
 
-                                <div class="course-info-details">
-                                    <span class="course-info-title">श्रेणी:</span>
-                                    <h4 class="course-info-text">
-                                        हस्तशिल्प एवं कला
-                                    </h4>
+                                <div class="btn-wrap">
+
+                                    <div class="meta-box">                                        
+                                        <div class="media-body">
+                                            <h5 class="box-name">
+                                                <a href="#">स्थानीय विक्रेता</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="th-btn btn-sm style-border2">
+                                        दुकान देखें
+                                        <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583 9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.1541 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                                                stroke="currentColor" stroke-width="1.5">
+                                            </path>
+                                        </svg>
+                                    </a>
+
                                 </div>
                             </div>
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-location-dot"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">स्थान:</span>
-                                    <h4 class="course-info-text">
-                                        जगदलपुर, बस्तर
-                                    </h4>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="btn-wrap">
-
-                            <div class="meta-box">
-
-                                <div class="meta-thumb">
-                                    <img src="{{ asset('user_assets/images/projects/service-2.png') }}" alt="दुकानदार">
-                                </div>
-
-                                <div class="media-body">
-                                    <h5 class="box-name">
-                                        <a href="#">स्थानीय विक्रेता</a>
-                                    </h5>
-                                </div>
-
-                            </div>
-
-                            <a href="#" class="th-btn btn-sm style-border2">
-                                दुकान देखें
-
-                                <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-
-                                    <path
-                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583C9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 8.44773 12.1137 7.6964C13.0351 7.1338 14.1541 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                        stroke="currentColor" stroke-width="1.5">
-                                    </path>
-
-                                </svg>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Shop 3 -->
-                <div class="th-course-single th_fade_anim" data-delay=".7">
-
-                    <div class="course-card">
-
-                        <div class="box-img">
-                            <a href="#">
-                                <img src="{{ asset('user_assets/images/projects/service-3.png') }}"
-                                    alt="बस्तर फैशन हाउस">
-                            </a>
-
-                            <span class="box-price">
-                                बस्तर
-                            </span>
-                        </div>
-
-                        <h3 class="box-title">
-                            <a href="#">
-                                बस्तर फैशन हाउस
-                            </a>
-                        </h3>
-
-                        <div class="box-rating">
-                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                <span style="width:100%">
-                                    Rated <strong class="rating">5.00</strong> out of 5
-                                </span>
-                            </div>
-
-                            <span class="ms-2">4.7 (84)</span>
-                        </div>
-
-                        <div class="box-content">
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-store"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">श्रेणी:</span>
-                                    <h4 class="course-info-text">
-                                        कपड़े एवं फैशन
-                                    </h4>
-                                </div>
-                            </div>
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-location-dot"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">स्थान:</span>
-                                    <h4 class="course-info-text">
-                                        बस्तर
-                                    </h4>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="btn-wrap">
-
-                            <div class="meta-box">
-
-                                <div class="meta-thumb">
-                                    <img src="{{ asset('user_assets/images/projects/service-3.png') }}" alt="दुकानदार">
-                                </div>
-
-                                <div class="media-body">
-                                    <h5 class="box-name">
-                                        <a href="#">स्थानीय विक्रेता</a>
-                                    </h5>
-                                </div>
-
-                            </div>
-
-                            <a href="#" class="th-btn btn-sm style-border2">
-                                दुकान देखें
-
-                                <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-
-                                    <path
-                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583 9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.1541 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                        stroke="currentColor" stroke-width="1.5">
-                                    </path>
-
-                                </svg>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Shop 4 -->
-                <div class="th-course-single th_fade_anim" data-delay=".3">
-
-                    <div class="course-card">
-
-                        <div class="box-img">
-                            <a href="#">
-                                <img src="{{ asset('user_assets/images/projects/service-4.png') }}"
-                                    alt="बस्तर ऑर्गेनिक स्टोर">
-                            </a>
-
-                            <span class="box-price">
-                                दरभा
-                            </span>
-                        </div>
-
-                        <h3 class="box-title">
-                            <a href="#">
-                                बस्तर ऑर्गेनिक स्टोर
-                            </a>
-                        </h3>
-
-                        <div class="box-rating">
-                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                <span style="width:100%">
-                                    Rated <strong class="rating">4.90</strong> out of 5
-                                </span>
-                            </div>
-
-                            <span class="ms-2">4.9 (75)</span>
-                        </div>
-
-                        <div class="box-content">
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-store"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">श्रेणी:</span>
-                                    <h4 class="course-info-text">
-                                        जैविक एवं स्थानीय उत्पाद
-                                    </h4>
-                                </div>
-                            </div>
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-location-dot"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">स्थान:</span>
-                                    <h4 class="course-info-text">
-                                        दरभा, बस्तर
-                                    </h4>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="btn-wrap">
-
-                            <div class="meta-box">
-
-                                <div class="meta-thumb">
-                                    <img src="{{ asset('user_assets/images/projects/service-4.png') }}" alt="दुकानदार">
-                                </div>
-
-                                <div class="media-body">
-                                    <h5 class="box-name">
-                                        <a href="#">स्थानीय विक्रेता</a>
-                                    </h5>
-                                </div>
-
-                            </div>
-
-                            <a href="#" class="th-btn btn-sm style-border2">
-                                दुकान देखें
-
-                                <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-
-                                    <path
-                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583 9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.1541 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                        stroke="currentColor" stroke-width="1.5">
-                                    </path>
-
-                                </svg>
-                            </a>
-
                         </div>
 
                     </div>
-
                 </div>
 
+                <button data-slider-prev="#CourseSlider2" class="slider-arrow style6 slider-prev">
+                    <svg width="17" height="15" viewBox="0 0 17 15" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.4672 0C8.4672 0.783225 7.69103 1.95525 6.90638 2.93955C5.89598 4.20682 4.69013 5.3139 3.30645 6.15915C2.26988 6.79208 1.01115 7.39965 1.90735e-06 7.39965M8.4672 14.8176C8.4672 14.0344 7.69103 12.8623 6.90638 11.878C5.89598 10.6108 4.69013 9.5037 3.30645 8.65845C2.26988 8.02552 1.01115 7.41795 1.90735e-06 7.41795M1.90735e-06 7.4088H16.9344"
+                            stroke="currentColor" />
+                    </svg>
+                </button>
 
-                <!-- Shop 5 -->
-                <div class="th-course-single th_fade_anim" data-delay=".5">
-
-                    <div class="course-card">
-
-                        <div class="box-img">
-                            <a href="#">
-                                <img src="{{ asset('user_assets/images/projects/service-5.png') }}"
-                                    alt="बस्तर फूड कॉर्नर">
-                            </a>
-
-                            <span class="box-price">
-                                बस्तर
-                            </span>
-                        </div>
-
-                        <h3 class="box-title">
-                            <a href="#">
-                                बस्तर फूड कॉर्नर
-                            </a>
-                        </h3>
-
-                        <div class="box-rating">
-                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                <span style="width:100%">
-                                    Rated <strong class="rating">4.80</strong> out of 5
-                                </span>
-                            </div>
-
-                            <span class="ms-2">4.8 (63)</span>
-                        </div>
-
-                        <div class="box-content">
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-store"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">श्रेणी:</span>
-                                    <h4 class="course-info-text">
-                                        भोजन एवं रेस्टोरेंट
-                                    </h4>
-                                </div>
-                            </div>
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-location-dot"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">स्थान:</span>
-                                    <h4 class="course-info-text">
-                                        बस्तर
-                                    </h4>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="btn-wrap">
-
-                            <div class="meta-box">
-
-                                <div class="meta-thumb">
-                                    <img src="{{ asset('user_assets/images/projects/service-5.png') }}" alt="दुकानदार">
-                                </div>
-
-                                <div class="media-body">
-                                    <h5 class="box-name">
-                                        <a href="#">स्थानीय विक्रेता</a>
-                                    </h5>
-                                </div>
-
-                            </div>
-
-                            <a href="#" class="th-btn btn-sm style-border2">
-                                दुकान देखें
-
-                                <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-
-                                    <path
-                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 11.4332 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.1541 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                        stroke="currentColor" stroke-width="1.5">
-                                    </path>
-
-                                </svg>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Shop 6 -->
-                <div class="th-course-single th_fade_anim" data-delay=".7">
-
-                    <div class="course-card">
-
-                        <div class="box-img">
-                            <a href="#">
-                                <img src="{{ asset('user_assets/images/projects/service-1.png') }}"
-                                    alt="बस्तर इलेक्ट्रॉनिक्स">
-                            </a>
-
-                            <span class="box-price">
-                                जगदलपुर
-                            </span>
-                        </div>
-
-                        <h3 class="box-title">
-                            <a href="#">
-                                बस्तर इलेक्ट्रॉनिक्स
-                            </a>
-                        </h3>
-
-                        <div class="box-rating">
-                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                <span style="width:100%">
-                                    Rated <strong class="rating">4.70</strong> out of 5
-                                </span>
-                            </div>
-
-                            <span class="ms-2">4.7 (58)</span>
-                        </div>
-
-                        <div class="box-content">
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-store"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">श्रेणी:</span>
-                                    <h4 class="course-info-text">
-                                        इलेक्ट्रॉनिक्स एवं सेवाएं
-                                    </h4>
-                                </div>
-                            </div>
-
-                            <div class="course-info">
-                                <div class="box-icon">
-                                    <i class="fal fa-location-dot"></i>
-                                </div>
-
-                                <div class="course-info-details">
-                                    <span class="course-info-title">स्थान:</span>
-                                    <h4 class="course-info-text">
-                                        जगदलपुर, बस्तर
-                                    </h4>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="btn-wrap">
-
-                            <div class="meta-box">
-
-                                <div class="meta-thumb">
-                                    <img src="{{ asset('user_assets/images/projects/service-1.png') }}" alt="दुकानदार">
-                                </div>
-
-                                <div class="media-body">
-                                    <h5 class="box-name">
-                                        <a href="#">स्थानीय विक्रेता</a>
-                                    </h5>
-                                </div>
-
-                            </div>
-
-                            <a href="#" class="th-btn btn-sm style-border2">
-                                दुकान देखें
-
-                                <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-
-                                    <path
-                                        d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583 9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.1541 6.59373 15.0528 6.59373M15.0528 6.5856H0"
-                                        stroke="currentColor" stroke-width="1.5">
-                                    </path>
-
-                                </svg>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
+                <button data-slider-next="#CourseSlider2" class="slider-arrow style6 slider-next">
+                    <svg width="17" height="15" viewBox="0 0 17 15" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.4672 0C8.4672 0.783225 9.24338 1.95525 10.028 2.93955C11.0384 4.20682 12.2443 5.3139 13.628 6.15915C14.6645 6.79208 15.9233 7.39965 16.9344 7.39965M8.4672 14.8176C8.4672 14.0344 9.24338 12.8623 10.028 11.878C11.0384 10.6108 12.2443 9.5037 13.628 8.65845C14.6645 8.02552 15.9233 7.41795 16.9344 7.41795M16.9344 7.4088H0"
+                            stroke="currentColor" />
+                    </svg>
+                </button>
 
             </div>
-
 
             <div class="btn-wrap mt-60 justify-content-center th_fade_anim">
-
-                <a href="{{ url('shops') }}" class="th-btn style11">
+                <a href="{{ url('shops') }}" class="th-btn">
                     सभी दुकानें देखें
-
                     <svg class="ms-2" width="16" height="14" viewBox="0 0 16 14" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
-
                         <path
-                            d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583 9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.1541 6.59373 15.0528 6.59373M15.0528 6.5856H0"
+                            d="M7.5264 0C7.5264 0.6962 8.21633 1.738 8.9138 2.61293C9.81193 3.7394 10.8838 4.72347 12.1137 5.4748C13.0351 6.0374 14.154 6.57747 15.0528 6.57747M7.5264 13.1712C7.5264 12.475 8.21633 11.4332 8.9138 10.5583 9.81193 9.43187 10.8838 8.44773 12.1137 7.6964C13.0351 7.1338 14.154 6.59373 15.0528 6.59373M15.0528 6.5856H0"
                             stroke="currentColor" stroke-width="1.5">
                         </path>
-
                     </svg>
-
                 </a>
-
             </div>
 
         </div>
     </section>
-    <section class="space overflow-hidden th-anim-trigger">
+
+    <section class="overflow-hidden space-bottom overflow-hidden" id="course-sec" style="margin-top: 30px">
         <div class="process-bg-shape4-1 shape-mockup d-xxl-block d-none" data-right="6%" data-top="20%">
             <div class="thumb th-anim-spin">
                 <img src="{{ asset('user_assets/img/shape/process_shape1_1.png') }}" alt="img">
             </div>
-        </div>
-
-        <div class="process-bg-shape4-2 shape-mockup th_fade_anim d-xxl-block d-none" data-speed="0.9" data-left="6%"
-            data-bottom="20%">
-            <img src="{{ asset('user_assets/img/shape/category_shape1_1.png') }}" alt="img">
-        </div>
-
+        </div>        
         <div class="container">
             <div class="title-area text-center">
                 <span class="sub-title text-theme th_fade_anim">
@@ -1021,7 +747,7 @@
                             <div class="thumb th--hover-img"
                                 data-displacement="{{ asset('user_assets/img/imghover/fluid.jpg') }}"
                                 data-intensity="0.2" data-speedin="1" data-speedout="1">
-                                <img class="img-cover" src="{{ asset('user_assets/img/normal/why-thumb6-1.jpg') }}"
+                                <img class="img-cover" src="{{ asset('user_assets/img/normal/why.png') }}"
                                     alt="डिजिटल बस्तर">
                             </div>
                         </div>
@@ -1384,5 +1110,5 @@
 
         </div>
     </section>
-   
+
 @endsection

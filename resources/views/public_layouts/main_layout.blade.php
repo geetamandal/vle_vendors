@@ -115,7 +115,7 @@
     </div>
     <div class="preloader"><button class="th-btn preloaderCls">CANCEL PRELOADER</button>
         <div class="preloader-inner">
-            <div class="bounce mb-4"><img src="user_assets/img/logo-icon.svg" alt="img"></div><span
+            <div class="bounce mb-4"><img src="user_assets/img/icon/favicon-bastar.png" style="height: 100px;width:100px" alt="img"></div><span
                 class="loader">Digital Bastar
                 <span class="loading-text">Digital Bastar</span></span>
         </div>
