@@ -12,7 +12,8 @@ class PublicController extends Controller
 {
     public function index()
     {
-        return view('public.landing');
+        $title="DIgital Bastar | Home";
+        return view('public.landing',compact('title'));
     }
 
     public function contactUs(Request $request)
@@ -26,35 +27,10 @@ class PublicController extends Controller
         return view('public.about', compact('title', 'heading'));
     }
 
-    public function product()
-    {
-        return view('public.product');
-    }
-
-    public function productDetails()
-    {
-        return view('public.product_details');
-    }
-
-    public function addToCart()
-    {
-        return view('public.add_to_cart');
-    }
-
-    public function checkOut()
-     { 
-          return view('public.checkout');
-     }
     public function service()
     {
         return view('public.services');
-    }
-    public function serviceDetails()
-    {
-        return view('public.service_details');
-    }
-
-
+    }    
     
 
 

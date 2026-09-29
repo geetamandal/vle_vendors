@@ -53,12 +53,12 @@
                     <div class="col-xl-4 col-md-6 col-6">
                         <div class="vl-menu-sidebar-area">
 
-                            <div class="sidebar-cart sidebar-cart9">
-                                <img src="{{ asset('vendor_assets/img/icon/cart-icon-hm8.svg') }}" alt="">
-                                <span>
-                                    <a class="clr-white" href="{{ url('2/cart-2') }}">3</a>
-                                </span>
-                            </div>
+                            <a href="{{ url('2/cart-2') }}" class="sidebar-cart-link">
+                                <div class="sidebar-cart sidebar-cart9">
+                                    <img src="{{ asset('vendor_assets/img/icon/cart-icon-hm8.svg') }}" alt="">
+                                    <span class="clr-white">3</span>
+                                </div>
+                            </a>
 
                             <div class="menu-line">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1" height="24" viewBox="0 0 1 15"

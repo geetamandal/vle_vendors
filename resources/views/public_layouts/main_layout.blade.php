@@ -1,76 +1,76 @@
-<!DOCTYPE html>
-
-<html lang="hi">
+<!doctype html>
+<html class="no-js" lang="zxx" dir="ltr">
 
 <head>
-    <!-- Required Meta Tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--=== Link Of CSS Files ===-->
-<link rel="stylesheet" href="{{ asset('user_assets/css/bootstrap.min.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/fonts/flaticon.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/css/boxicons.min.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/css/animate.min.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/css/owl.carousel.min.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/css/owl.theme.default.min.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/css/magnific-popup.min.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/css/odometer.min.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/css/meanmenu.min.css') }}">
-<link rel="stylesheet" href="{{ asset('user_assets/css/style.css') }}">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@yield('title')</title>
+    <meta name="author" content="Digital-Bastar">
+    <meta name="description" content="Digital Bastar - Local Business Digital Platform">
+    <meta name="keywords" content="Digital Bastar, Local Business, Vendors, VLE, Bastar">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="{{ asset('user_assets/img/favicons/favicon-32x32.png') }}">
+    <link rel="manifest" href="{{ asset('user_assets/img/favicons/manifest.json') }}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ asset('user_assets/img/favicons/ms-icon-144x144.png') }}">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!--=== Title & Favicon ===-->
-<title>जिला प्रशासन बस्तर</title>
-<link rel="icon" type="image/png" href="{{ asset('user_assets/images/favicon.png') }}">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
 
-@stack('css')
+    <link rel="stylesheet" href="{{ asset('user_assets/css/app.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('user_assets/css/fontawesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('user_assets/css/style.css') }}">
+    @stack('css')
 </head>
 
-<body>
-
-<!-- Preloader -->
-{{-- 
-<div class="loader">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
+<body class="th-magic-cursor theme-style2">
+    <div id="magic-cursor" class="cursor-black-bg">
+        <div id="ball"></div>
+    </div>
+    <div class="preloader"><button class="th-btn preloaderCls">CANCEL PRELOADER</button>
+        <div class="preloader-inner">
+            <div class="bounce mb-4"><img src="user_assets/img/logo-icon.svg" alt="img"></div><span
+                class="loader">Digital Bastar
+                <span class="loading-text">Digital Bastar</span></span>
         </div>
     </div>
-</div>
---}}
-<!-- End Preloader -->
 
-@include('public_layouts.header')
+    <!-- header -->
 
-@yield('main_content')
+    <!-- mobile view header  -->
+    @include('public_layouts.menu')
 
-@include('public_layouts.footer')
+    <!-- mobile view header  -->
 
-<!--=== Go Top ===-->
-<div class="go-top">
-    <i class='bx bxs-up-arrow-alt'></i>
-    <i class='bx bxs-up-arrow-alt'></i>
-</div>
-<!--=== End Go Top ===-->
+    @include('public_layouts.header')
+    <!-- end header -->
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
 
-<!--=== Essential JS ===-->
-<script src="{{ asset('user_assets/js/jquery.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/magnific-popup.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/odometer.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/appear.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/meanmenu.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/carousel-thumbs.js') }}"></script>
-<script src="{{ asset('user_assets/js/wow.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/ajaxchimp.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/form-validator.min.js') }}"></script>
-<script src="{{ asset('user_assets/js/contact-form-script.js') }}"></script>
-<script src="{{ asset('user_assets/js/custom.js') }}"></script>
-@stack('js')
+            @yield('main-content')
+            <!-- footer -->
+            @include('public_layouts.footer')
+            <!-- end copyright -->
+
+        </div>
+    </div>
+    <div class="scroll-top"><svg class="progress-circle svg-content" width="100%" height="100%"
+            viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg></div>
+    <script src="{{ asset('user_assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ asset('user_assets/js/app.min.js') }}"></script>
+    <script src="{{ asset('user_assets/js/hover-effect.umd.js') }}"></script>
+    <script src="{{ asset('user_assets/js/main.js') }}"></script>
+    @stack('js')
 </body>
 
 </html>
