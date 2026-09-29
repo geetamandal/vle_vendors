@@ -32,9 +32,9 @@
                                      <div class="space28"></div>
                                      <ul>
                                          <li><span><a class="f-date" href="#">ईमेल करें:</a></span> <span><a
-                                                     href="contact.html">collector-bastar@cg.gov.in</a></span></li>
-                                         <li><span><a class="f-date" href="contact.html">स्थान :</a></span> <span><a
-                                                     href="contact.html">  जिला प्रशासन, बस्तर, छत्तीसगढ़</a></span></li>
+                                                     href="javascript:void(0);">collector-bastar@cg.gov.in</a></span></li>
+                                         <li><span><a class="f-date" href="javascript:void(0);">स्थान :</a></span> <span><a
+                                                     href="javascript:void(0);">  जिला प्रशासन, बस्तर, छत्तीसगढ़</a></span></li>
                                        
                                      </ul>
                                  </div>
@@ -58,9 +58,9 @@
                                          <h3>महत्वपूर्ण लिंक</h3>
                                          <div class="space28"></div>
                                          <ul>
-                                             <li><a href="index-2.html">होम</a></li>
+                                             <li><a href="{{ url('/1/index-1') }}">होम</a></li>
                                         
-                                             <li><a href="service.html">संपर्क करें</a></li>
+                                             <li><a href="{{ url('/1/contact-1') }}">संपर्क करें</a></li>
 
                                             
                                          </ul>
@@ -71,8 +71,8 @@
                                          <h3>त्वरित लिंक</h3>
                                          <div class="space28"></div>
                                          <ul>
-                                             <li><a href="about-us.html">सेवाएँ</a></li>
-                                             <li><a href="service.html">उत्पाद</a></li>
+                                             <li><a href="{{ url('/1/srvice-1') }}">सेवाएँ</a></li>
+                                             <li><a href="{{ url('/1/product-1') }}">उत्पाद</a></li>
                                          </ul>
                                      </div>
                                  </div>
