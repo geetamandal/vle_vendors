@@ -227,4 +227,264 @@
             </div>
         </div>
     </div>
+    <section class="testi-area-2 space overflow-hidden" id="testi-sec">
+    <div class="container">
+
+        <div class="title-area text-center">
+            <span class="sub-title text-theme th_fade_anim">
+                <img src="{{ asset('user_assets/img/icon/subtitle-icon1-1.svg') }}" alt="img">
+                ग्राहक अनुभव
+            </span>
+
+            <h2 class="sec-title th_fade_anim">
+                <span class="th-text-perspective">
+                    डिजिटल बस्तर के बारे में लोगों की राय
+                </span>
+            </h2>
+        </div>
+
+        <div class="testi-slider2 slider-area">
+            <div class="swiper th-slider has-shadow" id="testiSlide2"
+                data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}},"autoHeight": "true"}'>
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide th_fade_anim">
+                        <div class="testi-card2">
+                            <div class="box-icon">
+                                <img src="{{ asset('user_assets/img/icon/quote2.svg') }}" alt="icon">
+                            </div>
+
+                            <h3 class="box-title">स्थानीय दुकानें आसानी से मिलीं</h3>
+
+                            <p class="box-text">
+                                डिजिटल बस्तर के माध्यम से मुझे अपने आसपास की स्थानीय दुकानों
+                                को खोजने और उनकी जानकारी देखने में आसानी हुई।
+                            </p>
+
+                            <div class="testi-review-wrap">
+                                <span class="testi-card_review">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-title">4.8</span>
+                            </div>
+
+                            <div class="testi-card-profile">
+                                <div class="box-thumb">
+                                    <img src="{{ asset('user_assets/img/testimonial/testi_2_1.png') }}"
+                                        alt="ग्राहक">
+                                </div>
+                                <div class="media-left">
+                                    <h4 class="testi-card_name">राहुल शर्मा</h4>
+                                    <span class="testi-card_desig">जगदलपुर</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide th_fade_anim">
+                        <div class="testi-card2">
+                            <div class="box-icon">
+                                <img src="{{ asset('user_assets/img/icon/quote2.svg') }}" alt="icon">
+                            </div>
+
+                            <h3 class="box-title">व्यवसाय को मिली डिजिटल पहचान</h3>
+
+                            <p class="box-text">
+                                डिजिटल बस्तर ने हमारे स्थानीय व्यवसाय को ऑनलाइन पहचान देने
+                                और नए ग्राहकों तक पहुंच बनाने में मदद की।
+                            </p>
+
+                            <div class="testi-review-wrap">
+                                <span class="testi-card_review">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-title">4.9</span>
+                            </div>
+
+                            <div class="testi-card-profile">
+                                <div class="box-thumb">
+                                    <img src="{{ asset('user_assets/img/testimonial/testi_2_2.png') }}"
+                                        alt="व्यवसायी">
+                                </div>
+                                <div class="media-left">
+                                    <h4 class="testi-card_name">सुरेश कश्यप</h4>
+                                    <span class="testi-card_desig">स्थानीय व्यवसायी</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide th_fade_anim">
+                        <div class="testi-card2">
+                            <div class="box-icon">
+                                <img src="{{ asset('user_assets/img/icon/quote2.svg') }}" alt="icon">
+                            </div>
+
+                            <h3 class="box-title">स्थानीय व्यवसायों से जुड़ना आसान</h3>
+
+                            <p class="box-text">
+                                एक ही मंच से अलग-अलग स्थानीय व्यवसायों की जानकारी मिलना
+                                बहुत सुविधाजनक है। इससे स्थानीय दुकानों को पहचानना आसान हुआ।
+                            </p>
+
+                            <div class="testi-review-wrap">
+                                <span class="testi-card_review">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-title">4.9</span>
+                            </div>
+
+                            <div class="testi-card-profile">
+                                <div class="box-thumb">
+                                    <img src="{{ asset('user_assets/img/testimonial/testi_2_3.png') }}"
+                                        alt="ग्राहक">
+                                </div>
+                                <div class="media-left">
+                                    <h4 class="testi-card_name">नेहा पटेल</h4>
+                                    <span class="testi-card_desig">बस्तर</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide th_fade_anim">
+                        <div class="testi-card2">
+                            <div class="box-icon">
+                                <img src="{{ asset('user_assets/img/icon/quote2.svg') }}" alt="icon">
+                            </div>
+
+                            <h3 class="box-title">व्यवसाय की जानकारी एक जगह</h3>
+
+                            <p class="box-text">
+                                अपने व्यवसाय की जानकारी को डिजिटल रूप से प्रस्तुत करना
+                                और ग्राहकों तक पहुंचाना हमारे लिए उपयोगी अनुभव रहा।
+                            </p>
+
+                            <div class="testi-review-wrap">
+                                <span class="testi-card_review">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-title">4.8</span>
+                            </div>
+
+                            <div class="testi-card-profile">
+                                <div class="box-thumb">
+                                    <img src="{{ asset('user_assets/img/testimonial/testi_2_4.png') }}"
+                                        alt="व्यवसायी">
+                                </div>
+                                <div class="media-left">
+                                    <h4 class="testi-card_name">अमित देव</h4>
+                                    <span class="testi-card_desig">स्थानीय विक्रेता</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide th_fade_anim">
+                        <div class="testi-card2">
+                            <div class="box-icon">
+                                <img src="{{ asset('user_assets/img/icon/quote2.svg') }}" alt="icon">
+                            </div>
+
+                            <h3 class="box-title">स्थानीय बाजार से जुड़ाव</h3>
+
+                            <p class="box-text">
+                                डिजिटल प्लेटफॉर्म के माध्यम से स्थानीय व्यवसायों को जानना
+                                और उनके डिजिटल स्टोर तक पहुंचना काफी आसान है।
+                            </p>
+
+                            <div class="testi-review-wrap">
+                                <span class="testi-card_review">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-title">4.7</span>
+                            </div>
+
+                            <div class="testi-card-profile">
+                                <div class="box-thumb">
+                                    <img src="{{ asset('user_assets/img/testimonial/testi_2_5.png') }}"
+                                        alt="ग्राहक">
+                                </div>
+                                <div class="media-left">
+                                    <h4 class="testi-card_name">पूजा साहू</h4>
+                                    <span class="testi-card_desig">जगदलपुर</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide th_fade_anim">
+                        <div class="testi-card2">
+                            <div class="box-icon">
+                                <img src="{{ asset('user_assets/img/icon/quote2.svg') }}" alt="icon">
+                            </div>
+
+                            <h3 class="box-title">डिजिटल उपस्थिति का लाभ</h3>
+
+                            <p class="box-text">
+                                डिजिटल बस्तर जैसे मंच से स्थानीय व्यवसायों को अपनी पहचान
+                                बनाने और ग्राहकों तक पहुंचने का एक नया माध्यम मिलता है।
+                            </p>
+
+                            <div class="testi-review-wrap">
+                                <span class="testi-card_review">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-title">4.8</span>
+                            </div>
+
+                            <div class="testi-card-profile">
+                                <div class="box-thumb">
+                                    <img src="{{ asset('user_assets/img/testimonial/testi_2_6.png') }}"
+                                        alt="व्यवसायी">
+                                </div>
+                                <div class="media-left">
+                                    <h4 class="testi-card_name">मोहन कश्यप</h4>
+                                    <span class="testi-card_desig">स्थानीय व्यवसायी</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button data-slider-prev="#testiSlide2"
+                class="slider-arrow style3 slider-prev">
+                <i class="far fa-arrow-left"></i>
+            </button>
+
+            <button data-slider-next="#testiSlide2"
+                class="slider-arrow style3 slider-next">
+                <i class="far fa-arrow-right"></i>
+            </button>
+        </div>
+
+    </div>
+</section>
 @endsection

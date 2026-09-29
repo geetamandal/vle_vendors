@@ -26,6 +26,86 @@
     <link rel="stylesheet" href="{{ asset('user_assets/css/app.min.css') }}">
     <link rel="stylesheet" href="{{ asset('user_assets/css/fontawesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('user_assets/css/style.css') }}">
+    <style>
+        .header-layout3 .header-logo {
+            position: relative;
+            height: 70px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-layout3 .header-logo img {
+            width: 130px;
+            height: 110px;
+            object-fit: contain;
+            display: block;
+            position: relative;
+            z-index: 10;
+        }
+
+        .language-social {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 180px;
+            height: 40px;
+        }
+
+        .language-social .dropdown-link {
+            position: relative;
+        }
+
+        .language-social .dropdown-toggle {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: var(--white-color);
+            font-size: 16px;
+            font-weight: 300;
+            text-decoration: none;
+            margin: 0;
+            border: 0;
+            width: auto;
+            height: auto;
+            background: transparent;
+        }
+
+        .language-social .dropdown-toggle i {
+            color: #fff !important;
+        }
+
+        .language-social .dropdown-toggle::after {
+            margin-left: 2px;
+        }
+
+        .language-social .dropdown-menu {
+            min-width: 130px;
+            padding: 8px 0;
+            margin-top: 12px;
+        }
+
+        .language-social .dropdown-menu li {
+            display: block;
+        }
+
+        .language-social .dropdown-menu li a {
+            display: block;
+            width: auto;
+            height: auto;
+            margin: 0;
+            padding: 8px 15px;
+            border: 0;
+            border-radius: 0;
+            background: transparent;
+            color: var(--title-color);
+            font-size: 14px;
+        }
+
+        .language-social .dropdown-menu li a:hover {
+            background: #f5f5f5;
+            color: var(--theme-color);
+        }
+    </style>
     @stack('css')
 </head>
 
@@ -48,7 +128,7 @@
 
     <!-- mobile view header  -->
 
-    @include('public_layouts.header')
+    @include('public_layouts.header_new')
     <!-- end header -->
     <div id="smooth-wrapper">
         <div id="smooth-content">
